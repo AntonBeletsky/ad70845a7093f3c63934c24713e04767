@@ -1,0 +1,32 @@
+FLEX 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://developer.mozilla.org/en-US/docs/Web/CSS/flex?retiredLocale=uk
+https://www.w3schools.com/css/css3_flexbox.asp
+
+https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+
+docs 
+https://www.w3.org/TR/css-flexbox-1/
+
+http://flexboxfroggy.com/#ru
+
+
+ORGANIZE 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing
+
+
+
+TODO:  containers // flex-container // grid container || flex-item || grid-item 
+TODO:  items 
+TODO:  
+
+standart gui 
+colors 
+navbar
+sidebar
+table
+forms 
+
+drag drop
+dropmenu 
+
