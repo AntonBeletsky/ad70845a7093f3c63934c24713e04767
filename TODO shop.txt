@@ -9,3 +9,5 @@ TODO: хлебные крошки
 TODO: categories + filters
 
 TODO: containers 
+
+TODO: фикс меню

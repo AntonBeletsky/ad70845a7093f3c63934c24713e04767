@@ -4,62 +4,79 @@
  https://www.w3schools.com/css/css_dropdowns.asp
 */
 
-/* phones */
-@media screen and (max-width: 600px) {
-  ul.navbar li.right, 
-  ul.navbar li {float: none;}
-}
+
 
 ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*width: 100%;*/
 }
 
 ul.navbar li {
-  float: left;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
 }
 
 ul.navbar li>a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-ul.navbar li.right {float: right;}
+ul.navbar li.right {
+    float: right;
+}
 
 
 ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn {
-  background-color: rgb(41, 129, 88);
+    background-color: #298158;
 }
 
 ul.navbar>li.dropdown {
-  display: inline-block;
+    display: inline-block;
 }
 
 ul.navbar .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 98%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
 }
 
 ul.navbar .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 ul.navbar .dropdown-content a:hover {background-color: #f1f1f1;}
 
 ul.navbar .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
+}
+
+
+/* phones */
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media only screen and (max-width: 600px) {
+    ul.navbar li.right, ul.navbar li {
+        float: none;
+        }    
+
 }
