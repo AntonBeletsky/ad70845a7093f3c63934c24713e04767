@@ -4,6 +4,7 @@ body, div.wrapper{
     
 
 }
+
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background */
 /* flex layout ****************************************************************/
 /* box for items */
@@ -23,12 +24,3 @@ body, div.wrapper{
       flex-basis: auto;
 }
 
-/* grid layout ****************************************************************/
-/* box for items */
-.grid-container{
-
-}
-
-.grid-item-container{
-
-}
