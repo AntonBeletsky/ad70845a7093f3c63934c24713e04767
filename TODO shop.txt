@@ -1,10 +1,11 @@
 TODO:  html5 structure semantic 
-TODO: navbar,
+
+TODO:  navbar: https://www.w3schools.com/css/css_navbar_horizontal.asp
+
 TODO:  sidebar -
+
 TODO: хлебные крошки
+
 TODO: categories + filters
-TODO: 
-TODO: 
-TODO: 
-TODO: 
-TODO: 
+
+TODO: containers 
