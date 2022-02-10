@@ -71,6 +71,8 @@ div.wrapper{
     flex-basis: auto;
 }
 
+/* left bar */
+
 .left-bar{
     background-color: darkgray;
     display: flex; 
@@ -88,7 +90,32 @@ div.wrapper{
 
     width: 300px;
     height: 300px;
+
+    /* Сверху | Справа | Снизу | Слева */
+    padding: 15px 0px 15px 25px;
 }
 
 
+/* products */
+
+/* container*/
+
+/* TODO: вставлено на фонарь */
+/* TODO: разделить grid-list */
+.products{ 
+    display: flex; 
+    justify-content: flex-start;
+
+    align-items: stretch; /* base line */
+    align-content: flex-start; /* center */
+
+    /* отступ*/
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+/* item*/
+.products .product-card{
+    flex-basis: auto;
+}
 
