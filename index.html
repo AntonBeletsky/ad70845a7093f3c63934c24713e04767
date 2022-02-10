@@ -40,8 +40,32 @@
         </div>
     </li>
 
-    <li class="right"><a href="#about">About</a></li>
-    <li class="right"><a href="#about">About</a></li>
+    <li>
+        <form class="search-bar" method="post">
+            <label for="searchrequest">Search</label>
+            <!-- TODO: select category-->
+            <select name="select">
+                <!--Supplement an id here instead of using 'name'-->
+                <option value="value1">ebooks</option>
+                <option value="value2" selected>All</option>
+                <option value="value3">pc`s</option>
+            </select>
+            <input type="search"  id="searchrequest">
+            <button class="search-btn" type="submit">Search</button>
+        </form>
+    </li>
+
+    <li class="right"><a href="#about">Sign Up</a></li>
+    <li class="right"><a href="#about">Sigm In</a></li>
+    <li class="right dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Profile</a>
+        <div class="dropdown-content">
+            <a href="#">setting</a>
+            <a href="#">log out</a>
+            <a href="#">Link 3</a>
+        </div>
+    </li>
+
 </ul>
 
 
@@ -52,6 +76,16 @@
 <main>
     <div class="left-bar">
         Категории бла бла бла 
+        <div class="left-box">
+            1
+            2
+            3
+        </div>
+        <div class="left-box">
+            1
+            2
+            3
+        </div>
     </div>
     <div class="page-content">
         Товары бла бла бла 

@@ -20,7 +20,7 @@ ul.navbar {
 
 ul.navbar li {
     float: left;
-    border-right: 1px solid #bbb;
+    /*border-right: 1px solid #bbb;*/
 }
 
 li:last-child {
@@ -38,7 +38,6 @@ ul.navbar li>a, .dropbtn {
 ul.navbar li.right {
     float: right;
 }
-
 
 ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn {
     background-color: #298158;
@@ -65,11 +64,48 @@ ul.navbar .dropdown-content a {
     text-align: left;
 }
 
-ul.navbar .dropdown-content a:hover {background-color: #f1f1f1;}
+ul.navbar .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
 
 ul.navbar .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+.search-bar{
+    text-align: center;
+    /*padding: 14px 16px;*/
+    color: aquamarine;
+    margin-left: 150px;
+    margin-top: 3px;
+    font-size: 22px;
+}
+
+.search-bar input{
+    width: 800px;
+    height: 40px;
+    font-size: 22px;
+}
+
+.search-bar .search-btn{
+    font-size: 22px;
+    height: 40px;
+    width: 100px;
+}
+
+.search-bar select{
+    font-size: 22px;
+    height: 40px;
+    background-color: #a2a899;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 
 /* phones */
