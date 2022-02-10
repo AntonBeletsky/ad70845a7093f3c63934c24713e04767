@@ -104,18 +104,53 @@ div.wrapper{
 /* TODO: разделить grid-list */
 .products{ 
     display: flex; 
-    justify-content: flex-start;
+    /* multi-lines */
+    flex-wrap: wrap;
 
+    justify-content: flex-start;
     align-items: stretch; /* base line */
-    align-content: flex-start; /* center */
+    align-content: stretch;
 
     /* отступ*/
-    row-gap: 10px;
-    column-gap: 20px;
+    row-gap: 20px; /*  между строками*/
+    column-gap: 20px; /* между столбцами */
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+
 }
 
 /* item*/
 .products .product-card{
     flex-basis: auto;
+    width: 250px;
+    height: 180px;
+    background-color: rgb(153, 182, 163);
+    color: black;
+
+    margin: 0px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+
+    box-shadow: 5px 2px 2px #314785;
+    border: 2px solid #ffffffff;
+    border-radius: 10px;
 }
 
+
+/* page content */
+.page-content-header{
+    height: 40px;
+    background-color: coral;
+}
+
+.breadcrumbs{
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+}
+
+.grid-button{
+    float: right;
+    margin-right: 180px;
+}
