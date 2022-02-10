@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./assets/css/root_values.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/leftbar.css">
 
     
 
@@ -82,13 +83,75 @@
 <div class="main-content">
 <main>
     <div class="left-bar">
-        Категории бла бла бла 
+
         <div class="left-box">
-            категории
+            
+            <h2>Categories</h1>
+
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <div class="vertical-menu">
+                    <a href="#" class="active">Home</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                </div>
+            </div>
+            
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <div class="vertical-menu">
+                    <a href="#" class="active">Home</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                </div>
+            </div>
+            
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <div class="vertical-menu">
+                    <a href="#" class="active">Home</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                </div>
+            </div>
+                            
         </div>
+
+
         <div class="left-box">
-            фильтры
+        
+            <h2>Filters</h1>
+        
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+            
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+            
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+        
         </div>
+
+
     </div>
     <div class="page-content">
         <header class="page-content-header">
@@ -369,6 +432,22 @@
 </div> <!-- wrapper end--->
 
 <!-- js -->
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
 <script src="./assets/js/script.js"></script>
 
 </body>

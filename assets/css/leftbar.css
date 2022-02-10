@@ -1,0 +1,73 @@
+/* left bar */
+
+.left-bar{
+    background-color: darkgray;
+    display: flex; 
+    flex-direction: column;
+
+    row-gap: 25px;
+}
+
+.left-box{
+    background-color: #ffffffff;
+    /* box-shadow: 0 1px 2px  rgba(0, 0, 0, 0.2); fb*/
+    box-shadow: 5px 2px 2px #314785;
+    border: 2px solid #ffffffff;
+    border-radius: 20px;
+
+    width: 350px;
+    /*height: 300px;*/
+
+    /* Сверху | Справа | Снизу | Слева */
+    padding: 5px 25px 25px 25px;
+}
+
+/* accordion  */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 0px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* vertical menu */
+.vertical-menu {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
