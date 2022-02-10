@@ -125,17 +125,40 @@ div.wrapper{
 .products .product-card{
     flex-basis: auto;
     width: 250px;
-    height: 180px;
+    /*height: 180px;*/
     background-color: rgb(153, 182, 163);
     color: black;
 
     margin: 0px 0px 0px 0px;
-    padding: 2px 2px 2px 2px;
+    /* Сверху | Справа | Снизу | Слева */
+    padding: 0px 0px 0px 0px;
 
-    box-shadow: 5px 2px 2px #314785;
+    box-shadow: 5px 3px 3px #314785;
     border: 2px solid #ffffffff;
-    border-radius: 10px;
+    border-radius: 3px;
+
+    /* flex container img > text data*/
+    display: flex; 
+    flex-direction: column;
+    
 }
+
+.products .product-card .product-card-body{
+    /* Сверху | Справа | Снизу | Слева */
+    padding: 5px 5px 3px 10px;
+}
+
+.products .product-card .product-card-body .product-icons{
+    float: right;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 28px;
+    color: springgreen;
+    background-color: aqua;
+    margin-top: -20px;
+}
+
+
 
 
 /* page content */
