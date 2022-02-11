@@ -162,7 +162,8 @@ div.wrapper{
     background-color: coral;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    /*flex-direction: row;*/
+    flex-direction: column;
 
     justify-content: space-between;
     align-items: stretch; /* base line */
@@ -174,11 +175,28 @@ div.wrapper{
 .breadcrumbs{
     height: 40px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
-.grid-button{
+
+.products-list-header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+   
+    justify-content:space-between;
+}
+
+.products-list-header h1{
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.products-list-header .grid-button{
     /*float: right;*/
     margin-right: 180px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
+
+

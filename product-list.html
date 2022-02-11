@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Anton Beletsky">
+
+    <title>Shopy</title>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- CSS-->
+
+    <!-- Add icon library  https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="./assets/css/root_values.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/leftbar.css">
+
+
+</head>
+
+<body>
+<div class="wrapper">
+
+<!-- main header -->
+<header class="main-header">
+
+    <div>shopy</div>
+
+    <!-- NAVBAR -->
+    <ul class="navbar">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </li>
+
+        <li>
+            <form class="search-bar" method="post">
+                <label for="searchrequest">Search</label>
+                <select name="select">
+                    <!--Supplement an id here instead of using 'name'-->
+                    <option value="value1">ebooks</option>
+                    <option value="value2" selected>All</option>
+                    <option value="value3">pc`s</option>
+                </select>
+                <input type="search" id="searchrequest">
+                <button class="search-btn" type="submit">Search</button>
+            </form>
+        </li>
+
+
+        <li class="right">
+            <div class="spacer"></div>
+        </li>
+
+        <li class="right"><a href="#about">Card</a></li>
+        <li class="right"><a href="#about">Orders</a></li>
+        <li class="right dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Profile</a>
+            <div class="dropdown-content">
+                <a href="#about">Wishlist</a>
+                <a href="#about">Orders</a>
+                <a href="#">Setting</a>
+                <a href="#">Log Out</a>
+                <a href="#about">Sigm In</a>
+            </div>
+        </li>
+    </ul>
+
+</header>
+
+<!-- main content -->
+<div class="main-content">
+<main>
+
+СМОТРЕТЬ АТЕГОРИИ 
+
+</main>
+</div>
+
+<!-- main footer -->
+<footer class="main-footer">
+main-footer
+</footer>
+
+
+
+</div> <!-- wrapper end--->
+
+<!-- js -->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
+</script>
+<script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

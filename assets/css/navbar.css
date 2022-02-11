@@ -83,7 +83,7 @@ ul.navbar .dropdown:hover .dropdown-content {
 }
 
 .search-bar input{
-    width: 800px;
+    width: 700px;
     height: 40px;
     font-size: 22px;
 }
@@ -99,6 +99,14 @@ ul.navbar .dropdown:hover .dropdown-content {
     height: 40px;
     background-color: #a2a899;
     cursor: pointer;
+}
+
+.navbar .spacer{
+    /*margin-right: 50px;*/
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 
