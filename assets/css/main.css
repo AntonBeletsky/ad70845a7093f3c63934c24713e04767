@@ -3,6 +3,10 @@ body{
     padding: 0px 0px 0px 0px;
 }
 
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
 div.wrapper{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -102,7 +106,7 @@ div.wrapper{
     width: 250px;
     /*height: 180px;*/
     background-color: rgb(153, 182, 163);
-    color: black;
+    color: rgb(35, 37, 153);
 
     margin: 0px 0px 0px 0px;
     /* Сверху | Справа | Снизу | Слева */
@@ -136,8 +140,9 @@ div.wrapper{
 .products .product-card .product-card-body .product-icons a{
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color: rgb(87, 199, 214); /* TODO: цвет за иконками*/
     color: firebrick;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
     
     margin-right: 8px;
 }

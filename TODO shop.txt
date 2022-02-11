@@ -17,3 +17,5 @@ https://www.w3schools.com/howto/howto_css_icon_buttons.asp
 
 TODO: accordion 
 https://www.w3schools.com/howto/howto_js_accordion.asp
+.
+TODO: create icon system using svgs only 
