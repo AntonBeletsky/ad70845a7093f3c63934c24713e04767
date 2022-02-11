@@ -153,12 +153,22 @@
 
 
     </div>
+
     <div class="page-content">
         <header class="page-content-header">
             <div class="breadcrumbs">
                 хлебные крошки
             </div>
+
+            <h1>Комьютеры</h1>
+
             <div class="grid-button">
+                <select name="select">
+                    <!--Supplement an id here instead of using 'name'-->
+                    <option value="value1">от дешевых</option>
+                    <option value="value2" selected>по рейтингу</option>
+                    <option value="value3">от дорогих</option>
+                </select>
                 grid-button
             </div>
         </header>
@@ -166,21 +176,39 @@
         <div class="products">
 
             <div class="product-card">
-                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU">
-                    
+                
+                <img class="card-img-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU"
+                    alt="trulala">
+    
                 <div class="product-card-body">
                     <div class="product-icons">
                         <a class="btn" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
-                        
+                        <!--<a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>-->
                     </div>
 
-                    <h5 class="card-title">Card title</h5>
-                    <a class="btn" href="#">Detals</a>
+                    <a href="#"><h3 class="card-title">Product name</h3></a>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                         content. This content is a little bit longer.</p>
 
-                <button class="btn"><i class="fa fa-home"></i> Detals</button>
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <a href="#"><span>2589 отзывов </span></a>
+                    </div>
+
+                    <p><s>$250 USD</s></p>
+                    <p>$150 USD</p>
+
+       
+
+                    <div class="product-icons">
+                        <!-- <a class="btn" href="#"><i class="fa fa-heart"></i></a> -->
+                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
 
                 </div>
             </div>

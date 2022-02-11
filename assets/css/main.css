@@ -46,9 +46,6 @@ div.wrapper{
     column-gap: 2rem;
 }
 
-.page-content{
-    background-color: cadetblue;
-}
 
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background */
@@ -130,28 +127,58 @@ div.wrapper{
     float: right;
     margin-right: 10px;
     padding-right: 10px;
-    font-size: 28px;
+    font-size: 32px;
     color: springgreen;
     background-color: aqua;
-    margin-top: -20px;
+    /*margin-top: -20px;*/
+}
+
+.products .product-card .product-card-body .product-icons a{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: firebrick;
+    
+    margin-right: 8px;
+}
+
+.products .product-card  .product-card-body .star-rating>span.checked {
+  color: orange;
+}
+
+.card-img-top{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 
-
-
 /* page content */
+.page-content{
+    background-color: cadetblue;
+}
+
 .page-content-header{
-    height: 40px;
+    /*height: 40px;*/
     background-color: coral;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: stretch; /* base line */
+    align-content: center;
+
+    
 }
 
 .breadcrumbs{
     height: 40px;
-    float: left;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .grid-button{
-    float: right;
+    /*float: right;*/
     margin-right: 180px;
+    margin-top: 30px;
 }
