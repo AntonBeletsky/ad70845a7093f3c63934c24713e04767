@@ -90,34 +90,84 @@
 <main>
 <div class="page-content">
     
-    <header class="page-content-header">
+<header class="page-content-header">
 
-        <div class="breadcrumbs">
-            хлебные крошки
-        </div>
-
-        <div>
-            <h1>Product Name </h1>
-        </div>
-
-
-    </header>
+<nav>
+    <ul class="breadcrumb">
+        <li><a href="#"><i class="fa fa-home"></i></a></li>
+        <li><a href="#">Pictures</a></li>
+        <li><a href="#">Summer 15</a></li>
+        <li>Italy</li>
+    </ul>
+</nav>
 
     <div>
-    product here
-
-
-	<p><a href="https://www.w3schools.com/howto/howto_js_tabs.asp">tabs</a>
-	
-	<p><a href="https://www.w3schools.com/howto/howto_js_vertical_tabs.asp">link</a>
-	
-	<p><a href="https://www.w3schools.com/howto/howto_js_tab_header.asp">link</a>
-	
-	<p><a href="https://www.w3schools.com/howto/howto_js_full_page_tabs.asp">link</a>
-	
-	<p><a href="https://www.amazon.com/Apple-iPhone-Fully-Unlocked-256GB/dp/B07754X4XV/ref=rvi_9/132-9381200-8435307?pd_rd_w=IHlrE&pf_rd_p=f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_r=MGHP432FQX5BTNWS1WN2&pd_rd_r=63c244be-2d86-42ec-95a4-6c7e35fb49ec&pd_rd_wg=tCYXN&pd_rd_i=B07754X4XV&psc=1">amz </a>
-	
+        <h1>Product Name </h1>
     </div>
+
+
+</header>
+
+<div class="product-content-container"> 
+
+<div class="product-content-body">
+
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+    <button class="tablink" onclick="openPage('Links', this, 'gray')">Links</button>
+    
+    <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <p>Home is where the heart is..</p>
+        product here
+        
+        фото / опции покупки 128 256
+        описание
+        спецификации
+        коменты
+        отзывы
+
+    </div>
+
+    <div id="News" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    </div>
+
+    <div id="Links" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    <p><a href="https://www.w3schools.com/howto/howto_js_tabs.asp">tabs</a>
+
+    <p><a href="https://www.w3schools.com/howto/howto_js_vertical_tabs.asp">link</a>
+
+    <p><a href="https://www.w3schools.com/howto/howto_js_tab_header.asp">link</a>
+
+    <p><a href="https://www.w3schools.com/howto/howto_js_full_page_tabs.asp">link</a>
+
+    <p><a href="https://www.amazon.com/Apple-iPhone-Fully-Unlocked-256GB/dp/B07754X4XV/ref=rvi_9/132-9381200-8435307?pd_rd_w=IHlrE&pf_rd_p=f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_r=MGHP432FQX5BTNWS1WN2&pd_rd_r=63c244be-2d86-42ec-95a4-6c7e35fb49ec&pd_rd_wg=tCYXN&pd_rd_i=B07754X4XV&psc=1">amz </a>
+    </div>
+
+</div>
+
+<div class="product-content-right">
+    1 2 3
+</div>
+
+</div> <!-- -product-content-container -->
+
 
 </div>
 
@@ -133,7 +183,7 @@
 
 </div> <!-- wrapper end--->
 
-<!-- js -->
+<!-- js  accordion -->
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -150,6 +200,27 @@
         });
     }
 </script>
+
+<!-- js  pdroduct tabs -->
+<script>
+    function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
 <script src="./assets/js/script.js"></script>
 
 </body>
