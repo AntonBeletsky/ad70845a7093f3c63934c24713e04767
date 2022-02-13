@@ -245,18 +245,22 @@ ul.breadcrumb li a:hover {
 .product-content-container{
     display: flex;
     flex-direction: row;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
 }
 
 .product-content-body{
     /*height: 100%;*/
-    width: 1300px;
-    margin: 0;
+    width: 1200px;
+    /*margin-left: 100px;*/
     font-family: Arial;
 }
 
 .product-content-right{
-    width: 300px;
-    height: 700px;
+    width: 450px;
+    height: 1300px;
     background-color: #777;
     color: #eee;
 
@@ -265,15 +269,17 @@ ul.breadcrumb li a:hover {
 
 /* Style tab links */
 .tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 160px;
+    width: 160px;
+    height: 70px;
+
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
 }
 
 .tablink:hover {
@@ -292,4 +298,32 @@ ul.breadcrumb li a:hover {
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
+#Links1 {background-color: rgb(112, 103, 85);}
+#Links2 {background-color: rgb(112, 103, 85);}
+#Links {background-color: rgb(78, 63, 33);}
 
+
+/* tabs */
+.all-product{
+
+}
+
+.all-specs{
+
+}
+
+.all-reviews{
+
+}
+
+.all-questions{
+
+}
+
+.photo-video{
+
+}
+
+.buy-with-it{
+
+}

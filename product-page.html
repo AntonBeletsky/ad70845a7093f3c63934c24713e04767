@@ -112,11 +112,12 @@
 
 <div class="product-content-body">
 
-    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
-    <button class="tablink" onclick="openPage('Links', this, 'gray')">Links</button>
+    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Все про товар</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')">Все Характеристики</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Отзывы</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">Вопросы</button>
+    <button class="tablink" onclick="openPage('Links', this, 'gray')">Фото и видео</button>
+    <button class="tablink" onclick="openPage('Links1', this, 'black')">Купить вместе</button>
     
     <div id="Home" class="tabcontent">
         <h3>Home</h3>
@@ -131,22 +132,22 @@
 
     </div>
 
-    <div id="News" class="tabcontent">
+    <div id="News" class="tabcontent all-product">
         <h3>News</h3>
         <p>Some news this fine day!</p>
     </div>
 
-    <div id="Contact" class="tabcontent">
+    <div id="Contact" class="tabcontent all-specs">
         <h3>Contact</h3>
         <p>Get in touch, or swing by for a cup of coffee.</p>
     </div>
 
-    <div id="About" class="tabcontent">
+    <div id="About" class="tabcontent all-reviews">
         <h3>About</h3>
         <p>Who we are and what we do.</p>
     </div>
 
-    <div id="Links" class="tabcontent">
+    <div id="Links" class="tabcontent all-questions">
         <h3>About</h3>
         <p>Who we are and what we do.</p>
     <p><a href="https://www.w3schools.com/howto/howto_js_tabs.asp">tabs</a>
@@ -160,10 +161,22 @@
     <p><a href="https://www.amazon.com/Apple-iPhone-Fully-Unlocked-256GB/dp/B07754X4XV/ref=rvi_9/132-9381200-8435307?pd_rd_w=IHlrE&pf_rd_p=f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_r=MGHP432FQX5BTNWS1WN2&pd_rd_r=63c244be-2d86-42ec-95a4-6c7e35fb49ec&pd_rd_wg=tCYXN&pd_rd_i=B07754X4XV&psc=1">amz </a>
     </div>
 
+    <div id="Links1" class="tabcontent photo-video">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+
+    </div>
+
+    <div id="Links2" class="tabcontent buy-with-it">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    </div>
+
 </div>
 
 <div class="product-content-right">
     1 2 3
+    кнопочки покупки и доп опций как на амазоне
 </div>
 
 </div> <!-- -product-content-container -->
