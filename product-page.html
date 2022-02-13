@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/leftbar.css">
+    <link rel="stylesheet" href="./assets/css/product_page.css">
 
 
 </head>
@@ -111,14 +112,20 @@
 <div class="product-content-container"> 
 
 <div class="product-content-body">
+    <nav>
+        <ul class="nav-product-info">
+            <li><button class="tablink active" onclick="openPage('Home', this, 'red')" id="defaultOpen">Все про
+                    товар</button></li>
+            <li><button class="tablink" onclick="openPage('News', this, 'green')">Все Характеристики</button></li>
+            <li><button class="tablink" onclick="openPage('Contact', this, 'blue')">Отзывы</button></li>
+            <li><button class="tablink" onclick="openPage('About', this, 'orange')">Вопросы</button></li>
+            <li><button class="tablink" onclick="openPage('Links', this, 'gray')">Фото и видео</button></li>
+            <li><button class="tablink" onclick="openPage('Links1', this, 'black')">Купить вместе</button></li>
+        </ul>
+    </nav>
 
-    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Все про товар</button>
-    <button class="tablink" onclick="openPage('News', this, 'green')">Все Характеристики</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Отзывы</button>
-    <button class="tablink" onclick="openPage('About', this, 'orange')">Вопросы</button>
-    <button class="tablink" onclick="openPage('Links', this, 'gray')">Фото и видео</button>
-    <button class="tablink" onclick="openPage('Links1', this, 'black')">Купить вместе</button>
-    
+    <div class="tabcontent-container">
+
     <div id="Home" class="tabcontent">
         <h3>Home</h3>
         <p>Home is where the heart is..</p>
@@ -172,6 +179,8 @@
         <p>Who we are and what we do.</p>
     </div>
 
+    </div> <!-- tabs content container-->
+
 </div>
 
 <div class="product-content-right">
@@ -216,18 +225,24 @@
 
 <!-- js  pdroduct tabs -->
 <script>
+    /* tabs click*/
     function openPage(pageName, elmnt, color) {
-        var i, tabcontent, tablinks;
+        let i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+            /*  hide all tabs*/
+            tabcontent[i].style.display = "none"; 
         }
         tablinks = document.getElementsByClassName("tablink");
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].style.backgroundColor = "";
+
+            tablinks[i].classList.remove("active");
         }
         document.getElementById(pageName).style.display = "block";
         elmnt.style.backgroundColor = color;
+        /* add border-buttom to tablink btn*/
+        elmnt.classList.add("active");
     }
 
     // Get the element with id="defaultOpen" and click on it

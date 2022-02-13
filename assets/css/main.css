@@ -174,7 +174,7 @@ div.wrapper{
     align-items: stretch; /* base line */
     align-content: center;
 
-    
+    padding-left: 50px;
 }
 
 .breadcrumbs{
@@ -240,90 +240,3 @@ ul.breadcrumb li a:hover {
 }
 
 
-/* product page //////////////////////*/
-/* TOOO: доделать */
-.product-content-container{
-    display: flex;
-    flex-direction: row;
-
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 100%;
-}
-
-.product-content-body{
-    /*height: 100%;*/
-    width: 1200px;
-    /*margin-left: 100px;*/
-    font-family: Arial;
-}
-
-.product-content-right{
-    width: 450px;
-    height: 1300px;
-    background-color: #777;
-    color: #eee;
-
-}
-
-
-/* Style tab links */
-.tablink {
-    width: 160px;
-    height: 70px;
-
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 800px;
-}
-
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
-#Links1 {background-color: rgb(112, 103, 85);}
-#Links2 {background-color: rgb(112, 103, 85);}
-#Links {background-color: rgb(78, 63, 33);}
-
-
-/* tabs */
-.all-product{
-
-}
-
-.all-specs{
-
-}
-
-.all-reviews{
-
-}
-
-.all-questions{
-
-}
-
-.photo-video{
-
-}
-
-.buy-with-it{
-
-}
