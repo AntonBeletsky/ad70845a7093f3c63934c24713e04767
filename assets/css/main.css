@@ -1,3 +1,13 @@
+
+/* Rules for sizing the icon. */
+/*
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+*/
+
+
 body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -177,13 +187,6 @@ div.wrapper{
     padding-left: 50px;
 }
 
-.breadcrumbs{
-    height: 40px;
-    margin-left: 20px;
-    margin-top: 0px;
-}
-
-
 .products-list-header{
     display: flex;
     flex-direction: row;
@@ -207,8 +210,15 @@ div.wrapper{
 
 /* breadcrumb */
 /* Style the list */
+.breadcrumbs{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+
 ul.breadcrumb {
-  padding: 10px 16px;
+  padding: 2px 16px;
   list-style: none;
   background-color: #eee;
 }
@@ -216,7 +226,7 @@ ul.breadcrumb {
 /* Display list items side by side */
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -224,6 +234,8 @@ ul.breadcrumb li+li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
+  /*content: "\003E";*/
+  
 }
 
 /* Add a color to all links inside the list */

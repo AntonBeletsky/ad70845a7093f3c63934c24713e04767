@@ -15,77 +15,104 @@
     <!-- CSS-->
 
     <!-- Add icon library  https://fontawesome.com/icons -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">-->
-    <link rel="stylesheet" href="./assets/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     
+    <!-- google icons -->
+    <!-- https://material.io/resources/icons/?style=baseline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/css/root_values.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/leftbar.css">
-
-
-
     
 </head>
 <body>
+
+<script src="./assets/js/jquery-3.6.0.js"></script>
+
 <div class="wrapper">
 
 <!-- main header -->
 <header class="main-header">
-    
-<div>shopy</div>
+    <div>shopy</div>
+    <!-- NAVBAR -->
+    <nav>
+        <ul class="navbar">
+            <li><a class="active" href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Pages</a>
+                <div class="dropdown-content">
+                    <a href="categories-page.html">Categories</a>
+                    <a href="product-page.html">Product Page</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
 
-<!-- NAVBAR -->
-<nav>
-<ul class="navbar">
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-    </li>
+            <li>
+                <form class="search-bar" method="post">
+                    <label for="searchrequest">Search</label>
+                    <select name="select">
+                        <!--Supplement an id here instead of using 'name'-->
+                        <option value="value1">ebooks</option>
+                        <option value="value2" selected>All</option>
+                        <option value="value3">pc`s</option>
+                    </select>
+                    <input type="search" id="searchrequest" placeholder="I search...">
+                    <span class="material-icons-outlined">
+                        search
+                    </span>
+                    <button class="search-btn" type="submit">
+                        Search
+                    </button>
+                </form>
+            </li>
 
-    <li>
-        <form class="search-bar" method="post">
-            <label for="searchrequest">Search</label>
-            <select name="select">
-                <!--Supplement an id here instead of using 'name'-->
-                <option value="value1">ebooks</option>
-                <option value="value2" selected>All</option>
-                <option value="value3">pc`s</option>
-            </select>
-            <input type="search"  id="searchrequest">
-            <button class="search-btn" type="submit">Search</button>
-        </form>
-    </li>
 
-    
-    <li class="right">
-        <div class="spacer"></div>
-    </li>
+            <li class="right">
+                <div class="spacer"></div>
+            </li>
 
-    <li class="right"><a href="#about">
-        card
-        <i class="fa fa-cart-shopping"></i>
-    </a></li>
-    <li class="right"><a href="#about">Orders</a></li>
-    <li class="right dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Profile</a>
-        <div class="dropdown-content">
-            <a href="#about">Wishlist</a>
-            <a href="#about">Orders</a>
-            <a href="#">Setting</a>
-            <a href="#">Log Out</a>
-            <a href="#about">Sigm In</a>
-        </div>
-    </li>
-</ul>
-</nav>
+            <li class="right"><a class="material-icon" href="#about">
+                    <span class="material-icons-outlined">
+                        shopping_cart
+                    </span>
+                </a></li>
+            <li class="right"><a href="#about">Orders</a></li>
+            <li class="right dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Profile</a>
+                <div class="dropdown-content">
+                    <a href="#about">Wishlist</a>
+                    <a href="#about">Orders</a>
+                    <a href="#">Setting</a>
+                    <a href="#">Log Out</a>
+                    <a href="#about">Sigm In</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
 
 </header>
 
@@ -169,7 +196,9 @@
 
             <nav>
                 <ul class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-home"></i></a></li>
+                    <li><a href="#">
+                    <i class="fa fa-home"></i>
+                    </a></li>
                     <li><a href="#">Pictures</a></li>
                     <li><a href="#">Summer 15</a></li>
                     <li>Italy</li>
@@ -795,9 +824,14 @@
     }
 </script>
 
-<!--ico  <script src="https://kit.fontawesome.com/ad126f550b.js" crossorigin="anonymous"></script> -->
 
-<script src="./assets/js/script.js"></script>
+<!--ico  <script src="https://kit.fontawesome.com/ad126f550b.js" crossorigin="anonymous"></script>  -->
+
+
+
+
+
+<!-- <script src="./assets/js/script.js"></script> --
 
 </body>
 </html>

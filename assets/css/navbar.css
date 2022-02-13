@@ -35,6 +35,14 @@ ul.navbar li>a, .dropbtn {
     text-decoration: none;
 }
 
+/* for material icons */
+ul.navbar li>a.material-icon{
+    padding: 2px 16px;
+    margin: 0px 0px 0px 0px;
+    font-size: 36px;
+}
+
+
 ul.navbar li.right {
     float: right;
 }
@@ -92,7 +100,22 @@ ul.navbar .dropdown:hover .dropdown-content {
     font-size: 22px;
     height: 40px;
     width: 100px;
+    cursor: pointer;
 }
+
+.search-bar>.material-icons-outlined{
+    cursor: default;
+    padding-left: 10px;
+    padding-right: 6px;
+    background-color: #e4b164;
+    color: #333;
+    padding-top: 5px;
+    padding-bottom: 12px;
+
+    font-size: 22px;
+}
+
+
 
 .search-bar select{
     font-size: 22px;
@@ -108,9 +131,6 @@ ul.navbar .dropdown:hover .dropdown-content {
     padding-bottom: 20px;
     padding-left: 20px;
 }
-
-
-
 
 
 
