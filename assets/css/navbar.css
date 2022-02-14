@@ -27,19 +27,37 @@ li:last-child {
     border-right: none;
 }
 
-ul.navbar li>a, .dropbtn {
+ul.navbar li>a  /* ,.dropbtn */ {
     display: inline-block;
     color: white;
     text-align: center;
+    /*padding: 14px 16px;*/
     padding: 14px 16px;
     text-decoration: none;
 }
+
+ul.navbar li>a.mico{
+    padding: 11px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end; /* выровнять */
+    gap: 10px;
+}
+
 
 /* for material icons */
 ul.navbar li>a.material-icon{
     padding: 2px 16px;
     margin: 0px 0px 0px 0px;
     font-size: 36px;
+}
+
+ul.navbar li>a.fontawesome-icon{
+    padding: 10px 14px;
+    margin: 0px 0px 0px 0px;
+    font-size: 22px;
 }
 
 
@@ -85,13 +103,13 @@ ul.navbar .dropdown:hover .dropdown-content {
     text-align: center;
     /*padding: 14px 16px;*/
     color: aquamarine;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 3px;
     font-size: 22px;
 }
 
 .search-bar input{
-    width: 700px;
+    width: 600px;
     height: 40px;
     font-size: 22px;
 }
