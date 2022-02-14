@@ -13,10 +13,9 @@
     <![endif]-->
 
     <!-- CSS-->
-    
     <!-- Add icon library  https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    
     <!-- google icons -->
     <!-- https://material.io/resources/icons/?style=baseline -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
@@ -43,7 +42,6 @@
 
 <body>
 <div class="wrapper">
-
 <!-- main header -->
 <header class="main-header">
     <div>shopy</div>
@@ -52,7 +50,7 @@
         <ul class="navbar">
             <li><a class="active" href="#home">Home</a></li>
             <li class="dropdown">
-                <a href="" class="dropbtn">Pages</a>
+                <a href="javascript:void(0)" class="dropbtn">Pages</a>
                 <div class="dropdown-content">
                     <a href="index-page.html">Index</a>
                     <a href="categories-page.html">Categories</a>
@@ -61,7 +59,6 @@
                     <a href="order-list.html">order list</a>
                     <a href="wishlist-page.html">Wishlist</a>
                     <a href="profile.html">prodile</a>
-                    <a href="profile-setting.html">setting</a>
                     <a href="sign-up.html">sign-up</a>
                 </div>
             </li>
@@ -100,14 +97,50 @@
                 <div class="spacer"></div>
             </li>
 
-            <li class="right"><a class="material-icon" href="#about">
+            <li class="right">
+                <a href="" class="dropbtn mico">
                     <span class="material-icons-outlined">
                         shopping_cart
                     </span>
-                </a></li>
-            <li class="right"><a href="#about">Orders</a></li>
+                    <!--<span>Cart</span>-->
+                </a>
+            </li>
+
+            <li class="right">
+                <a href="" class="dropbtn mico">
+                    <span class="material-icons-outlined">
+                        favorite
+                    </span>
+                    <!-- <span>WishList</span> -->
+                </a>
+            </li>
+
+            <li class="right">
+                <a class="fontawesome-icon" href="">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </a>
+                <!--  <a class="material-icon" href="#about">
+                                <span class="material-icons-outlined">
+                                    balance
+                                </span> </a> -->
+            </li>
+
+            <li class="right">
+                <a href="" class="dropbtn mico">
+                    <span class="material-icons-outlined">
+                        assignment
+                    </span>
+                    <span>Orders</span>
+                </a>
+            </li>
+
             <li class="right dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Profile</a>
+                <a href="" class="dropbtn mico">
+                    <span class="material-icons">
+                        person
+                    </span>
+                    <span>Profile</span>
+                </a>
                 <div class="dropdown-content">
                     <a href="#about">Wishlist</a>
                     <a href="#about">Orders</a>
@@ -116,6 +149,25 @@
                     <a href="#about">Sigm In</a>
                 </div>
             </li>
+
+            <li class="right">
+                <a class="material-icon" href="">
+                    <!-- dropdown youtoobe-->
+                    <span class="material-icons">
+                        notifications
+                    </span>
+                </a>
+            </li>
+
+
+            <!-- 
+            <li class="right">
+                <a class="fontawesome-icon" href="#about">
+                    <i class="fa-solid fa-bell"></i>
+                </a>
+            </li>
+            -->
+
         </ul>
     </nav>
 
