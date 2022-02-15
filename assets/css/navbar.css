@@ -13,6 +13,8 @@ ul.navbar {
     overflow: hidden;
     background-color: #333;
 
+/*    padding: 5px 5px;*/
+
     /*position: fixed;*/
     /*top: 0;*/
     /*width: 100%;*/
@@ -46,6 +48,35 @@ ul.navbar li>a.mico{
     gap: 10px;
 }
 
+/* shop cart*/
+
+/* notifications */
+ul.navbar .notification {
+  /*background-color: #555;*/
+  /*color: white;*/
+  text-decoration: none;
+  /*padding: 15px 26px;*/
+  position: relative;
+  /*display: inline-block;*/
+/*  border-radius: 2px;*/
+}
+
+ul.navbar .notification:hover {
+  /*background: #c71010;*/
+/*  color:black;*/
+  /*background-color: #ff0000;*/
+}
+
+ul.navbar .notification .badge {
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background: #ff0000;
+  color: white;
+}
+
 
 /* for material icons */
 ul.navbar li>a.material-icon{
@@ -65,9 +96,20 @@ ul.navbar li.right {
     float: right;
 }
 
-ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn {
+ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn:hover {
     background-color: #298158;
+    /*color:black;*/
 }
+
+/*
+ul.navbar>li>a:hover>.icon,
+ ul.navbar button.mega-dropbtn i.icon:hover,
+ ul.navbar button.mega-dropbtn span:hover
+{
+    color:black;
+}
+*/
+
 
 ul.navbar>li.dropdown {
     display: inline-block;
