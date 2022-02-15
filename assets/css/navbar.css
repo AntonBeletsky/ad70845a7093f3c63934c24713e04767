@@ -166,6 +166,11 @@ ul.navbar .dropdown:hover .dropdown-content {
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
+.mega-dropdown>button{
+    display: flex;
+    gap: 0px 10px;
+}
+
 
 /* Dropdown content (hidden by default) */
 .mega-dropdown-content {
@@ -180,9 +185,19 @@ ul.navbar .dropdown:hover .dropdown-content {
 
 /* Mega Menu header, if needed */
 .mega-dropdown-content .header {
-  background: red;
-  padding: 16px;
-  color: white;
+    display: flex;
+    gap: 0px 15px;
+    align-items:baseline;
+
+    background: red;
+    /*padding: 16px;*/
+    color: white;
+
+    padding-left: 28px;
+}
+
+.mega-dropdown-content .header i{
+    font-size: 28px;
 }
 
 .mega-dropbtn:hover{
