@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/leftbar.css">
+    <link rel="stylesheet" href="./assets/css/product_page.css">
     
 </head>
 <body>
@@ -81,11 +82,13 @@
                     <div class="row">
 
                         <div class="tab">
-                            <button class="tablinks" onmouseover="openCity(event, 'tab1')">Computers</button>
-                            <button class="tablinks" onmouseover="openCity(event, 'tab2')">Smartphones</button>
-                            <button class="tablinks" onmouseover="openCity(event, 'tab3')">Appliances</button>
-                            <button class="tablinks" onmouseover="openCity(event, 'tab100')">All</button>
-                            <button class="tablinks" onmouseover="openCity(event, 'tab')"></button>
+                            <button class="tablinks" onmouseover="openCategory(event, 'tab1')">Computers</button>
+                            <button class="tablinks" onmouseover="openCategory(event, 'tab2')">Smartphones</button>
+                            <button class="tablinks" onmouseover="openCategory(event, 'tab3')">Appliances</button>
+                            <button class="tablinks" onmouseover="openCategory(event, 'tab4')">4</button>
+                            <button class="tablinks" onmouseover="openCategory(event, 'tab5')">5</button>
+                            <button class="tablinks" onmouseover="openCategory(event, 'tab6')">6</button>
+                            <button class="tablinks" onmouseover="openCategory(event, 'tab100')">All</button>
                         </div>
                         
                         <div id="tab1" class="tabcontent">
@@ -155,29 +158,6 @@
 
 
                     </div>
-
-                    <!-- 
-                    <div class="row">
-                        <div class="column">
-                            <h3>Category 1</h3>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
-                        <div class="column">
-                            <h3>Category 2</h3>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
-                        <div class="column">
-                            <h3>Category 3</h3>
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
-                    </div>
--->
 
                 </div>
             </div>
@@ -984,56 +964,18 @@
 
 </div> <!-- wrapper end--->
 
-<!-- js accordion -->
-<script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
 
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        });
-    }
-</script>
 
-<!-- hover tabs-->
-<script>
-    function openCity(evt, cityName) {
-        // Declare all variables
-        var i, tabcontent, tablinks;
+<script src="./assets/js/script.js"></script>
+<script src="./assets/js/accordion.js"></script>
+<script src="./assets/js/jquery-3.6.0.js"></script>
+<script src="./assets/js/mega_menu.js"></script>
+<!-- <script src="./assets/js/product_tabs.js"></script> -->
 
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Get all elements with class="tablinks" and remove the class "active"
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab, and add an "active" class to the link that opened the tab
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-</script>
 
 
 <!-- <script src="https://kit.fontawesome.com/ad126f550b.js" crossorigin="anonymous"></script>   -->
 
-
-
-
-
-<!-- <script src="./assets/js/script.js"></script> --
 
 </body>
 </html>
