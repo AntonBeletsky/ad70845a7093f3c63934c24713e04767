@@ -98,17 +98,14 @@ ul.navbar li.right {
 
 ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn:hover {
     background-color: #298158;
-    /*color:black;*/
 }
 
-/*
-ul.navbar>li>a:hover>.icon,
- ul.navbar button.mega-dropbtn i.icon:hover,
- ul.navbar button.mega-dropbtn span:hover
+/* icon hover */
+ul.navbar>li>a:hover>.icon
 {
     color:black;
 }
-*/
+
 
 
 ul.navbar>li.dropdown {
