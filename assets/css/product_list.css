@@ -141,7 +141,7 @@
 /* On mouse-over, add a grey background color */
 .checkbox-container:hover input ~ .checkmark {
   background-color: #ccc;
-  border: 2px solid #eee;
+  border: 3px ridge #eee;
   box-shadow: 3px -3px 3px 0px #3753a1;
 }
 
