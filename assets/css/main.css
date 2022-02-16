@@ -134,7 +134,7 @@ div.wrapper{
 
 .products .product-card .product-card-body{
     /* Сверху | Справа | Снизу | Слева */
-    padding: 5px 5px 3px 10px;
+    padding: 5px 5px 10px 10px;
 }
 
 .products .product-card .product-card-body .product-icons{
@@ -143,8 +143,11 @@ div.wrapper{
     padding-right: 10px;
     font-size: 32px;
     color: springgreen;
-    background-color: aqua;
-    /*margin-top: -20px;*/
+    background-color: #1900ff;
+
+    display: flex;
+    flex-direction:column;
+    row-gap: 5px;
 }
 
 .products .product-card .product-card-body .product-icons a{
@@ -156,6 +159,8 @@ div.wrapper{
     
     margin-right: 8px;
 }
+
+
 
 .products .product-card  .product-card-body .star-rating>span.checked {
   color: orange;
