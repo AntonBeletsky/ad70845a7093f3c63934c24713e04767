@@ -16,6 +16,8 @@
     <!-- Add icon library  https://fontawesome.com/icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
+    
     <!-- google icons -->
     <!-- https://material.io/resources/icons/?style=baseline -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
@@ -37,6 +39,8 @@
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/leftbar.css">
     <link rel="stylesheet" href="./assets/css/product_page.css">
+    <link rel="stylesheet" href="./assets/css/product_list.css">
+    <link rel="stylesheet" href="./assets/css/breadcrumb.css">
     
 </head>
 <body>
@@ -357,7 +361,7 @@
             <nav>
                 <ul class="breadcrumb">
                     <li><a href="#">
-                    <i class="fa fa-home"></i>
+                        <i class="fa fa-home"></i>
                     </a></li>
                     <li><a href="#">Pictures</a></li>
                     <li><a href="#">Summer 15</a></li>
@@ -369,14 +373,28 @@
             <div class="products-list-header"> 
                 <h1>Computers</h1>
 
-                <div class="grid-button">
-                    <select name="select">
+                <div class="grid-buttons">
+                    <select name="select-filter">
                         <!--Supplement an id here instead of using 'name'-->
                         <option value="value1">от дешевых</option>
                         <option value="value2" selected>по рейтингу</option>
                         <option value="value3">от дорогих</option>
                     </select>
-                    grid-button
+
+                    <a href="#" class="grid-btn">
+                        <!-- <i class="fa-solid fa-list"></i> -->
+                        <span class="material-icons-sharp grid-icon">
+                            view_list
+                        </span>
+                    </a>
+
+                    <a href="#" class="grid-btn">
+                        <!-- <i class="fa-solid fa-grid"></i> -->
+                        <span class="material-icons-sharp grid-icon">
+                            grid_view
+                        </span>
+                    </a>
+
                 </div>
             </div>
         </header>
@@ -965,6 +983,7 @@
 </div> <!-- wrapper end--->
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 
 <script src="./assets/js/script.js"></script>
 <script src="./assets/js/accordion.js"></script>
