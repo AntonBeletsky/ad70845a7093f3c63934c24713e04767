@@ -30,13 +30,16 @@
 /* TODO: grid here*/
 
 .catalog-view-grid{
-  background-color: rgb(204, 226, 230);
+  /*background-color: rgb(204, 226, 230);*/
+  background-color: #FFFFFF;
   flex-direction: row;
 }
 
 .catalog-view-list{
-  background-color: rgb(82, 42, 82);
+  /*background-color: rgb(82, 42, 82);*/
   flex-direction: column;
+
+  background-color: #FFFFFF;
 }
 
 
@@ -45,15 +48,20 @@
   flex-basis: auto;
 
   /*height: 180px;*/
-  background-color: rgb(153, 182, 163);
-  color: rgb(35, 37, 153);
+  /*background-color: rgb(153, 182, 163);*/
+  background-color: #FFFFFF;
+  /*color: rgb(35, 37, 153);*/
+  color: #000;
+  background-color: #ffffff;
 
   margin: 0px 0px 0px 0px;
   /* Сверху | Справа | Снизу | Слева */
   padding: 0px 0px 0px 0px;
 
-  box-shadow: 5px 3px 3px #314785;
-  border: 2px solid #ffffffff;
+  /*box-shadow: 5px 3px 3px #314785;*/
+  box-shadow:7px 7px 12px -9px #777;
+
+  border: 2px solid #FFFFFF; /**/
   border-radius: 3px;
 
   /* flex container img > text data*/
@@ -83,7 +91,8 @@
 
   padding-right: 10px;
 
-  background-color: cadetblue;
+  /*background-color: cadetblue; !*/
+  background-color: #FFFFFF;
 }
 
 .product-card-text .card-text{
@@ -109,7 +118,9 @@
 
 
 .products .product-card .product-card-body{
-    padding: 5px 5px 10px 10px;
+
+    /* Сверху | Справа | Снизу | Слева */
+    padding: 12px 5px 12px 10px; /* TODO: разделить по гридам */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -119,13 +130,6 @@
     align-content: space-between;
     flex-grow: 1; /* URAAAA */
 
-
-
-
-    /*justify-content: space-around;*/
-    /*align-items: initial;*/
-
-    /* TODO: выровнять */
 }
 
 .products.catalog-view-grid .product-card .product-card-body{
@@ -137,29 +141,43 @@
 }
 
 .products .product-card .product-card-body .product-icons-container{
-  float: right;
-  background-color: #ccc;
+  /*float: right;*/
+  /*background-color: #ccc;*/
+
+
+
+
 }
 
 .products .product-card .product-card-body .product-icons-container .product-icons{
-    /*float: right; контейнеру поставить битвин */
-    
+    /*margin-top: 10px;
+    margin-bottom: 50px;*/
+
     margin-right: 10px;
     padding-right: 10px;
+
     font-size: 32px;
-    color: springgreen;
-    background-color: #1900ff;
+    /*color: springgreen;*/
+    /*background-color: #1900ff;*/
 
     display: flex;
     flex-direction:column;
-    row-gap: 5px;
+    /*row-gap: 5px;*/
+    flex-wrap: nowrap;
+    
+    justify-content: space-between;
+/*    justify-content: space-around;*/
 
 
-      /*align-self:flex-end;*/
-    /*justify-content: flex-end; -верх низ - */
-        
+    align-items: stretch;
+    align-content: space-between;
+    
 
-    align-items: flex-end;
+    flex-grow: 1; /* URAAAA */
+
+    height: 100%; /* URAAAA */
+
+     /* row-gap: 40px; */
 }
 
 
@@ -176,8 +194,10 @@
 .products .product-card .product-card-body .product-icons a{
     width: 30px;
     height: 30px;
-    background-color: rgb(87, 199, 214); /* TODO: цвет за иконками*/
-    color: firebrick;
+    /*background-color: rgb(87, 199, 214); /* TODO: цвет за иконками*/
+    /*color: firebrick;*/
+    color: black;
+
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
     
     
@@ -255,6 +275,7 @@
   background-color: #ccc;
   border: 3px ridge #eee;
   box-shadow: 3px -3px 3px 0px #3753a1;
+/*  box-shadow:7px 7px 12px -9px #777;*/
 }
 
 /* When the checkbox is checked, add a blue background */

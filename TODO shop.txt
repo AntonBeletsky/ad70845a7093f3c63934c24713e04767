@@ -27,3 +27,8 @@ checkbox  список желаний
 js раскидать по папкам 
 
 categoy
+
+покрасить grid btn active 
+
+float rigth to  flex-grow: 1;за минуту
+
