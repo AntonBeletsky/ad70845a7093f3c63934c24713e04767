@@ -1,0 +1,5 @@
+localStorage:
+# product-list-view
+# localStorage.setItem('div.products.view', 'catalog-view-list');
+# localStorage.setItem('div.products.view', 'catalog-view-grid');
+# let products_view_class = localStorage.getItem('div.products.view');

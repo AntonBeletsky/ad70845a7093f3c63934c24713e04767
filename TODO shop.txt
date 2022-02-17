@@ -23,3 +23,5 @@ TODO: create icon system using svgs only
 add compare button on product box 
 
 checkbox  список желаний 
+
+js раскидать по папкам 
