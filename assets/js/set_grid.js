@@ -1,5 +1,6 @@
 /* https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event */
 /* https://api.jquery.com/click/ */
+/* TODO: grid here*/
 
 $("#set_list").click(function () {
     $("div.products")

@@ -1,6 +1,8 @@
 $(document).ready(function () {
     // https://tproger.ru/articles/localstorage/
 
+    /* TODO: grid here*/
+    
     let products_view_class = localStorage.getItem('div.products.view');
 
     $("div.products")
