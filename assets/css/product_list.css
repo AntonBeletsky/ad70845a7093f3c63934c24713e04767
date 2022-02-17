@@ -75,6 +75,21 @@
 }
 
 /* ***** *******************/
+.product-card-text{ /* TODO: list*/
+  width: inherit;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  padding-right: 10px;
+
+  background-color: cadetblue;
+}
+
+.product-card-text .card-text{
+   text-align: justify; /* Выравнивание по ширине */
+}
+
 .product-card .product-card-body .price-container{
   display: flex;
   align-items:baseline;
@@ -94,12 +109,41 @@
 
 
 .products .product-card .product-card-body{
-    /* Сверху | Справа | Снизу | Слева */
     padding: 5px 5px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
+    flex-grow: 1; /* URAAAA */
+
+
+
+
+    /*justify-content: space-around;*/
+    /*align-items: initial;*/
+
+    /* TODO: выровнять */
 }
 
-.products .product-card .product-card-body .product-icons{
-    /*float: right;*/
+.products.catalog-view-grid .product-card .product-card-body{
+
+}
+
+.products.catalog-view-list .product-card .product-card-body{
+
+}
+
+.products .product-card .product-card-body .product-icons-container{
+  float: right;
+  background-color: #ccc;
+}
+
+.products .product-card .product-card-body .product-icons-container .product-icons{
+    /*float: right; контейнеру поставить битвин */
+    
     margin-right: 10px;
     padding-right: 10px;
     font-size: 32px;
@@ -109,6 +153,24 @@
     display: flex;
     flex-direction:column;
     row-gap: 5px;
+
+
+      /*align-self:flex-end;*/
+    /*justify-content: flex-end; -верх низ - */
+        
+
+    align-items: flex-end;
+}
+
+
+
+.products.catalog-view-grid .product-card .product-card-body .product-icons{
+
+}
+
+
+.products.catalog-view-list .product-card .product-card-body .product-icons{
+
 }
 
 .products .product-card .product-card-body .product-icons a{
@@ -117,6 +179,7 @@
     background-color: rgb(87, 199, 214); /* TODO: цвет за иконками*/
     color: firebrick;
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    
     
     /*margin-right: 8px;*/
 }
