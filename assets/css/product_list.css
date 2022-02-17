@@ -24,6 +24,16 @@
 
 }
 
+/* see set_grid.js*/
+
+.catalog-view-grid{
+  background-color: rgb(204, 226, 230);
+}
+
+.catalog-view-list{
+  background-color: fuchsia;
+}
+
 /* item*/
 .products .product-card{
     flex-basis: auto;
@@ -239,10 +249,14 @@
     border: 1px solid black; /* Параметры границы */
     color: black;
     margin: 2px 2px;
+    cursor: default;
+    background-color: #808080;
 }
 
 .products-list-header .grid-buttons .grid-btn:hover{
-    border: 2px solid black; /* Параметры границы */
+    border: 2px solid #ffffff; /* Параметры границы */
     color: black;
     margin: 1px 1px;
+    cursor: pointer;
+    background-color: #d3cece;
 }
