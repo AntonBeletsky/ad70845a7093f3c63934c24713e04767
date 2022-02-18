@@ -10,15 +10,13 @@
 }
 
 .left-box{
-  background-color: #ffffffff;
+  background-color: #97A2A8;
+  color: #F5F5F5;
   box-shadow:7px 7px 12px -9px #777;
-
   border: 2px solid #ffffffff;
   border-radius: 3px;
 
   width: 350px;
-  /*height: 300px;*/
-
   /* Сверху | Справа | Снизу | Слева */
   padding: 5px 25px 25px 25px;
 }
@@ -29,13 +27,12 @@
   background-color: inherit;
   cursor: default;
 
-  
 }
 
 /* accordion  */
 .accordion {
-  background-color: #E4EAF5;
-  color: #777;
+  background-color: #97A2A8;
+  color: #F5F4DC;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -46,15 +43,20 @@
   transition: 0.4s;
 }
 
-.accordion.active, .accordion:hover {
-  background-color: #DCE7FA;
+.accordion.active{
+  background-color: #F5F5F5;
+  color: #333;
+}
 
-
+.accordion:hover {
+  background-color: #F5F5F5;
+  color: #333;
 }
 
 .panel {
   padding: 0 0px;
-  background-color: white;
+  background-color: #DCEBF5;
+  color: black;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -67,21 +69,22 @@
 }
 
 .vertical-menu a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
+  background-color: #DCEBF5; /* Grey background color */
+  color: #333; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
 }
 
 .vertical-menu a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
+  background-color: #F5F5F5; /* Dark grey background on mouse-over */
   transition: .2s linear;
+  color: #333;
 }
 
 .vertical-menu a.active {
-  background-color: #9598c5; /* Add a green color to the "active/current" link */
-  color: white;
+  background-color: #F5F5F5; /* Add a green color to the "active/current" link */
+  color: #333;
   transition: .2s linear;
 }
 

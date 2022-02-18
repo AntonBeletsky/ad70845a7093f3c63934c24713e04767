@@ -11,7 +11,9 @@
 ul.breadcrumb {
   padding: 2px 16px;
   list-style: none;
-  background-color: #eee;
+  /*background-color: #eee;*/
+  background-color: inherit;
+  color: #DCEBF5;
 }
 
 /* Display list items side by side */
@@ -31,7 +33,7 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-  color: #0275d8;
+  color: #DCEBF5;
   text-decoration: none;
 }
 

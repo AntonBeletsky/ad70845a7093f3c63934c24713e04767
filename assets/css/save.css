@@ -1,0 +1,36 @@
+/* cool */
+
+.left-bar{
+  /*background-color: #c8d2e6; /*fb*/
+  background-color : inherit;
+  display: flex; 
+  flex-direction: column;
+
+  row-gap: 25px;
+}
+
+.left-box{
+  background-color: #97A2A8;
+  color: #F5F5F5;
+
+  box-shadow:7px 7px 12px -9px #777;
+
+  border: 2px solid #ffffffff;
+  border-radius: 3px;
+
+  width: 350px;
+  /*height: 300px;*/
+
+  /* Сверху | Справа | Снизу | Слева */
+  padding: 5px 25px 25px 25px;
+}
+
+.left-box header{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background-color: inherit;
+  cursor: default;
+
+}
+
+/*  */

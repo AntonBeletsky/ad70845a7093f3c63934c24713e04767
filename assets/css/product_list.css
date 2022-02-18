@@ -21,17 +21,21 @@
     row-gap: 20px; /*  между строками*/
     column-gap: 20px; /* между столбцами */
 
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 20px;
-}
+    padding-bottom: 150px;
+
+    box-shadow:7px 7px 12px -9px #777;
+    
+  }
 
 /* see set_grid.js*/
 /* TODO: grid here*/
 
 .catalog-view-grid{
   /*background-color: rgb(204, 226, 230);*/
-  background-color: #FFFFFF;
+  
   flex-direction: row;
 }
 
@@ -39,20 +43,15 @@
   /*background-color: rgb(82, 42, 82);*/
   flex-direction: column;
 
-  background-color: #FFFFFF;
 }
 
 
 /* item *******************/
 .products .product-card{
   flex-basis: auto;
-
-  /*height: 180px;*/
-  /*background-color: rgb(153, 182, 163);*/
   background-color: #FFFFFF;
-  /*color: rgb(35, 37, 153);*/
+
   color: #000;
-  
 
   margin: 0px 0px 0px 0px;
   /* Сверху | Справа | Снизу | Слева */
@@ -73,25 +72,17 @@
 }
 
 .products .product-card:hover{
-  background-color: #eaeef3;
+  background-color: #DCEBF5;
   transition: .2s linear;
-  /*border: solid 1px #AAA;*/
-  
 }
 
-.products .product-card:hover div.card-img-top{
-  
-  
-}
 
 .products.catalog-view-grid .product-card{
   width: 250px;
-  /*height: 180px;*/
   flex-direction: column;
 }
 
 .products.catalog-view-list .product-card{
-  /* width: 100%;  inherit */
   width: inherit;
   height: 180px;
   flex-direction: row;
@@ -160,42 +151,22 @@
   /*float: right;*/
   /*background-color: #ccc;*/
 
-
-
-
 }
 
 .products .product-card .product-card-body .product-icons-container .product-icons{
-    /*margin-top: 10px;
-    margin-bottom: 50px;*/
-
     margin-right: 10px;
     padding-right: 10px;
-
     font-size: 32px;
-    /*color: springgreen;*/
-    /*background-color: #1900ff;*/
-
     display: flex;
     flex-direction:column;
-    /*row-gap: 5px;*/
     flex-wrap: nowrap;
-    
     justify-content: space-between;
-/*    justify-content: space-around;*/
-
-
     align-items: stretch;
     align-content: space-between;
-    
-
     flex-grow: 1; /* URAAAA */
-
     height: 100%; /* URAAAA */
-
-     /* row-gap: 40px; */
+    background-color: inherit;
 }
-
 
 
 .products.catalog-view-grid .product-card .product-card-body .product-icons{
@@ -210,20 +181,14 @@
 .products .product-card .product-card-body .product-icons a{
     width: 30px;
     height: 30px;
-    /*background-color: rgb(87, 199, 214); /* TODO: цвет за иконками*/
-    /*color: firebrick;*/
-    color: black;
-
+    color: #333;
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
-    
-    
-    /*margin-right: 8px;*/
 }
 
 
 
 .products .product-card  .product-card-body .star-rating>span.checked {
-  color: orange;
+  
 }
 
 .card-img-top-containe{
@@ -244,7 +209,7 @@
 }
 
 /* chechbox ******************************************************************/
-
+/* TODO: переделать Эту хуиту (цвета) */
 
 /* The container */
 .checkbox-container {
@@ -282,15 +247,15 @@
   height: 25px;
   width: 25px;
   /*background-color: #eee;*/
-  background-color: #2195f328;
+  background-color: #F5F5F525;
   border: 2px solid #eee;
 }
 
 /* On mouse-over, add a grey background color */
 .checkbox-container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #F5F4DC;
   border: 3px ridge #eee;
-  box-shadow: 3px -3px 3px 0px #3753a1;
+  box-shadow: 3px -3px 3px 0px #777;
 /*  box-shadow:7px 7px 12px -9px #777;*/
 }
 
@@ -330,11 +295,11 @@
 
 /* page content */
 .page-content-header{
-    /*height: 40px;*/
-    /*background-color: coral;*/
-    /*background-color: inherit;*/
-    background-color: #E4EAF5;
-
+    background-color: #97A2A8;
+    color: #F5F5F5;
+    box-shadow:7px 7px 12px -9px #777;
+    border: 2px solid #ffffffff;
+    border-radius: 3px;
 
     display: flex;
     flex-wrap: nowrap;
@@ -347,7 +312,6 @@
 
     padding-left: 50px;
 
-    box-shadow: 7px 7px 12px -9px #777;
 }
 
 .products-list-header{
@@ -370,7 +334,8 @@
     margin-bottom: 20px;
     margin-top: 0px;
 
-    background-color: #c6d5df;
+    background-color: inherit;
+    
     display: flex;
     flex-wrap: nowrap;
     
@@ -394,16 +359,16 @@
     color: black;
     margin: 2px 2px;
     cursor: default;
-    background-color: #bbb8b8;
+    background-color: #97A2A8;
     transition: .2s linear;
 }
 
 .products-list-header .grid-buttons .grid-btn:hover{
     border: 2px solid #ffffff; /* Параметры границы */
-    color: black;
+    color: #333;
     margin: 1px 1px;
     cursor: pointer;
-    background-color: #d3cece;
+    background-color: #F5F5F5;
     transition: .2s linear;
 }
 
@@ -413,5 +378,13 @@
     margin: 2px 2px;
     cursor: default;
 
-    background-color: #eee;
+    background-color: #DCEBF5;
 }
+
+/* TODO: all svg*/
+/*
+svg, path{
+  color: black;
+  background-color: inherit;
+}
+*/

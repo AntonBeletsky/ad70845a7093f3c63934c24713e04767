@@ -18,7 +18,7 @@ div.wrapper{
 .main-header{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    background-color: aquamarine;
+    background-color: rgb(129, 150, 143);
 }
 
 .main-footer{
@@ -30,7 +30,8 @@ div.wrapper{
 .main-content{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    background-color: var(--background-color);
+    /*background-color: var(--background-color);*/
+    background-color: #DCEBF5;
 }
 
 .main-content>main{
