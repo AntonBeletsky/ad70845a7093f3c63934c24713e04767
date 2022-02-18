@@ -32,3 +32,5 @@ categoy
 
 float rigth to  flex-grow: 1;за минуту
 
+product-picture - приближение hover
+

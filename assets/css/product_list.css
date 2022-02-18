@@ -382,3 +382,12 @@
     cursor: pointer;
     background-color: #d3cece;
 }
+
+.products-list-header .grid-buttons .grid-btn.active{
+    border: 1px solid #000000; /* Параметры границы */
+    color: black;
+    margin: 2px 2px;
+    cursor: default;
+
+    background-color: #eee;
+}

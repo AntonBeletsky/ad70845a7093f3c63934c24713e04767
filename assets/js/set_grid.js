@@ -3,20 +3,13 @@
 /* TODO: grid here*/
 
 $("#set_list").click(function () {
-    $("div.products")
-    .removeClass("catalog-view-list catalog-view-grid")
-    .addClass("catalog-view-list");
-
     localStorage.setItem('div.products.view', 'catalog-view-list');
+    setCatalogView();
 
 });
 
 $("#set_grid").click(function () {
-    $("div.products")
-    .removeClass("catalog-view-list catalog-view-grid")
-    .addClass("catalog-view-grid");
-
     localStorage.setItem('div.products.view', 'catalog-view-grid');
-
+    setCatalogView();
 });
 
