@@ -45,11 +45,13 @@
 
 .tablink.active {
 border-bottom: 3px solid #314785;
+transition: .2s linear;
 }
 
 .tablink:hover {
   background-color: #777;
   border-bottom: 3px solid #515358;
+  transition: .2s linear;
 }
 
 /* Style the tab content (and add height:100% for full page content) */

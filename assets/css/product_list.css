@@ -52,7 +52,7 @@
   background-color: #FFFFFF;
   /*color: rgb(35, 37, 153);*/
   color: #000;
-  background-color: #ffffff;
+  
 
   margin: 0px 0px 0px 0px;
   /* Сверху | Справа | Снизу | Слева */
@@ -66,6 +66,22 @@
 
   /* flex container img > text data*/
   display: flex; 
+
+  transition: .2s linear;
+
+  cursor: default;
+}
+
+.products .product-card:hover{
+  background-color: #eaeef3;
+  transition: .2s linear;
+  /*border: solid 1px #AAA;*/
+  
+}
+
+.products .product-card:hover div.card-img-top{
+  
+  
 }
 
 .products.catalog-view-grid .product-card{
@@ -92,7 +108,7 @@
   padding-right: 10px;
 
   /*background-color: cadetblue; !*/
-  background-color: #FFFFFF;
+  background-color: inherit;
 }
 
 .product-card-text .card-text{
@@ -379,6 +395,7 @@
     margin: 2px 2px;
     cursor: default;
     background-color: #bbb8b8;
+    transition: .2s linear;
 }
 
 .products-list-header .grid-buttons .grid-btn:hover{
@@ -387,6 +404,7 @@
     margin: 1px 1px;
     cursor: pointer;
     background-color: #d3cece;
+    transition: .2s linear;
 }
 
 .products-list-header .grid-buttons .grid-btn.active{

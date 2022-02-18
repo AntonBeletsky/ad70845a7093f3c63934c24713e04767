@@ -34,3 +34,7 @@ float rigth to  flex-grow: 1;за минуту
 
 product-picture - приближение hover
 
+натыкать 
+transition: .2s linear;
+во все ховеры 
+

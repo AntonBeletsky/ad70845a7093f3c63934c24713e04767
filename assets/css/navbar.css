@@ -65,6 +65,7 @@ ul.navbar .notification:hover {
   /*background: #c71010;*/
 /*  color:black;*/
   /*background-color: #ff0000;*/
+  transition: .2s linear;
 }
 
 ul.navbar .notification .badge {
@@ -98,12 +99,14 @@ ul.navbar li.right {
 
 ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn:hover {
     background-color: #298158;
+    transition: .2s linear;
 }
 
 /* icon hover */
 ul.navbar>li>a:hover>.icon
 {
     color:black;
+    transition: .2s linear;
 }
 
 
@@ -131,10 +134,12 @@ ul.navbar .dropdown-content a {
 
 ul.navbar .dropdown-content a:hover {
     background-color: #f1f1f1;
+    transition: .2s linear;
 }
 
 ul.navbar .dropdown:hover .dropdown-content {
     display: block;
+    transition: .2s linear;
 }
 
 
@@ -220,6 +225,7 @@ ul.navbar .dropdown:hover .dropdown-content {
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+
   
   /* From https://css.glass */
   /*
@@ -243,6 +249,7 @@ ul.navbar .dropdown:hover .dropdown-content {
     color: white;
 
     padding-left: 28px;
+
 }
 
 .mega-dropdown-content .header i{
@@ -251,11 +258,13 @@ ul.navbar .dropdown:hover .dropdown-content {
 
 .mega-dropbtn:hover{
     background-color: #298158;
+    transition: .2s linear;
 }
 /* Show the dropdown menu on hover */
 .mega-dropdown:hover .mega-dropdown-content {
     /*background-color: #298158;*/
     display: block;
+    transition: .2s linear;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -288,6 +297,7 @@ ul.navbar .dropdown:hover .dropdown-content {
 /* Add a background color on hover */
 .mega-menu .column a:hover {
   background-color: #ddd;
+  transition: .2s linear;
 }
 
 /* Clear floats after the columns */
@@ -305,7 +315,8 @@ ul.navbar .dropdown:hover .dropdown-content {
   border: 1px solid #ccc;
   background-color: #8dbb91;
   width: 300px;
-  height: 800px
+  height: 800px;
+  transition: .2s linear;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -324,6 +335,7 @@ ul.navbar .dropdown:hover .dropdown-content {
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
+  transition: .2s linear;
 }
 
 /* Create an active/current "tab button" class */
