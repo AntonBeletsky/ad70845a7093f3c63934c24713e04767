@@ -1,7 +1,7 @@
 body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    background-color: var(--background-color);
+    background-color: var(--background-color); /* --background-color: #e6f1f8; */
 }
 
 a { 

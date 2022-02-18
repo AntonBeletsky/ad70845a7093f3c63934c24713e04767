@@ -1,32 +1,40 @@
 /* left bar */
 
 .left-bar{
-    /*background-color: #c8d2e6; /*fb*/
-    background-color : inherit;
-    display: flex; 
-    flex-direction: column;
+  /*background-color: #c8d2e6; /*fb*/
+  background-color : inherit;
+  display: flex; 
+  flex-direction: column;
 
-    row-gap: 25px;
+  row-gap: 25px;
 }
 
 .left-box{
-    background-color: #ffffffff;
-    box-shadow:7px 7px 12px -9px #777;
+  background-color: #ffffffff;
+  box-shadow:7px 7px 12px -9px #777;
 
-    border: 2px solid #ffffffff;
-    border-radius: 3px;
+  border: 2px solid #ffffffff;
+  border-radius: 3px;
 
-    width: 350px;
-    /*height: 300px;*/
+  width: 350px;
+  /*height: 300px;*/
 
-    /* Сверху | Справа | Снизу | Слева */
-    padding: 5px 25px 25px 25px;
+  /* Сверху | Справа | Снизу | Слева */
+  padding: 5px 25px 25px 25px;
+}
+
+.left-box header{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background-color: inherit;
+  cursor: default;
+
+  
 }
 
 /* accordion  */
-
 .accordion {
-  background-color: #eee;
+  background-color: #E4EAF5;
   color: #777;
   cursor: pointer;
   padding: 18px;
@@ -39,7 +47,7 @@
 }
 
 .accordion.active, .accordion:hover {
-  background-color: #77FFFF;
+  background-color: #DCE7FA;
 
 
 }

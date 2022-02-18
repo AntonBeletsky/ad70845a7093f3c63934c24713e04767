@@ -12,6 +12,7 @@ ul.navbar {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    /*color: #F5F4DC;*/
 
 /*    padding: 5px 5px;*/
 
@@ -21,7 +22,7 @@ ul.navbar {
 }
 
 ul.navbar li {
-    float: left;
+    float: left; /* TODO: допилить эту хуйню*/
     /*border-right: 1px solid #bbb;*/
 }
 
@@ -31,7 +32,7 @@ li:last-child {
 
 ul.navbar li>a  /* ,.dropbtn */ {
     display: inline-block;
-    color: white;
+    color: #F5F4DC;
     text-align: center;
     /*padding: 14px 16px;*/
     padding: 14px 16px;
@@ -98,7 +99,8 @@ ul.navbar li.right {
 }
 
 ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn:hover {
-    background-color: #298158;
+    background-color: #E5F5DC;
+    color: #333333;
     transition: .2s linear;
 }
 
@@ -118,7 +120,8 @@ ul.navbar>li.dropdown {
 ul.navbar .dropdown-content {
     display: none;
     position: absolute;
-    background-color: hsl(0, 0%, 98%);
+    background-color: #E5F5DC; /* profile */
+    color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px #00000033;
     z-index: 1;
@@ -130,23 +133,25 @@ ul.navbar .dropdown-content a {
     text-decoration: none;
     display: block;
     text-align: left;
+    transition: .1s linear;
 }
 
 ul.navbar .dropdown-content a:hover {
-    background-color: #f1f1f1;
-    transition: .2s linear;
+    background-color: #DCF5F1;
+    color: black;
+    transition: .1s linear;
 }
 
 ul.navbar .dropdown:hover .dropdown-content {
     display: block;
-    transition: .2s linear;
+    transition: .1s linear;
 }
 
 
 .search-bar{
     text-align: center;
     /*padding: 14px 16px;*/
-    color: aquamarine;
+    color: #DCF5F1;
     margin-left: 80px;
     margin-top: 3px;
     font-size: 22px;

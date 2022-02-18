@@ -38,3 +38,16 @@ product-picture - приближение hover
 transition: .2s linear;
 во все ховеры 
 
+active acordion to web store 
+
+add header to box 
+
+|*****
+-------------
+|
+|
+
+
+для телефонов меню нав просто подменить 
+
+добавить сайт бар? 
