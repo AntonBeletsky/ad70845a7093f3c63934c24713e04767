@@ -315,7 +315,11 @@
 /* page content */
 .page-content-header{
     /*height: 40px;*/
-    background-color: coral;
+    /*background-color: coral;*/
+    /*background-color: inherit;*/
+    background-color: #cadae4;
+
+
     display: flex;
     flex-wrap: nowrap;
     /*flex-direction: row;*/
@@ -326,6 +330,8 @@
     align-content: center;
 
     padding-left: 50px;
+
+    box-shadow: 7px 7px 12px -9px #777;
 }
 
 .products-list-header{
@@ -348,7 +354,7 @@
     margin-bottom: 20px;
     margin-top: 0px;
 
-    background-color: rgb(75, 180, 136);
+    background-color: #c6d5df;
     display: flex;
     flex-wrap: nowrap;
     
@@ -372,7 +378,7 @@
     color: black;
     margin: 2px 2px;
     cursor: default;
-    background-color: #808080;
+    background-color: #bbb8b8;
 }
 
 .products-list-header .grid-buttons .grid-btn:hover{

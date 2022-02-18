@@ -24,20 +24,21 @@ div.wrapper{
 .main-footer{
     margin: 0px 0px 0px 0px;  
     padding: 0px 0px 0px 0px;
-    background-color: aqua;
+    background-color: rgb(173, 212, 212);
 }
 
 .main-content{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    background-color: blanchedalmond;
+    background-color: var(--background-color);
 }
 
 .main-content>main{
     margin: 0px 0px 0px 0px;
     /* Сверху | Справа | Снизу | Слева */
     padding: 2rem 1rem 1rem 1rem;
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;*/
+    background-color: inherit;
 
     display: flex;
     justify-content: flex-start;
@@ -77,7 +78,7 @@ div.wrapper{
 
 /* page content */
 .page-content{
-    background-color: cadetblue;
+    background-color: inherit;
     width: 100%;
 }
 

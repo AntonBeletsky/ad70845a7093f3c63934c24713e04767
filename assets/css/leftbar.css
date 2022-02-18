@@ -1,7 +1,8 @@
 /* left bar */
 
 .left-bar{
-    background-color: darkgray;
+    /*background-color: #c8d2e6; /*fb*/
+    background-color : inherit;
     display: flex; 
     flex-direction: column;
 
@@ -10,10 +11,10 @@
 
 .left-box{
     background-color: #ffffffff;
-    /* box-shadow: 0 1px 2px  rgba(0, 0, 0, 0.2); fb*/
-    box-shadow: 5px 2px 2px #314785;
+    box-shadow:7px 7px 12px -9px #777;
+
     border: 2px solid #ffffffff;
-    border-radius: 20px;
+    border-radius: 3px;
 
     width: 350px;
     /*height: 300px;*/
@@ -26,7 +27,7 @@
 
 .accordion {
   background-color: #eee;
-  color: #444;
+  color: #777;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -38,7 +39,8 @@
 }
 
 .accordion.active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #77FFFF;
+
 }
 
 .panel {
@@ -68,7 +70,7 @@
 }
 
 .vertical-menu a.active {
-  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  background-color: #9598c5; /* Add a green color to the "active/current" link */
   color: white;
 }
 
