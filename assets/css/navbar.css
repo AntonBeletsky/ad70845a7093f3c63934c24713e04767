@@ -160,12 +160,6 @@ ul.navbar .dropdown:hover .dropdown-content {
 }
 
 
-.search-bar-container{
-    display: flex;
-    flex-shrink: 1;
-    flex-wrap: nowrap;
-}
-
 .search-bar{
     text-align: center;
     /*padding: 14px 16px;*/

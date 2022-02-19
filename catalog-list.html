@@ -60,45 +60,6 @@
 <header class="main-header">
     <div>shopy | 0800 500 10 95 |  курс валют | контакты оплата |  и доставка Харкьов UA | RUS </div>
     <!-- NAVBAR -->
-    <!-- 
-        https://www.w3schools.com/howto/howto_js_navbar_sticky.asp 
-        https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
-        
-        Responsive Topnav with Dropdown!!!!!!!
-        https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
-        & https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
-
-        sub menu: https://www.w3schools.com/howto/howto_css_subnav.asp
-        meg https://www.w3schools.com/howto/howto_css_mega_menu.asp
-        mobi https://www.w3schools.com/howto/howto_js_mobile_navbar.asp 
-
-        How TO - Collapse Sidebar https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp 
-    -->
-  
-
-
-<!-- 
-<div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-    </div>
-    <a href="#about">About</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-    </nav>
--->
-    <!-- old -->
     <nav>
         <ul class="navbar">
             <li><a class="active" href="#home">Home</a></li>
@@ -211,8 +172,10 @@
 
                 </div>
             </div>
-            </li>
 
+
+
+            </li>
             <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
@@ -224,7 +187,6 @@
             </li>
 
             <li>
-                <div class="search-bar-container">
                 <form class="search-bar" method="post">
                     <label for="searchrequest">Search</label>
                     <select name="select">
@@ -241,7 +203,6 @@
                         Search
                     </button>
                 </form>
-                </div>
             </li>
 
 
@@ -1010,35 +971,15 @@
     document.addEventListener("click", closeAllSelect);
 </script>
 
-<!-- top nav header -->
-<script>
-    window.onscroll = function () { myFunction98() };
 
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction98() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-
-    function myFunction121() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-</script>
 
 
 <script src="./assets/js/onload_categories.js"></script>
 
 
+
+
+<!-- <script src="https://kit.fontawesome.com/ad126f550b.js" crossorigin="anonymous"></script>   -->
 
 
 </body>
