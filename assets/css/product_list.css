@@ -98,9 +98,7 @@
   display: inline;
   margin-left: 5px;
   margin-right: 5px;
-
   padding-right: 10px;
-
   /*background-color: cadetblue; !*/
   background-color: inherit;
 }
@@ -370,9 +368,9 @@
 }
 
 /* TODO: снять границы */
-
+/*
 .products-list-header .grid-buttons .grid-btn{
-    border: 1px solid black; /* Параметры границы */
+    border: 1px solid black; 
     color: black;
     margin: 2px 2px;
     cursor: default;
@@ -381,7 +379,7 @@
 }
 
 .products-list-header .grid-buttons .grid-btn:hover{
-    border: 2px solid #ffffff; /* Параметры границы */
+    border: 2px solid #ffffff; 
     color: #333;
     margin: 1px 1px;
     cursor: pointer;
@@ -390,12 +388,34 @@
 }
 
 .products-list-header .grid-buttons .grid-btn.active{
-    border: 1px solid #000000; /* Параметры границы */
+    border: 1px solid #000000; 
     color: black;
     margin: 2px 2px;
     cursor: default;
 
     background-color: #DCEBF5;
+}
+*/
+.products-list-header .grid-buttons .grid-btn{
+    color: #333;
+    cursor: default;
+    background-color: #97A2A8;
+    transition: .2s linear;
+    border: none;
+}
+
+.products-list-header .grid-buttons .grid-btn:hover{
+    color: #333;
+    cursor: pointer;
+    /*background-color: #F5F5F5;*/
+    background-color: #F5F4DC;
+    transition: .2s linear;
+}
+
+.products-list-header .grid-buttons .grid-btn.active{
+    color: black;
+    cursor: default;
+    background-color: #F5F5F5;
 }
 
 /* TODO: all svg*/
