@@ -1,24 +1,10 @@
-/*
-/* Color Theme Swatches in Hex */
-.My-Color-Theme-1-hex { color: #E6F1F7; }
-.My-Color-Theme-2-hex { color: #C3D4DE; }
-.My-Color-Theme-3-hex { color: #E4EEF5; }
-.My-Color-Theme-4-hex { color: #C3D4DE; }
-.My-Color-Theme-5-hex { color: #DCEEFA; }
 
 /* Color Theme Swatches in Hex */
-.fb-составвная-1-hex { color: #ECF3FF; }
-.fb-составвная-2-hex { color: #4C648F; }
-.fb-составвная-3-hex { color: #E4F3F5; }
-.fb-составвная-4-hex { color: #F6BEA7; }
-.fb-составвная-5-hex { color: #C2A5A1; }
-
-/* Color Theme Swatches in Hex */
-.nav-треугол-1-hex { color: #333333; }
-.nav-треугол-2-hex { color: #F5F4DC; }
-.nav-треугол-3-hex { color: #F5F5F5; }
-.nav-треугол-4-hex { color: #DCEBF5; }
-.nav-треугол-5-hex { color: #97A2A8; }
+.color-1-hex { color: #333333; }
+.color-2-hex { color: #F5F4DC; }
+.color-3-hex { color: #F5F5F5; }
+.color-4-hex { color: #DCEBF5; }
+.color-5-hex { color: #97A2A8; }
 
 
 /* #9BBDF7 box */
@@ -26,9 +12,11 @@
 /* #E4EAF5 acc #DCE7FA */
 
 :root {
-  /* https://color.adobe.com/ru/create/color-wheel */
+  /* https://color.adobe.com/ru/create/colorwheel */
   /*--background-color: #ECF3FF;*/
+
   --background-color: #e6f1f8;
+  
   --box-color: #FFFFFF;
   --page-header-color: #cadae4;
 
