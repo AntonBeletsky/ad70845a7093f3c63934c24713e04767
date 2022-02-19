@@ -184,9 +184,20 @@
 .products .product-card .product-card-body .product-icons a{
     width: 30px;
     height: 30px;
-    color: #333;
+    /*color: #333;*/
+/*    color: #0B7ABF;*/
+    color: #343d46;
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
+
+.products .product-card .product-card-body .product-icons a:hover{
+    color: #F2BD1D;
+}
+
+.products .product-card .product-card-body .product-icons a.addet{
+    color: #0B7ABF;
+}
+
 
 
 
@@ -357,6 +368,8 @@
 .products-list-header .grid-buttons .grid-btn .grid-icon{
     font-size: 36px;
 }
+
+/* TODO: снять границы */
 
 .products-list-header .grid-buttons .grid-btn{
     border: 1px solid black; /* Параметры границы */

@@ -8,6 +8,19 @@
 .color-5-hex { color: #97A2A8; }
 
 /* Color Theme Swatches in Hex */
+.color-theme_DC8C5C6D-F935-4E97-9B09-0F33CDFDD544-1-hex { color: #0B7ABF; }
+.color-theme_DC8C5C6D-F935-4E97-9B09-0F33CDFDD544-2-hex { color: #F2CB05; }
+.color-theme_DC8C5C6D-F935-4E97-9B09-0F33CDFDD544-3-hex { color: #F2BD1D; }
+.color-theme_DC8C5C6D-F935-4E97-9B09-0F33CDFDD544-4-hex { color: #A62424; }
+.color-theme_DC8C5C6D-F935-4E97-9B09-0F33CDFDD544-5-hex { color: #F2F2F2; }
+
+/* #0B7ABF; icons */
+
+
+
+/* https://www.color-hex.com/color-palette/2280 */
+
+/* Color Theme Swatches in Hex */
 /*
 .#97A2A8-квадрат--1-hex { color: #97A2A8; }
 .#97A2A8-квадрат--2-hex { color: #FBCAFC; }
@@ -34,16 +47,18 @@
   --box-text-1-color: #F5F4DC;
   --box-text-2-color: #F5F5F5;
   --navbar-background-color: #333;
-
   --text-1-color: #000000;
+  --text-2-color: #000000;
 
   /* values */
-
-  --page-header-color: var(--box-2-color);
-  --accardion-background-color: var(--box-2-color);
-  --accardion-color: var(--box-text-1-color);
-  --accardion-active-color: var(--box-text-2-color);
-
+  /*--navbar-background-color: #333;*/
+  --navbar-color: var(--box-text-1-color);
+  --page-header-color: var(--box-2-color); /* #97a2a8 */
+  --accardion-background-color: var(--box-2-color); /* background-color: #97A2A8; */
+  --accardion-color: var(--box-text-1-color); /* color: #F5F4DC; */
+  --accardion-active-color: var(--box-text-2-color);  /* color: #333; */
+  --product-card-background: var(--box-1-colo);
+  --product-card-hover: var(--box-text-1-color);
 
   
       
