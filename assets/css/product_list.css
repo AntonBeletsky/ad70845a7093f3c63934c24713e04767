@@ -363,39 +363,12 @@
     
 }
 
+/* grid icons */
 .products-list-header .grid-buttons .grid-btn .grid-icon{
     font-size: 36px;
 }
 
-/* TODO: снять границы */
-/*
-.products-list-header .grid-buttons .grid-btn{
-    border: 1px solid black; 
-    color: black;
-    margin: 2px 2px;
-    cursor: default;
-    background-color: #97A2A8;
-    transition: .2s linear;
-}
 
-.products-list-header .grid-buttons .grid-btn:hover{
-    border: 2px solid #ffffff; 
-    color: #333;
-    margin: 1px 1px;
-    cursor: pointer;
-    background-color: #F5F5F5;
-    transition: .2s linear;
-}
-
-.products-list-header .grid-buttons .grid-btn.active{
-    border: 1px solid #000000; 
-    color: black;
-    margin: 2px 2px;
-    cursor: default;
-
-    background-color: #DCEBF5;
-}
-*/
 .products-list-header .grid-buttons .grid-btn{
     color: #333;
     cursor: default;
@@ -418,10 +391,66 @@
     background-color: #F5F5F5;
 }
 
-/* TODO: all svg*/
-/*
-svg, path{
-  color: black;
-  background-color: inherit;
+/* select  */
+/*******************************************************/
+
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
 }
-*/
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: #97A2A8;;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
