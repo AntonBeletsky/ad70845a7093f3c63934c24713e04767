@@ -55,6 +55,7 @@
 
 .accordion.active{
   font-size: larger;
+  font-weight: bolder;
 }
 
 .accordion:hover {
