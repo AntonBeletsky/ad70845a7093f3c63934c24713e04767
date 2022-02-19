@@ -95,7 +95,7 @@ ul.navbar li>a.fontawesome-icon{
 
 
 ul.navbar li.right {
-    float: right;
+    float: right; /* TODO: че за хуита бля */
 }
 
 ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn:hover {

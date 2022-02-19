@@ -11,7 +11,8 @@
 
 .left-box{
   background-color: #97A2A8;
-  color: #F5F5F5;
+  /*color: #F5F5F5;*/
+  color : #333;
   box-shadow:7px 7px 12px -9px #777;
   border: 2px solid #ffffffff;
   border-radius: 3px;
@@ -32,7 +33,9 @@
 /* accordion  */
 .accordion {
   background-color: #97A2A8;
+  
   color: #F5F4DC;
+  /*color : #333;*/
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -43,14 +46,20 @@
   transition: 0.4s;
 }
 
-.accordion.active{
-  background-color: #F5F5F5;
+/* active category */
+.accordion.active, .accordion.active:hover{
+  /*background-color: #F5F5F5;*/
   color: #333;
+  background-color: #97A2A8;
+}
+
+.accordion.active{
+  font-size: larger;
 }
 
 .accordion:hover {
   background-color: #F5F5F5;
-  color: #333;
+  color:#333;
 }
 
 .panel {

@@ -296,7 +296,8 @@
 /* page content */
 .page-content-header{
     background-color: #97A2A8;
-    color: #F5F5F5;
+    /*color: #F5F5F5;*/
+    color : #333;
     box-shadow:7px 7px 12px -9px #777;
     border: 2px solid #ffffffff;
     border-radius: 3px;

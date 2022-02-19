@@ -1,10 +1,21 @@
 
+
 /* Color Theme Swatches in Hex */
 .color-1-hex { color: #333333; }
 .color-2-hex { color: #F5F4DC; }
 .color-3-hex { color: #F5F5F5; }
 .color-4-hex { color: #DCEBF5; }
 .color-5-hex { color: #97A2A8; }
+
+/* Color Theme Swatches in Hex */
+/*
+.#97A2A8-квадрат--1-hex { color: #97A2A8; }
+.#97A2A8-квадрат--2-hex { color: #FBCAFC; }
+.#97A2A8-квадрат--3-hex { color: #E3F4FC; }
+.#97A2A8-квадрат--4-hex { color: #FCE6CA; }
+.#97A2A8-квадрат--5-hex { color: #E6FCD7; }
+
+*/
 
 
 /* #9BBDF7 box */

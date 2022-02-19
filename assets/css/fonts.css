@@ -1,0 +1,36 @@
+/* https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/*/
+/* https://fonts.google.com/specimen/Oswald */
+/* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* !1 */ 
+/* TODO: шрифты*/
+
+@font-face {
+  font-family: PlayfairDisplay-Bold-1;
+  src: url("./../fonts/PlayfairDisplay-Bold.ttf");
+}
+
+body {
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h3, h4, h5, h6{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* headers */
+h1, h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* !1 */
+    
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: black;
+}
+
+a, button{
+    font-family: Arial, Helvetica, sans-serif;
+}
