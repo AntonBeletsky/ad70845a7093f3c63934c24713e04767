@@ -50,30 +50,33 @@
 .products .product-card{
   flex-basis: auto;
   background-color: #FFFFFF;
-
   color: #000;
-
   margin: 0px 0px 0px 0px;
   /* Сверху | Справа | Снизу | Слева */
   padding: 0px 0px 0px 0px;
-
   /*box-shadow: 5px 3px 3px #314785;*/
   box-shadow:7px 7px 12px -9px #777;
-
   border: 2px solid #FFFFFF; /**/
   border-radius: 3px;
-
   /* flex container img > text data*/
   display: flex; 
-
   transition: .2s linear;
-
   cursor: default;
+
 }
 
 .products .product-card:hover{
-  background-color: #DCEBF5;
+  /*background-color: #DCEBF5;*/
   transition: .2s linear;
+  background-color: #F5F4DC;
+}
+
+.products .product-card a{
+  color: #333333;
+}
+
+.products .product-card a:visited{
+  color: #97A2A8;
 }
 
 
