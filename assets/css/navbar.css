@@ -99,9 +99,17 @@ ul.navbar li.right {
 }
 
 ul.navbar li a:hover, ul.navbar .dropdown:hover .dropbtn:hover {
-    background-color: #E5F5DC;
+    transition: .1s linear;
+    background-color: #F5F5F5;
     color: #333333;
-    transition: .2s linear;
+    /*font-weight: bolder;*/
+}
+
+.navbar .dropbtn:hover {
+    transition: .1s linear;
+    background-color: #F5F5F5;
+    color: #333333;
+    /*font-weight: bolder;*/
 }
 
 /* icon hover */
@@ -137,9 +145,13 @@ ul.navbar .dropdown-content a {
 }
 
 ul.navbar .dropdown-content a:hover {
-    background-color: #DCF5F1;
-    color: black;
+    /*background-color: #DCF5F1;
+    color: black;*/
     transition: .1s linear;
+    background-color: #F5F5F5;
+    color: #333;
+    font-weight: bolder;
+
 }
 
 ul.navbar .dropdown:hover .dropdown-content {
@@ -262,7 +274,9 @@ ul.navbar .dropdown:hover .dropdown-content {
 }
 
 .mega-dropbtn:hover{
-    background-color: #298158;
+    background-color: #F5F4DC;
+    color: #333;
+    font-weight: bolder;
     transition: .2s linear;
 }
 /* Show the dropdown menu on hover */
