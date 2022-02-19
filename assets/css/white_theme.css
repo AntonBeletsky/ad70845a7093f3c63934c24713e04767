@@ -14,20 +14,26 @@
 :root {
   /* https://color.adobe.com/ru/create/colorwheel */
   /*--background-color: #ECF3FF;*/
+  /*  #e6f1f8 */
 
-  --background-color: #e6f1f8;
-  
-  --box-color: #FFFFFF;
-  --page-header-color: #cadae4;
-
-  --accardion-background-color: #fff;
-  --accardion-color: #fff;
-  --accardion-active-color: #fff;
-
+  /* main colors */
+  --background-color: #E6F1F8;
+  --box-1-color: #FFFFFF;
+  --box-2-color: #97A2A8;  
+  --box-text-1-color: #F5F4DC;
+  --box-text-2-color: #F5F5F5;
   --navbar-background-color: #333;
 
+  --text-1-color: #000000;
+
+  /* values */
+
+  --page-header-color: var(--box-2-color);
+  --accardion-background-color: var(--box-2-color);
+  --accardion-color: var(--box-text-1-color);
+  --accardion-active-color: var(--box-text-2-color);
 
 
-  /*  #e6f1f8 */
+  
       
 }
