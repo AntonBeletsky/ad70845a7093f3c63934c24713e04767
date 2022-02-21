@@ -1,0 +1,3 @@
+винести фиксед в отдельній класс 
+
+спиздить прокрутку у https://css-tricks.com/snippets/css/a-guide-to-flexbox/#top-of-site 
