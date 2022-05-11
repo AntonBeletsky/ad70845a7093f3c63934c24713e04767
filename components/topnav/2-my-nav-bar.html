@@ -41,10 +41,6 @@ body {
     
 }
 
-.fuck-in-responsive{
-
-}
-
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* flex container */
@@ -200,18 +196,9 @@ body {
 
 }
 
-/* media в отдельній файл нахуй */
+
 
 @media screen and (max-width: 600px) {
-
-/* этот класс в самый вверх !!!*/
-.topnav a.sidebar-icon{
-    display: none;
-}
-
-.topnav a{
-    /*background-color: aqua;*/
-}
 
     
 .topnav, .dropdown-content{
@@ -234,7 +221,9 @@ margin-top: 0px;
     flex-wrap: wrap;
 }
 
-.topnav a:not(.fuck-in-responsive), /* TODO: a */
+/*.topnav a,*/ /* заменено на .topnav a:not(.sidebar-icon), */
+.topnav a:not(.sidebar-icon), /* ? */
+.topnav a.responsive-item,
 .topnav input[type=text],
 .topnav .search-container button {
     float: none;
@@ -277,8 +266,15 @@ margin-top: 0px;
     top: 0;
 }
 
-/* TODO: a */
-.topnav.responsive a:not(.fuck-in-responsive) {
+/*
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+*/
+
+.topnav a.responsive-item{
     float: none;
     display: block;
     text-align: left;
@@ -315,13 +311,12 @@ margin-top: 0px;
 /* top nav gamburger*/
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
 @media screen and (max-width: 600px) {
-  /*.topnav a:not(:first-child) {display: none;} TODO: вот эта хуйня сьела половину кнопок  */
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.gamburger-smart-icon {
     /*float: right;*/
     display: flex;
   }
   .hide-responsive{display: none;}
-
 }
 
 @media screen and (max-width: 600px) {
@@ -365,84 +360,12 @@ text-align: left;
 
 @media screen and (max-width: 600px) {
 
-.sidebar-icon{
-    color: chartreuse;
-    background-color: #1ad452;
-    display: none; /* костіль */
-}
-
 .fuck-in-responsive{
-    display: none; /* костіль */
-    /* display: none !important; /* костіль */
+    display: none;
     background-color: blue;
 }
 
 }
-
-
-/* SIDEBAT HERE AAAA*/
-
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
-
-/* SIDEBAR END */
 
 
 </style>
@@ -450,24 +373,6 @@ text-align: left;
 </head>
 
 <body>
-
-
-
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
-
-    <!-- 
-    <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
-        <h2>Collapsed Sidebar</h2>
-        <p>Content...</p>
-    </div>
-    -->
 
 <script src="jquery-3.6.0.js">
 
@@ -481,22 +386,22 @@ text-align: left;
     
 <div class="topnav-base-block topnav-left-block hide-responsive">
 
-    <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive" onclick="openNav()">
+    <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive">
         <i class="fa fa-bars"></i>
     </a>
 
-    <a href="#home" class="active">Home</a>
-    <a href="#home" class="active">Home 2 </a>
-    <a href="#news">News</a>
+    <a href="#home" class="active responsive-item">Home</a>
+    <a href="#home" class="active responsive-item">Home 2 </a>
+    <a href="#news" class="responsive-item">News</a>
     <a href="#contact">Contact</a>
     <div class="dropdown">
         <button class="dropbtn">Dropdown
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content fixed">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="#" class="responsive-item">Link 1</a>
+            <a href="#" class="responsive-item">Link 2</a>
+            <a href="#" class="responsive-item">Link 3</a>
         </div>
     </div>
 
@@ -513,9 +418,9 @@ text-align: left;
 
 
 <div class="topnav-base-block topnav-right-block hide-responsive">
-    <a href="#news">News 2</a>
-    <a href="#search">Search</a>
-    <a href="#about">About</a>
+    <a href="#news" class="responsive-item">News 2</a>
+    <a href="#search" class="responsive-item">Search</a>
+    <a href="#about" class="responsive-item">About</a>
 </div>
 
 <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
@@ -527,17 +432,14 @@ text-align: left;
 
 
 
-    <div class="main" id="main">
-
-        <h1>TRULALAL</h1>
-
+    <div class="main">
         <h1>Fixed Top Menu</h1>
         <h2>Scroll this page to see the effect</h2>
         <h2>The navigation bar will stay at the top of the page while scrolling</h2>
     
-            <br>
-
-
+<br>
+<h1>USE FLEX </h1>
+<h1>убрать фиксед при респонсив  </h1>
 
         <p>Some text some text some text some text..</p>
         <p>Some text some text some text some text..</p>
@@ -630,29 +532,6 @@ $(window).resize(function () {
 /* sidebar - icon end */
 
         
-</script>
-
-<script>
-    /* SIDEBAAAAAAAAAR*/
-
-/* если сайд бар откріт то он главный гамбургер на респонсив
-а если закрыт , то гамьбургер основной 
-*/
-
-    function openNav() {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-
-        /*document.getElementById("myTopnav").style.marginLeft = "250px";*/
-        
-    }
-
-    function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-
-        document.getElementById("myTopnav").style.marginLeft = "0px";
-    }
 </script>
 
 </body>
