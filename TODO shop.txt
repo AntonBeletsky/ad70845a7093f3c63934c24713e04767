@@ -51,3 +51,21 @@ add header to box
 для телефонов меню нав просто подменить 
 
 добавить сайт бар? 
+
+
+pages:
+-Index
+Categories
++Productlist
+Order 
+Card
+OrderList
+Wishlist 
+
+userpages
+
+smartphone pages 
+navbar 
+search 
+
+

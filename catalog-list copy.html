@@ -61,60 +61,7 @@
 <!-- main header -->
 <header class="main-header">
     <div>shopy | 0800 500 10 95 |  курс валют | контакты оплата |  и доставка Харкьов UA | RUS </div>
-    
     <!-- NAVBAR -->
-    
-    <nav class="topnav fixed" id="myTopnav">
-    
-        <div class="topnav-base-block topnav-left-block hide-responsive">
-    
-            <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive" onclick="openNav()">
-                <i class="fa fa-bars"></i>
-            </a>
-    
-            <a href="#home" class="active">Home</a>
-            <a href="#home" class="active">Home 2 </a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content fixed">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-    
-        </div>
-    
-        <div class="topnav-base-block topnav-center-block hide-responsive">
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="What you Search..." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    
-    
-        <div class="topnav-base-block topnav-right-block hide-responsive">
-            <a href="#news">News 2</a>
-            <a href="#search">Search</a>
-            <a href="#about">About</a>
-        </div>
-    
-        <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
-            <i class="fa fa-bars"></i>
-        </a>
-    
-    </nav> 
-
-    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-
-<script>
-    /*
     <nav>
         <ul class="navbar">
             <li><a class="active" href="#home">Home</a></li>
@@ -340,11 +287,6 @@
         </ul>
     </nav>
 
-*/
-</script>
-
-
-    <!-- NAVBAR END -->
 </header>
 
 <!-- main content -->
@@ -931,17 +873,6 @@
 </main>
 </div>
 
-
-<!-- sidebar -->
-
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
-
 <!-- main footer -->
 <footer class="main-footer">
     main-footer
@@ -1052,83 +983,6 @@
 
 <!-- <script src="https://kit.fontawesome.com/ad126f550b.js" crossorigin="anonymous"></script>   -->
 
-<!-- РЕСПОНГСИВНОЕ МЕНЮ n -->
-<script>
-
-    /* Gamburger */
-
-    let screen_mode = "desk"; /*  "smart" */
-    const width_param = 600;
-
-    function screenModeSwither() {
-        if (screen_mode == "smart") {
-            $(".responsive").removeClass("responsive");
-            $(".hide-responsive").css("display", "none");
-            screen_mode = "desk";
-            /*alert('hide');*/
-        }
-        else {
-            $("#myTopnav.topnav").addClass("responsive"); /* широкие кнопки */
-            $(".hide-responsive").css("display", "block");
-            screen_mode = "smart";
-            /*alert('show');*/
-        }
-
-    }
-
-    /* so that the menu is not hidden when zoom returns */
-    $(window).resize(function () {
-        if (($(document).width() > width_param) && (screen_mode == "desk")) {
-            $(".responsive").removeClass("responsive");
-            $(".hide-responsive").css("display", "block");
-            screen_mode = "desk";
-        }
-
-        if (($(document).width() <= width_param) && (screen_mode == "desk")) {
-            $(".responsive").removeClass("responsive");
-            $(".hide-responsive").css("display", "none");
-            screen_mode = "desk";
-        }
-
-        console.log("$(window).resize");
-    });
-
-    /* Gamburger end */
-
-    /* sidebar - icon */
-
-    /* sidebar - icon end */
-
-
-</script>
-
-<script>
-    /* SIDEBAAAAAAAAAR*/
-
-    /* если сайд бар откріт то он главный гамбургер на респонсив
-    а если закрыт , то гамьбургер основной 
-    */
-
-    function openNav() {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-
-        console.log("openNav");
-        /*document.getElementById("myTopnav").style.marginLeft = "250px";*/
-
-    }
-
-    function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-
-        document.getElementById("myTopnav").style.marginLeft = "0px";
-
-        console.log("closeNav");
-    }
-</script>
-
-<!-- РЕСПОНГСИВНОЕ МЕНЮ n -->
 
 </body>
 </html>
