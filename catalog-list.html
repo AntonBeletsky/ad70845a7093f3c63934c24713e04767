@@ -45,310 +45,84 @@
     <link rel="stylesheet" href="./assets/css/debug_theme.css"> <!-- TODO: theme here-->
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/leftbar.css">
     <link rel="stylesheet" href="./assets/css/product_page.css">
     <link rel="stylesheet" href="./assets/css/product_list.css">
     <link rel="stylesheet" href="./assets/css/breadcrumb.css">
+
+    <link rel="stylesheet" href="./assets/css/navbar.css">
     
 </head>
 <body>
 
-<script src="./assets/js/jquery-3.6.0.js"></script>
+<script src="./assets/js/jquery-3.6.0.js">
+
+</script>
+
 
 <div class="wrapper">
 
 <!-- main header -->
 <header class="main-header">
+   <!-- 
     <div>shopy | 0800 500 10 95 |  курс валют | контакты оплата |  и доставка Харкьов UA | RUS </div>
-    
+    -->
     <!-- NAVBAR -->
     
-    <nav class="topnav fixed" id="myTopnav">
-    
-        <div class="topnav-base-block topnav-left-block hide-responsive">
-    
-            <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive" onclick="openNav()">
-                <i class="fa fa-bars"></i>
-            </a>
-    
-            <a href="#home" class="active">Home</a>
-            <a href="#home" class="active">Home 2 </a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content fixed">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-    
-        </div>
-    
-        <div class="topnav-base-block topnav-center-block hide-responsive">
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="What you Search..." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    
-    
-        <div class="topnav-base-block topnav-right-block hide-responsive">
-            <a href="#news">News 2</a>
-            <a href="#search">Search</a>
-            <a href="#about">About</a>
-        </div>
-    
-        <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
+<nav class="topnav fixed" id="myTopnav">
+
+    <div class="topnav-base-block topnav-left-block hide-responsive">
+
+        <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive" onclick="openNav()">
             <i class="fa fa-bars"></i>
         </a>
-    
-    </nav> 
+
+        <a href="#home" class="active">Home 1</a>
+        <a href="#home" class="active">Home 2 </a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content fixed">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="topnav-base-block topnav-center-block hide-responsive">
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="What you Search..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="topnav-base-block topnav-right-block hide-responsive">
+        <a href="#news">News 2</a>
+        <a href="#search">Search</a>
+        <a href="#about">About</a>
+    </div>
+
+    <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
+        <i class="fa fa-bars"></i>
+    </a>
+
+</nav> 
 
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-
-<script>
-    /*
-    <nav>
-        <ul class="navbar">
-            <li><a class="active" href="#home">Home</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Pages</a>
-                <div class="dropdown-content">
-                    <a href="index-page.html">Index</a>
-                    <a href="categories-page.html">Categories</a>
-                    <a href="product-page.html">Product Page</a>
-                    <a href="order-page.html">Order-page</a>
-                    <a href="order-list.html">order list</a>
-                    <a href="wishlist-page.html">Wishlist</a>
-                    <a href="profile.html">prodile</a>
-                    <a href="sign-up.html">sign-up</a>
-                </div>
-            </li>
-            <li>
-                <!-- <a href="#news">News</a> -->
-                
-
-            <div class="mega-menu mega-dropdown">
-                <button class="mega-dropbtn">
-                    <i class="icon fa-solid fa-align-justify"></i>
-                    <span>Categoies</span>
-                </button>
-                <div class="mega-dropdown-content">
-                    <div class="header">
-                        <i class="fa-solid fa-align-justify"></i>
-                        <h2>Categoies</h2>
-                    </div>
-                    <div class="row">
-
-                        <div class="tab">
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab1')">Computers</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab2')">Smartphones</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab3')">Appliances</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab4')">4</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab5')">5</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab6')">6</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab100')">All</button>
-                        </div>
-                        
-                        <div id="tab1" class="tabcontent">
-                            <h3>Computers</h3>
-                            <p>Computers !!!</p>
-                                <div class="column">
-                                    <h3>Category 1</h3>
-                                    <a href="#rand">Link 1</a>
-                                    <a href="#rand">Link 2</a>
-                                    <a href="#rand">Link 3</a>
-                                </div>
-                                <div class="column">
-                                    <h3>Category 2</h3>
-                                    <a href="#rand">Link 1</a>
-                                    <a href="#rand">Link 2</a>
-                                    <a href="#rand">Link 3</a>
-                                </div>
-                                <div class="column">
-                                    <h3>Category 3</h3>
-                                    <a href="#rand">Link 1</a>
-                                    <a href="#rand">Link 2</a>
-                                    <a href="#rand">Link 3</a>
-                                </div>
-                        </div>
-                        
-                        <div id="tab2" class="tabcontent">
-                            <div class="column">
-                                <h3>Category 1</h3>
-                                <a href="#rand">Link 1</a>
-                                <a href="#rand">Link 2</a>
-                                <a href="#rand">Link 3</a>
-                            </div>
-                            <div class="column">
-                                <h3>Category 2</h3>
-                                <a href="#rand">Link 1</a>
-                                <a href="#rand">Link 2</a>
-                                <a href="#rand">Link 3</a>
-                            </div>
-                            <div class="column">
-                                <h3>Category 3</h3>
-                                <a href="#rand">Link 1</a>
-                                <a href="#rand">Link 2</a>
-                                <a href="#rand">Link 3</a>
-                            </div>
-                        </div>
-                        
-                        <div id="tab3" class="tabcontent">
-                            <h3>Samsung</h3>
-                            <p>Washing machines!</p>
-                        </div>
-
-                        <div id="tab4" class="tabcontent">
-                        
-                        </div>
-
-                        <div id="tab5" class="tabcontent">
-                        
-                        </div>
-
-                        <div id="tab6" class="tabcontent">
-                        
-                        </div>
-
-                        <div id="tab100" class="tabcontent">
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            </li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-                <div class="dropdown-content">
-                    <a href="#rand">Link 1</a>
-                    <a href="#rand">Link 2</a>
-                    <a href="#rand">Link 3</a>
-                </div>
-            </li>
-
-            <li>
-                <form class="search-bar" method="post">
-                    <label for="searchrequest">Search</label>
-                    <select name="select">
-                        <!--Supplement an id here instead of using 'name'-->
-                        <option value="value1">ebooks</option>
-                        <option value="value2" selected>All</option>
-                        <option value="value3">pc`s</option>
-                    </select>
-                    <input type="search" id="searchrequest" placeholder="I search...">
-                    <span class="material-icons-outlined">
-                        search
-                    </span>
-                    <button class="search-btn" type="submit">
-                        Search
-                    </button>
-                </form>
-            </li>
-
-
-            <li class="right">
-                <div class="spacer"></div>
-            </li>
-
-            <li class="right">
-                <a href="" class="dropbtn mico notification">
-                    <span class="icon material-icons-outlined">
-                        shopping_cart
-                    </span>
-                    <span class="badge">3</span>
-                    <!--<span>Cart</span>-->
-                </a>
-            </li>
-
-            <li class="right">
-                <a href="" class="dropbtn mico">
-                    <span class="icon material-icons-outlined">
-                        favorite
-                    </span>
-                    <!-- <span>WishList</span> -->
-                </a>
-            </li>
-
-            <li class="right">
-                <a class="fontawesome-icon" href="">
-                    <i class="icon fa-solid fa-scale-balanced"></i>
-                </a>
-                <!--  <a class="material-icon" href="#about">
-                                <span class="icon material-icons-outlined">
-                                    balance
-                                </span> </a> -->
-            </li>
-
-            <li class="right">
-                <a href="" class="dropbtn mico">
-                    <span class="icon material-icons-outlined">
-                        assignment
-                    </span>
-                    <span>Orders</span>
-                </a>
-            </li>
-            
-            <li class="right dropdown">
-                <a href="" class="dropbtn mico">
-                    <span class="icon material-icons">
-                        person
-                    </span>
-                    <span>Profile</span>
-                </a>
-                <div class="dropdown-content">
-                    <a href="#about">Wishlist</a>
-                    <a href="#about">Orders</a>
-                    <a href="#rand">Setting</a>
-                    <a href="#rand">Log Out</a>
-                    <a href="#about">Sigm In</a>
-                </div>
-            </li>
-
-            <li class="right">
-                <a class="material-icon" href="">
-                    <!-- dropdown youtoobe-->
-                    <span class="icon material-icons">
-                        notifications
-                    </span>
-                </a>
-            </li>
-
-
-            <!-- 
-            <li class="right">
-                <a class="fontawesome-icon" href="#about">
-                    <i class="fa-solid fa-bell"></i>
-                </a>
-            </li>
-            -->
-
-        </ul>
-    </nav>
-
-*/
-</script>
-
 
     <!-- NAVBAR END -->
 </header>
 
 <!-- main content -->
-<div class="main-content">
+<div class="main-content main" id="main">
 <main>
     <div class="left-bar">
 
@@ -920,12 +694,7 @@
             </div>
         </div>
 
-      
-
-
-
-
-
+    
         </div> <!-- products -->
     </div>
 </main>
@@ -934,13 +703,13 @@
 
 <!-- sidebar -->
 
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+</div>
 
 <!-- main footer -->
 <footer class="main-footer">
@@ -1076,28 +845,42 @@
 
     }
 
-    /* so that the menu is not hidden when zoom returns */
-    $(window).resize(function () {
-        if (($(document).width() > width_param) && (screen_mode == "desk")) {
-            $(".responsive").removeClass("responsive");
-            $(".hide-responsive").css("display", "block");
-            screen_mode = "desk";
-        }
+/* возващает меню что б не пропадало  */
 
-        if (($(document).width() <= width_param) && (screen_mode == "desk")) {
-            $(".responsive").removeClass("responsive");
-            $(".hide-responsive").css("display", "none");
-            screen_mode = "desk";
-        }
+$(window).resize(function () {
 
-        console.log("$(window).resize");
-    });
+    doc_width = document.body.clientWidth; /* $(document).width() dont work  */
 
-    /* Gamburger end */
 
-    /* sidebar - icon */
+    if ((doc_width > width_param) && (screen_mode == "desk")) {
+        $(".responsive").removeClass("responsive");
+        $(".hide-responsive").css("display", "block");
+        screen_mode = "desk";
+        console.log('remove respons');
+    }
+    if ((doc_width <= width_param) && (screen_mode == "desk")) {
+        $(".responsive").removeClass("responsive");
+        $(".hide-responsive").css("display", "none");
+        screen_mode = "desk";
+        console.log('remove respons');
 
-    /* sidebar - icon end */
+    }
+});
+
+/* при переходе в смарт короткие кнопки , а это делает широкие исправлено doc_width */
+function smart_fix()
+{
+    $("#myTopnav.topnav").addClass("responsive"); /* широкие кнопки */
+    $(".hide-responsive").css("display", "block");
+    screen_mode = "smart";
+}
+
+$(window).resize(function () {
+    
+    if (doc_width <= width_param)  {
+        // smart_fix();
+    }
+});
 
 
 </script>
