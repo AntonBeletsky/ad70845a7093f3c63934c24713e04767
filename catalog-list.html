@@ -63,62 +63,72 @@
 
     <div class="wrapper">
 
+
+
+
         <!-- main header -->
         <header class="main-header">
-            <!-- 
-    <div>shopy | 0800 500 10 95 |  курс валют | контакты оплата |  и доставка Харкьов UA | RUS </div>
-    -->
-            <!-- NAVBAR -->
-            <!-- TODO: NavBar here-->
 
-            <nav class="topnav fixed" id="myTopnav">
+            <!-- TODO: top nav container-->
+            <div class="nav-bar-container fixed">
 
-                <div class="topnav-base-block topnav-left-block hide-responsive">
+                <!--delete it if you don't need it -->
+                <div class="top-line-bar">shopy | 0800 500 10 95 | курс валют | контакты оплата | и доставка Харкьов UA
+                    | RUS
+                </div>
 
-                    <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive" onclick="openNav()">
-                        <i class="fa fa-bars"></i>
-                    </a>
+                <!-- NAVBAR -->
+                <!-- TODO: NavBar here-->
 
-                    <a href="#home" class="active">Home 1</a>
-                    <a href="#home" class="active">Home 2 </a>
-                    <a href="#news">News</a>
-                    <a href="#contact">Contact</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">Dropdown
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content fixed">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                <nav class="topnav fixed1" id="myTopnav-null">
+                    <div class="topnav-base-block topnav-left-block hide-responsive">
+
+                        <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive" onclick="openNav()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+
+                        <a href="#home" class="active">Home 1</a>
+                        <a href="#home" class="active">Home 2 </a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content fixed">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="topnav-base-block topnav-center-block hide-responsive">
+                        <div class="search-container">
+                            <form action="/action_page.php">
+                                <input type="text" placeholder="What you Search..." name="search">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
                         </div>
                     </div>
 
-                </div>
 
-                <div class="topnav-base-block topnav-center-block hide-responsive">
-                    <div class="search-container">
-                        <form action="/action_page.php">
-                            <input type="text" placeholder="What you Search..." name="search">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
+                    <div class="topnav-base-block topnav-right-block hide-responsive">
+                        <a href="#news">News 2</a>
+                        <a href="#search">Search</a>
+                        <a href="#about">About</a>
                     </div>
-                </div>
 
+                    <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
+                        <i class="fa fa-bars"></i>
+                    </a>
 
-                <div class="topnav-base-block topnav-right-block hide-responsive">
-                    <a href="#news">News 2</a>
-                    <a href="#search">Search</a>
-                    <a href="#about">About</a>
-                </div>
+                </nav>
 
-                <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
-                    <i class="fa fa-bars"></i>
-                </a>
-
-            </nav>
-
+            </div> <!-- nav-bar-container end -->
             <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
 
             <!-- NAVBAR END -->
         </header>

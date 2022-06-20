@@ -15,6 +15,27 @@ body {
   /* Used in this example to enable scrolling */
 }
 
+.nav-bar-container {
+  overflow: hidden;
+  background-color: #333;
+  /* position: fixed;  /* TODO:  fixed */
+  top: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  flex-basis: auto;
+
+  justify-content: space-around;
+  /* !!*/
+}
+
+.top-line-bar {
+  background-color: #f5f4dc;
+}
+
 .hide-responsive {
 }
 
