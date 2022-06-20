@@ -14,25 +14,25 @@
 
     <!-- CSS-->
     <link rel="stylesheet" href="./assets/css/normalize.css"> <!-- TODO: normalize.css -->
-    
+
     <!-- Add icon library  https://fontawesome.com/icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    
-    
+
+
     <!-- google icons -->
     <!-- https://material.io/resources/icons/?style=baseline -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-    
+
     <!-- https://material.io/resources/icons/?style=outline -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-    
+
     <!-- https://material.io/resources/icons/?style=round -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
-    
+
     <!-- https://material.io/resources/icons/?style=sharp -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
-    
+
     <!-- https://material.io/resources/icons/?style=twotone -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
 
@@ -50,233 +50,238 @@
     <link rel="stylesheet" href="./assets/css/product_page.css">
     <link rel="stylesheet" href="./assets/css/product_list.css">
     <link rel="stylesheet" href="./assets/css/breadcrumb.css">
-    
+
 </head>
+
 <body>
 
-<script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
 
-<div class="wrapper">
+    <div class="wrapper">
 
-<!-- main header -->
-<header class="main-header">
-    <div>shopy | 0800 500 10 95 |  курс валют | контакты оплата |  и доставка Харкьов UA | RUS </div>
-    <!-- NAVBAR -->
-    <nav>
-        <ul class="navbar">
-            <li><a class="active" href="#home">Home</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Pages</a>
-                <div class="dropdown-content">
-                    <a href="index-page.html">Index</a>
-                    <a href="categories-page.html">Categories</a>
-                    <a href="product-page.html">Product Page</a>
-                    <a href="order-page.html">Order-page</a>
-                    <a href="order-list.html">order list</a>
-                    <a href="wishlist-page.html">Wishlist</a>
-                    <a href="profile.html">prodile</a>
-                    <a href="sign-up.html">sign-up</a>
-                </div>
-            </li>
-            <li>
-                <!-- <a href="#news">News</a> -->
-                
-
-            <div class="mega-menu mega-dropdown">
-                <button class="mega-dropbtn">
-                    <i class="icon fa-solid fa-align-justify"></i>
-                    <span>Categoies</span>
-                </button>
-                <div class="mega-dropdown-content">
-                    <div class="header">
-                        <i class="fa-solid fa-align-justify"></i>
-                        <h2>Categoies</h2>
-                    </div>
-                    <div class="row">
-
-                        <div class="tab">
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab1')">Computers</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab2')">Smartphones</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab3')">Appliances</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab4')">4</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab5')">5</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab6')">6</button>
-                            <button class="tablinks" onmouseover="openCategory(event, 'tab100')">All</button>
+        <!-- main header -->
+        <header class="main-header">
+            <div>shopy | 0800 500 10 95 | курс валют | контакты оплата | и доставка Харкьов UA | RUS </div>
+            <!-- NAVBAR -->
+            <nav>
+                <ul class="navbar">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Pages</a>
+                        <div class="dropdown-content">
+                            <a href="index-page.html">Index</a>
+                            <a href="categories-page.html">Categories</a>
+                            <a href="product-page.html">Product Page</a>
+                            <a href="order-page.html">Order-page</a>
+                            <a href="order-list.html">order list</a>
+                            <a href="wishlist-page.html">Wishlist</a>
+                            <a href="profile.html">prodile</a>
+                            <a href="sign-up.html">sign-up</a>
                         </div>
-                        
-                        <div id="tab1" class="tabcontent">
-                            <h3>Computers</h3>
-                            <p>Computers !!!</p>
-                                <div class="column">
-                                    <h3>Category 1</h3>
-                                    <a href="#rand">Link 1</a>
-                                    <a href="#rand">Link 2</a>
-                                    <a href="#rand">Link 3</a>
+                    </li>
+                    <li>
+                        <!-- <a href="#news">News</a> -->
+
+
+                        <div class="mega-menu mega-dropdown">
+                            <button class="mega-dropbtn">
+                                <i class="icon fa-solid fa-align-justify"></i>
+                                <span>Categoies</span>
+                            </button>
+                            <div class="mega-dropdown-content">
+                                <div class="header">
+                                    <i class="fa-solid fa-align-justify"></i>
+                                    <h2>Categoies</h2>
                                 </div>
-                                <div class="column">
-                                    <h3>Category 2</h3>
-                                    <a href="#rand">Link 1</a>
-                                    <a href="#rand">Link 2</a>
-                                    <a href="#rand">Link 3</a>
+                                <div class="row">
+
+                                    <div class="tab">
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab1')">Computers</button>
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab2')">Smartphones</button>
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab3')">Appliances</button>
+                                        <button class="tablinks" onmouseover="openCategory(event, 'tab4')">4</button>
+                                        <button class="tablinks" onmouseover="openCategory(event, 'tab5')">5</button>
+                                        <button class="tablinks" onmouseover="openCategory(event, 'tab6')">6</button>
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab100')">All</button>
+                                    </div>
+
+                                    <div id="tab1" class="tabcontent">
+                                        <h3>Computers</h3>
+                                        <p>Computers !!!</p>
+                                        <div class="column">
+                                            <h3>Category 1</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 2</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 3</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab2" class="tabcontent">
+                                        <div class="column">
+                                            <h3>Category 1</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 2</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 3</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab3" class="tabcontent">
+                                        <h3>Samsung</h3>
+                                        <p>Washing machines!</p>
+                                    </div>
+
+                                    <div id="tab4" class="tabcontent">
+
+                                    </div>
+
+                                    <div id="tab5" class="tabcontent">
+
+                                    </div>
+
+                                    <div id="tab6" class="tabcontent">
+
+                                    </div>
+
+                                    <div id="tab100" class="tabcontent">
+
+                                    </div>
+
+
                                 </div>
-                                <div class="column">
-                                    <h3>Category 3</h3>
-                                    <a href="#rand">Link 1</a>
-                                    <a href="#rand">Link 2</a>
-                                    <a href="#rand">Link 3</a>
-                                </div>
-                        </div>
-                        
-                        <div id="tab2" class="tabcontent">
-                            <div class="column">
-                                <h3>Category 1</h3>
-                                <a href="#rand">Link 1</a>
-                                <a href="#rand">Link 2</a>
-                                <a href="#rand">Link 3</a>
-                            </div>
-                            <div class="column">
-                                <h3>Category 2</h3>
-                                <a href="#rand">Link 1</a>
-                                <a href="#rand">Link 2</a>
-                                <a href="#rand">Link 3</a>
-                            </div>
-                            <div class="column">
-                                <h3>Category 3</h3>
-                                <a href="#rand">Link 1</a>
-                                <a href="#rand">Link 2</a>
-                                <a href="#rand">Link 3</a>
+
                             </div>
                         </div>
-                        
-                        <div id="tab3" class="tabcontent">
-                            <h3>Samsung</h3>
-                            <p>Washing machines!</p>
+
+
+
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                        <div class="dropdown-content">
+                            <a href="#rand">Link 1</a>
+                            <a href="#rand">Link 2</a>
+                            <a href="#rand">Link 3</a>
                         </div>
+                    </li>
 
-                        <div id="tab4" class="tabcontent">
-                        
-                        </div>
-
-                        <div id="tab5" class="tabcontent">
-                        
-                        </div>
-
-                        <div id="tab6" class="tabcontent">
-                        
-                        </div>
-
-                        <div id="tab100" class="tabcontent">
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
+                    <li>
+                        <form class="search-bar" method="post">
+                            <label for="searchrequest">Search</label>
+                            <select name="select">
+                                <!--Supplement an id here instead of using 'name'-->
+                                <option value="value1">ebooks</option>
+                                <option value="value2" selected>All</option>
+                                <option value="value3">pc`s</option>
+                            </select>
+                            <input type="search" id="searchrequest" placeholder="I search...">
+                            <span class="material-icons-outlined">
+                                search
+                            </span>
+                            <button class="search-btn" type="submit">
+                                Search
+                            </button>
+                        </form>
+                    </li>
 
 
+                    <li class="right">
+                        <div class="spacer"></div>
+                    </li>
 
-            </li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-                <div class="dropdown-content">
-                    <a href="#rand">Link 1</a>
-                    <a href="#rand">Link 2</a>
-                    <a href="#rand">Link 3</a>
-                </div>
-            </li>
+                    <li class="right">
+                        <a href="" class="dropbtn mico notification">
+                            <span class="icon material-icons-outlined">
+                                shopping_cart
+                            </span>
+                            <span class="badge">3</span>
+                            <!--<span>Cart</span>-->
+                        </a>
+                    </li>
 
-            <li>
-                <form class="search-bar" method="post">
-                    <label for="searchrequest">Search</label>
-                    <select name="select">
-                        <!--Supplement an id here instead of using 'name'-->
-                        <option value="value1">ebooks</option>
-                        <option value="value2" selected>All</option>
-                        <option value="value3">pc`s</option>
-                    </select>
-                    <input type="search" id="searchrequest" placeholder="I search...">
-                    <span class="material-icons-outlined">
-                        search
-                    </span>
-                    <button class="search-btn" type="submit">
-                        Search
-                    </button>
-                </form>
-            </li>
+                    <li class="right">
+                        <a href="" class="dropbtn mico">
+                            <span class="icon material-icons-outlined">
+                                favorite
+                            </span>
+                            <!-- <span>WishList</span> -->
+                        </a>
+                    </li>
 
-
-            <li class="right">
-                <div class="spacer"></div>
-            </li>
-
-            <li class="right">
-                <a href="" class="dropbtn mico notification">
-                    <span class="icon material-icons-outlined">
-                        shopping_cart
-                    </span>
-                    <span class="badge">3</span>
-                    <!--<span>Cart</span>-->
-                </a>
-            </li>
-
-            <li class="right">
-                <a href="" class="dropbtn mico">
-                    <span class="icon material-icons-outlined">
-                        favorite
-                    </span>
-                    <!-- <span>WishList</span> -->
-                </a>
-            </li>
-
-            <li class="right">
-                <a class="fontawesome-icon" href="">
-                    <i class="icon fa-solid fa-scale-balanced"></i>
-                </a>
-                <!--  <a class="material-icon" href="#about">
+                    <li class="right">
+                        <a class="fontawesome-icon" href="">
+                            <i class="icon fa-solid fa-scale-balanced"></i>
+                        </a>
+                        <!--  <a class="material-icon" href="#about">
                                 <span class="icon material-icons-outlined">
                                     balance
                                 </span> </a> -->
-            </li>
+                    </li>
 
-            <li class="right">
-                <a href="" class="dropbtn mico">
-                    <span class="icon material-icons-outlined">
-                        assignment
-                    </span>
-                    <span>Orders</span>
-                </a>
-            </li>
-            
-            <li class="right dropdown">
-                <a href="" class="dropbtn mico">
-                    <span class="icon material-icons">
-                        person
-                    </span>
-                    <span>Profile</span>
-                </a>
-                <div class="dropdown-content">
-                    <a href="#about">Wishlist</a>
-                    <a href="#about">Orders</a>
-                    <a href="#rand">Setting</a>
-                    <a href="#rand">Log Out</a>
-                    <a href="#about">Sigm In</a>
-                </div>
-            </li>
+                    <li class="right">
+                        <a href="" class="dropbtn mico">
+                            <span class="icon material-icons-outlined">
+                                assignment
+                            </span>
+                            <span>Orders</span>
+                        </a>
+                    </li>
 
-            <li class="right">
-                <a class="material-icon" href="">
-                    <!-- dropdown youtoobe-->
-                    <span class="icon material-icons">
-                        notifications
-                    </span>
-                </a>
-            </li>
+                    <li class="right dropdown">
+                        <a href="" class="dropbtn mico">
+                            <span class="icon material-icons">
+                                person
+                            </span>
+                            <span>Profile</span>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="#about">Wishlist</a>
+                            <a href="#about">Orders</a>
+                            <a href="#rand">Setting</a>
+                            <a href="#rand">Log Out</a>
+                            <a href="#about">Sigm In</a>
+                        </div>
+                    </li>
+
+                    <li class="right">
+                        <a class="material-icon" href="">
+                            <!-- dropdown youtoobe-->
+                            <span class="icon material-icons">
+                                notifications
+                            </span>
+                        </a>
+                    </li>
 
 
-            <!-- 
+                    <!-- 
             <li class="right">
                 <a class="fontawesome-icon" href="#about">
                     <i class="fa-solid fa-bell"></i>
@@ -284,705 +289,712 @@
             </li>
             -->
 
-        </ul>
-    </nav>
-
-</header>
-
-<!-- main content -->
-<div class="main-content">
-<main>
-    <div class="left-bar">
-
-        <div class="left-box">
-
-            <header>
-                <h2>Categories</h2>
-            </header>
-
-            <button class="accordion">
-                Section 1
-            </button>
-            <div class="panel">
-                <div class="vertical-menu">
-                    <a href="#" class="active">Home</a>
-                    <a href="#rand">Link 1</a>
-                    <a href="#rand">Link 2</a>
-                    <a href="#rand">Link 3</a>
-                    <a href="#rand">Link 4</a>
-                </div>
-            </div>
-            
-            <button class="accordion">Section 2</button>
-            <div class="panel">
-                <div class="vertical-menu">
-                    <a href="#" class="active">Home</a>
-                    <a href="#rand">Link 1</a>
-                    <a href="#rand">Link 2</a>
-                    <a href="#rand">Link 3</a>
-                    <a href="#rand">Link 4</a>
-                </div>
-            </div>
-            
-            <button class="accordion">Section 3</button>
-            <div class="panel">
-                <div class="vertical-menu">
-                    <a href="#" class="active">Home</a>
-                    <a href="#rand">Link 1</a>
-                    <a href="#rand">Link 2</a>
-                    <a href="#rand">Link 3</a>
-                    <a href="#rand">Link 4</a>
-                </div>
-            </div>
-                            
-        </div>
-
-
-        <div class="left-box">
-        
-            <header>
-                <h2>Filters</h2>
-            </header>
-        
-            <button class="accordion">Section 1</button>
-            <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-            </div>
-            
-            <button class="accordion">Section 2</button>
-            <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-            </div>
-            
-            <button class="accordion">Section 3</button>
-            <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-            </div>
-        
-        </div>
-
-
-    </div>
-
-    <div class="page-content">
-        <header class="page-content-header">
-
-            <nav>
-                <ul class="breadcrumb">
-                    <li><a href="#rand">
-                        <i class="fa fa-home"></i>
-                    </a></li>
-                    <li><a href="#rand">Pictures</a></li>
-                    <li><a href="#rand">Summer 15</a></li>
-                    <li>Italy</li>
                 </ul>
             </nav>
-     
 
-            <div class="products-list-header"> 
-                <h1>Computers</h1>
-
-                <div class="grid-buttons">
-
-                <div class="custom-select" style="width:200px;">
-                    <select>
-                        <option value="0">Select sort:</option>
-                        <option value="1">Rairing</option>
-                        <option value="2">Low Price</option>
-                        <option value="3">Custum review</option>
-                    </select>
-                </div>
-
-
-
-                    
-                    <button class="grid-btn" id="set_list">
-                        <span class="material-icons-sharp grid-icon">
-                            view_list
-                        </span>
-                    </button>
-
-                    <button class="grid-btn" id="set_grid">
-                        <span class="material-icons-sharp grid-icon">
-                            grid_view
-                        </span>
-                    </button>
-
-                </div>
-            </div>
         </header>
 
-        <!-- PRODUCTS -->
-        <!-- <div class="products catalog-view-list"> -->
-        <div class="products catalog-view-grid">
+        <!-- main content -->
+        <div class="main-content">
+            <main>
+                <div class="left-bar">
 
-        <!-- --->
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting 
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-                    
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
+                    <div class="left-box">
+
+                        <header>
+                            <h2>Categories</h2>
+                        </header>
+
+                        <button class="accordion">
+                            Section 1
+                        </button>
+                        <div class="panel">
+                            <div class="vertical-menu">
+                                <a href="#" class="active">Home</a>
+                                <a href="#rand">Link 1</a>
+                                <a href="#rand">Link 2</a>
+                                <a href="#rand">Link 3</a>
+                                <a href="#rand">Link 4</a>
+                            </div>
                         </div>
-                        <div>
-                            <p>$150 USD</p>
+
+                        <button class="accordion">Section 2</button>
+                        <div class="panel">
+                            <div class="vertical-menu">
+                                <a href="#" class="active">Home</a>
+                                <a href="#rand">Link 1</a>
+                                <a href="#rand">Link 2</a>
+                                <a href="#rand">Link 3</a>
+                                <a href="#rand">Link 4</a>
+                            </div>
                         </div>
-                    
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
+
+                        <button class="accordion">Section 3</button>
+                        <div class="panel">
+                            <div class="vertical-menu">
+                                <a href="#" class="active">Home</a>
+                                <a href="#rand">Link 1</a>
+                                <a href="#rand">Link 2</a>
+                                <a href="#rand">Link 3</a>
+                                <a href="#rand">Link 4</a>
+                            </div>
                         </div>
-                    
+
                     </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn addet" href="#"><i class="fa fa-shopping-cart"></i></a>                
+
+
+                    <div class="left-box">
+
+                        <header>
+                            <h2>Filters</h2>
+                        </header>
+
+                        <button class="accordion">Section 1</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo
+                                consequat.</p>
+                        </div>
+
+                        <button class="accordion">Section 2</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo
+                                consequat.</p>
+                        </div>
+
+                        <button class="accordion">Section 3</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo
+                                consequat.</p>
+                        </div>
+
                     </div>
+
+
                 </div>
-        
-            </div>
+
+                <div class="page-content">
+                    <header class="page-content-header">
+
+                        <nav>
+                            <ul class="breadcrumb">
+                                <li><a href="#rand">
+                                        <i class="fa fa-home"></i>
+                                    </a></li>
+                                <li><a href="#rand">Pictures</a></li>
+                                <li><a href="#rand">Summer 15</a></li>
+                                <li>Italy</li>
+                            </ul>
+                        </nav>
+
+
+                        <div class="products-list-header">
+                            <h1>Computers</h1>
+
+                            <div class="grid-buttons">
+
+                                <div class="custom-select" style="width:200px;">
+                                    <select>
+                                        <option value="0">Select sort:</option>
+                                        <option value="1">Rairing</option>
+                                        <option value="2">Low Price</option>
+                                        <option value="3">Custum review</option>
+                                    </select>
+                                </div>
+
+
+
+
+                                <button class="grid-btn" id="set_list">
+                                    <span class="material-icons-sharp grid-icon">
+                                        view_list
+                                    </span>
+                                </button>
+
+                                <button class="grid-btn" id="set_grid">
+                                    <span class="material-icons-sharp grid-icon">
+                                        grid_view
+                                    </span>
+                                </button>
+
+                            </div>
+                        </div>
+                    </header>
+
+                    <!-- PRODUCTS -->
+                    <!-- <div class="products catalog-view-list"> -->
+                    <div class="products catalog-view-grid">
+
+                        <!-- --->
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn addet" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn addet" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn addet" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn addet" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- product item -->
+                        <div class="product-card">
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                <span class="checkmark" pid="1" checked="1"></span>
+                            </label>
+
+                            <div class="card-img-top-container">
+                                <div class="card-img-top"
+                                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
+
+                                </div>
+                            </div>
+
+                            <div class="product-card-body">
+                                <div class="product-card-text">
+                                    <a href="#rand">
+                                        <h3 class="card-title">Product name 3 </h3>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting
+                                        text below as a natural lead-in to additional
+                                        content. This content is a little bit longer.</p>
+
+                                    <div class="price-container">
+                                        <div>
+                                            <p><s>$250 USD</s></p>
+                                        </div>
+                                        <div>
+                                            <p>$150 USD</p>
+                                        </div>
+
+                                        <div class="star-rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="#rand"><span>2589 отзывов </span></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="product-icons-container">
+                                    <div class="product-icons">
+                                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                    </div> <!-- products -->
+                </div>
+            </main>
         </div>
 
-
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-        
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
-                        </div>
-                        <div>
-                            <p>$150 USD</p>
-                        </div>
-        
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
-                        </div>
-        
-                    </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn addet" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-        
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
-                        </div>
-                        <div>
-                            <p>$150 USD</p>
-                        </div>
-        
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
-                        </div>
-        
-                    </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn addet" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn addet" href="#"><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-        
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
-                        </div>
-                        <div>
-                            <p>$150 USD</p>
-                        </div>
-        
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
-                        </div>
-        
-                    </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-        
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
-                        </div>
-                        <div>
-                            <p>$150 USD</p>
-                        </div>
-        
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
-                        </div>
-        
-                    </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-        
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
-                        </div>
-                        <div>
-                            <p>$150 USD</p>
-                        </div>
-        
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
-                        </div>
-        
-                    </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-        
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
-                        </div>
-                        <div>
-                            <p>$150 USD</p>
-                        </div>
-        
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
-                        </div>
-        
-                    </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-
-        <!-- product item -->
-        <div class="product-card">
-        
-            <label class="checkbox-container">
-                <input type="checkbox">
-                <span class="checkmark" pid="1" checked="1"></span>
-            </label>
-        
-            <div class="card-img-top-container">
-                <div class="card-img-top"
-                    style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyGm54CjTIuIQoh-_O5L6ku-9dMFuekawpg&amp;usqp=CAU');">
-        
-                </div>
-            </div>
-        
-            <div class="product-card-body">
-                <div class="product-card-text">
-                    <a href="#rand">
-                        <h3 class="card-title">Product name 3 </h3>
-                    </a>
-                    <p class="card-text">This is a longer card with supporting
-                        text below as a natural lead-in to additional
-                        content. This content is a little bit longer.</p>
-        
-                    <div class="price-container">
-                        <div>
-                            <p><s>$250 USD</s></p>
-                        </div>
-                        <div>
-                            <p>$150 USD</p>
-                        </div>
-        
-                        <div class="star-rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <a href="#rand"><span>2589 отзывов </span></a>
-                        </div>
-        
-                    </div>
-                </div>
-                <div class="product-icons-container">
-                    <div class="product-icons">
-                        <a class="btn" href="#"><i class="fa fa-heart"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-scale-balanced"></i></a>
-                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i></a>
-                    </div>
-                </div>
-        
-            </div>
-        </div>
-
-      
+        <!-- main footer -->
+        <footer class="main-footer">
+            main-footer
+        </footer>
 
 
 
+    </div> <!-- wrapper end--->
 
 
-        </div> <!-- products -->
-    </div>
-</main>
-</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 
-<!-- main footer -->
-<footer class="main-footer">
-    main-footer
-</footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/mega_menu.js"></script>
+    <script src="./assets/js/set_grid.js"></script>
 
-
-
-</div> <!-- wrapper end--->
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
-
-<script src="./assets/js/script.js"></script>
-<script src="./assets/js/accordion.js"></script>
-<script src="./assets/js/jquery-3.6.0.js"></script>
-<script src="./assets/js/mega_menu.js"></script>
-<script src="./assets/js/set_grid.js"></script>
-
-<!-- select -->
-<script>
-    var x, i, j, l, ll, selElmnt, a, b, c;
-    /*look for any elements with the class "custom-select":*/
-    x = document.getElementsByClassName("custom-select");
-    l = x.length;
-    for (i = 0; i < l; i++) {
-        selElmnt = x[i].getElementsByTagName("select")[0];
-        ll = selElmnt.length;
-        /*for each element, create a new DIV that will act as the selected item:*/
-        a = document.createElement("DIV");
-        a.setAttribute("class", "select-selected");
-        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-        x[i].appendChild(a);
-        /*for each element, create a new DIV that will contain the option list:*/
-        b = document.createElement("DIV");
-        b.setAttribute("class", "select-items select-hide");
-        for (j = 1; j < ll; j++) {
-            /*for each option in the original select element,
-            create a new DIV that will act as an option item:*/
-            c = document.createElement("DIV");
-            c.innerHTML = selElmnt.options[j].innerHTML;
-            c.addEventListener("click", function (e) {
-                /*when an item is clicked, update the original select box,
-                and the selected item:*/
-                var y, i, k, s, h, sl, yl;
-                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-                sl = s.length;
-                h = this.parentNode.previousSibling;
-                for (i = 0; i < sl; i++) {
-                    if (s.options[i].innerHTML == this.innerHTML) {
-                        s.selectedIndex = i;
-                        h.innerHTML = this.innerHTML;
-                        y = this.parentNode.getElementsByClassName("same-as-selected");
-                        yl = y.length;
-                        for (k = 0; k < yl; k++) {
-                            y[k].removeAttribute("class");
+    <!-- select -->
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select":*/
+        x = document.getElementsByClassName("custom-select");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            ll = selElmnt.length;
+            /*for each element, create a new DIV that will act as the selected item:*/
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            /*for each element, create a new DIV that will contain the option list:*/
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items select-hide");
+            for (j = 1; j < ll; j++) {
+                /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function (e) {
+                    /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+                    var y, i, k, s, h, sl, yl;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    sl = s.length;
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < sl; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected");
+                            yl = y.length;
+                            for (k = 0; k < yl; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected");
+                            break;
                         }
-                        this.setAttribute("class", "same-as-selected");
-                        break;
                     }
-                }
-                h.click();
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function (e) {
+                /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide");
+                this.classList.toggle("select-arrow-active");
             });
-            b.appendChild(c);
         }
-        x[i].appendChild(b);
-        a.addEventListener("click", function (e) {
-            /*when the select box is clicked, close any other select boxes,
-            and open/close the current select box:*/
-            e.stopPropagation();
-            closeAllSelect(this);
-            this.nextSibling.classList.toggle("select-hide");
-            this.classList.toggle("select-arrow-active");
-        });
-    }
-    function closeAllSelect(elmnt) {
-        /*a function that will close all select boxes in the document,
-        except the current select box:*/
-        var x, y, i, xl, yl, arrNo = [];
-        x = document.getElementsByClassName("select-items");
-        y = document.getElementsByClassName("select-selected");
-        xl = x.length;
-        yl = y.length;
-        for (i = 0; i < yl; i++) {
-            if (elmnt == y[i]) {
-                arrNo.push(i)
-            } else {
-                y[i].classList.remove("select-arrow-active");
+        function closeAllSelect(elmnt) {
+            /*a function that will close all select boxes in the document,
+            except the current select box:*/
+            var x, y, i, xl, yl, arrNo = [];
+            x = document.getElementsByClassName("select-items");
+            y = document.getElementsByClassName("select-selected");
+            xl = x.length;
+            yl = y.length;
+            for (i = 0; i < yl; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active");
+                }
+            }
+            for (i = 0; i < xl; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide");
+                }
             }
         }
-        for (i = 0; i < xl; i++) {
-            if (arrNo.indexOf(i)) {
-                x[i].classList.add("select-hide");
-            }
-        }
-    }
-    /*if the user clicks anywhere outside the select box,
-    then close all select boxes:*/
-    document.addEventListener("click", closeAllSelect);
-</script>
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+    </script>
 
 
 
 
-<script src="./assets/js/onload_categories.js"></script>
+    <script src="./assets/js/onload_categories.js"></script>
 
 
 
 
-<!-- <script src="https://kit.fontawesome.com/ad126f550b.js" crossorigin="anonymous"></script>   -->
+    <!-- <script src="https://kit.fontawesome.com/ad126f550b.js" crossorigin="anonymous"></script>   -->
 
 
 </body>
+
 </html>
