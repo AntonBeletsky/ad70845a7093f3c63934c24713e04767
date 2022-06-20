@@ -195,7 +195,8 @@ body {
 
 @media screen and (max-width: 600px) {
   /* этот класс в самый вверх !!!*/
-  .topnav a.sidebar-icon {
+  .topnav a.sidebar-icon,
+  .top-line-bar {
     display: none;
   }
 
