@@ -1,0 +1,7 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/--* */
+
+:root {
+  --top-line-bar-height-px: 20px;
+  --top-nav-height-px: 60px;
+  --top-container-height-px: calc(var(--top-line-bar-px)+ var(--top-nav-px)) px;
+}
