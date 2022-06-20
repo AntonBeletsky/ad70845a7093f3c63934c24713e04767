@@ -192,7 +192,7 @@ body {
 }
 
 /* media в отдельній файл нахуй */
-
+/* todo: smart 600px */
 @media screen and (max-width: 600px) {
   /* этот класс в самый вверх !!!*/
   .topnav a.sidebar-icon,
