@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efde4d15-555d-42be-b149-bb3ddca749fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ad70845a7093f3c63934c24713e04767.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ad70845a7093f3c63934c24713e04767.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/leftbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/leftbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-list copy.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,7 @@
       <workItem from="1655401041036" duration="13000" />
       <workItem from="1655401067587" duration="87000" />
       <workItem from="1655401165776" duration="6000" />
+      <workItem from="1655720456472" duration="101000" />
     </task>
     <servers />
   </component>
@@ -55,10 +51,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="401" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1655400032819" />
-    <state x="716" y="340" key="#Notifications" timestamp="1655401080796">
+    <state x="716" y="340" key="#Notifications" timestamp="1655720537773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="716" y="340" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1655401080796" />
+    <state x="716" y="340" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1655720537773" />
     <state x="220" y="125" width="1536" height="866" key="SettingsEditor" timestamp="1655401151821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
