@@ -66,8 +66,8 @@ body {
   /*margin-top: 1px;
   margin-bottom: 3px;*/
 
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 /* flex item for .topnav  */
@@ -116,10 +116,19 @@ body {
 
 .topnav a.active {
   background-color: #04aa6d;
+  font-weight: bolder;
+
   /*color: white;*/
 }
 
 /* search */
+.topnav .search-container {
+  margin-top: 1px;
+  margin-bottom: 1px;
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
 .topnav .search-container,
 .topnav .search-container form {
   /*float: right; */
@@ -129,26 +138,41 @@ body {
   flex-wrap: nowrap;
 }
 
+.topnav .search-container input:focus {
+  /*background-color: #f5f4dc; /* back */
+  background-color: #dcebf5;
+  color: black;
+  font-weight: bold;
+  outline: none;
+}
+
+.topnav input[type="text"],
+.topnav .search-container button {
+  margin-top: 6px; /* 8 */
+  font-size: 17px;
+}
+
 .topnav input[type="text"] {
   padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
   border: none;
+  background-color: #f5f4dc;
 }
 
 .topnav .search-container button {
   /* float: right; */
   padding: 6px 10px;
-  margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
+  background: #97a2a8;
   border: none;
   cursor: pointer;
 }
 
+/* TODO: search style here */
 .topnav .search-container button:hover {
-  background: #ccc;
+  background: #97a2a8;
+  /*background-color: #dcebf5;*/
+
+  color: #f5f4dc;
 }
 
 /******************* dropdown *******************/
@@ -178,7 +202,7 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
-  margin-top: 3px; /* TODO: see top nav margin-tuttom*/
+  margin-top: 1px; /* TODO: see top nav */
 }
 
 .dropdown-content a {
@@ -200,7 +224,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #f5f4dc;
   color: black;
 }
 
@@ -441,6 +465,12 @@ ul.navbar .dropdown:hover .dropdown-content {
   width: 500px;
   height: 40px;
   font-size: 22px;
+}
+
+.search-bar:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .search-bar .search-btn {
