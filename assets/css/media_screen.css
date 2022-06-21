@@ -42,7 +42,7 @@
     flex-wrap: wrap;
   }
 
-  .topnav a:not(.fuck-in-responsive),
+  .topnav a:not(.hide-in-responsive),
       /* TODO: a */
       .topnav input[type=text],
       .topnav .search-container button {
@@ -84,7 +84,7 @@
   }
 
   /* TODO: a */
-  .topnav.responsive a:not(.fuck-in-responsive) {
+  .topnav.responsive a:not(.hide-in-responsive) {
     float: none;
     display: block;
     text-align: left;
@@ -103,6 +103,8 @@
 
   .topnav.responsive .dropdown-content {
     position: relative;
+
+    /* TODO: 12345*/
   }
 
   .topnav.responsive .dropdown .dropbtn {
@@ -181,7 +183,7 @@
     /* костіль */
   }
 
-  .fuck-in-responsive {
+  .hide-in-responsive {
     display: none;
     /* костіль */
     /* display: none !important; /* костіль */

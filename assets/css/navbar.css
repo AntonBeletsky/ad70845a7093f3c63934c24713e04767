@@ -61,8 +61,13 @@ body {
 
   flex-basis: auto;
 
-  justify-content: space-around;
-  /* !!*/
+  justify-content: space-around; /* !!*/
+
+  /*margin-top: 1px;
+  margin-bottom: 3px;*/
+
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 /* flex item for .topnav  */
@@ -93,12 +98,16 @@ body {
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #f5f4dc;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
+
+/*.topnav button.dropbtn {
+  color: #f5f4dc;
+}*/
 
 .topnav a:hover {
   background-color: #ddd;
@@ -107,7 +116,7 @@ body {
 
 .topnav a.active {
   background-color: #04aa6d;
-  color: white;
+  /*color: white;*/
 }
 
 /* search */
@@ -153,7 +162,7 @@ body {
   font-size: 17px;
   border: none;
   outline: none;
-  color: white;
+  color: #f5f4dc;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -164,18 +173,24 @@ body {
   display: none;
   /*position: absolute;*/
   /*position: fixed; /* ! */
-  background-color: #f9f9f9;
+  background-color: #333333;
+  color: #f5f4dc;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+  margin-top: 3px; /* TODO: see top nav margin-tuttom*/
 }
 
 .dropdown-content a {
   float: none;
-  color: black;
+  /*color: black;*/
+  color: #f5f4dc;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+
+  font-weight: bold;
 }
 
 .topnav a:hover,
@@ -201,8 +216,7 @@ body {
 
 /* sidebar-icon */
 .sidebar-icon {
-  color: chartreuse;
-  background-color: #fa5df5;
+  /*background-color: #333333; parent use*/
 }
 
 /* TODO: SIDEBAT HERE AAAA*/
