@@ -60,7 +60,7 @@ $(window).resize(function () {
 */
 
 function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("isidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
 
   console.log("openNav");
@@ -68,7 +68,7 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("isidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 
   document.getElementById("itopnav").style.marginLeft = "0px";
