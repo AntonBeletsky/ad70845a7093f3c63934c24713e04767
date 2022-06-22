@@ -253,6 +253,7 @@ body {
   top: 0;
   left: 0;
   background-color: #111;
+  color: #f5f4dc;
   overflow-x: hidden;
   transition: 0.5s;
 
@@ -265,13 +266,15 @@ body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  /*color: #818181;*/
+  color: #97a2a8;
   display: block;
-  transition: 0.3s;
+  transition: 0.2s linear;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: #f5f4dc;
+  text-shadow: 5px -5px 30px #f5f4dc, -1px -1px 0 #f5f4dc;
 }
 
 .sidebar .closebtn {
