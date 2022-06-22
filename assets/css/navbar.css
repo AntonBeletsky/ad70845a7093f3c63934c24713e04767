@@ -135,6 +135,11 @@ body {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+
+.topnav .search-container .ui-item {
+  /* вывести общее за скобки */
+}
+
 .topnav .search-container,
 .topnav .search-container form {
   /*float: right; */
@@ -142,6 +147,10 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+.topnav .search-container .search-select {
+  /* go select-search.css*/
 }
 
 .topnav .search-container input:focus {
@@ -160,7 +169,9 @@ body {
 }
 
 .topnav input[type="text"] {
-  padding: 6px;
+  /*padding: 6px;*/
+  padding-top: 6px;
+  padding-bottom: 6px;
   border: none;
   /*background-color: #f5f4dc;*/
   background-color: #dcebf5;
