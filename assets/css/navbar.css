@@ -109,13 +109,19 @@ body {
   color: #f5f4dc;
 }*/
 
+/* see  
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #84a9bf;
+  color: #fafafa;
 }
+*/
 
 .topnav a.active {
-  background-color: #04aa6d;
+  background-color: #1b594e;
   font-weight: bolder;
 
   /*color: white;*/
@@ -140,7 +146,8 @@ body {
 
 .topnav .search-container input:focus {
   /*background-color: #f5f4dc; /* back */
-  background-color: #dcebf5;
+  background-color: #e3f9fc;
+  /*background-color: #fcfae3;*/
   color: black;
   font-weight: bold;
   outline: none;
@@ -155,7 +162,8 @@ body {
 .topnav input[type="text"] {
   padding: 6px;
   border: none;
-  background-color: #f5f4dc;
+  /*background-color: #f5f4dc;*/
+  background-color: #dcebf5;
 }
 
 .topnav .search-container button {
@@ -219,8 +227,8 @@ body {
 
 .topnav a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
+  background-color: #84a9bf;
+  color: #fafafa;
 }
 
 .dropdown-content a:hover {
@@ -252,7 +260,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #020001;
   color: #f5f4dc;
   overflow-x: hidden;
   transition: 0.5s;
@@ -267,7 +275,8 @@ body {
   text-decoration: none;
   font-size: 25px;
   /*color: #818181;*/
-  color: #97a2a8;
+  /*color: #84a9bf;*/
+  color: #9eaeb0;
   display: block;
   transition: 0.2s linear;
 }
