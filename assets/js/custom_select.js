@@ -1,13 +1,21 @@
+var selectClassNameItem = "custom-select";
+var selectTagName = "select";
+
+var selectItemsClassName = "select-items";
+var select_select_selected = "select-selected";
+
+/* -------------------------------------------------------------------- */
+
 var x, i, j, l, ll, selElmnt, a, b, c;
-/*look for any elements with the class "custom-select":*/
-x = document.getElementsByClassName("custom-select");
+/*look for any elements with the class selectClassNameItem:*/
+x = document.getElementsByClassName(selectClassNameItem);
 l = x.length;
 for (i = 0; i < l; i++) {
-  selElmnt = x[i].getElementsByTagName("select")[0];
+  selElmnt = x[i].getElementsByTagName(selectTagName)[0];
   ll = selElmnt.length;
   /*for each element, create a new DIV that will act as the selected item:*/
   a = document.createElement("DIV");
-  a.setAttribute("class", "select-selected");
+  a.setAttribute("class", select_select_selected);
   a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
   x[i].appendChild(a);
   /*for each element, create a new DIV that will contain the option list:*/
@@ -22,7 +30,7 @@ for (i = 0; i < l; i++) {
       /*when an item is clicked, update the original select box,
             and the selected item:*/
       var y, i, k, s, h, sl, yl;
-      s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+      s = this.parentNode.parentNode.getElementsByTagName(selectTagName)[0];
       sl = s.length;
       h = this.parentNode.previousSibling;
       for (i = 0; i < sl; i++) {
@@ -61,8 +69,8 @@ function closeAllSelect(elmnt) {
     xl,
     yl,
     arrNo = [];
-  x = document.getElementsByClassName("select-items");
-  y = document.getElementsByClassName("select-selected");
+  x = document.getElementsByClassName(selectItemsClassName);
+  y = document.getElementsByClassName(select_select_selected);
   xl = x.length;
   yl = y.length;
   for (i = 0; i < yl; i++) {
