@@ -52,7 +52,8 @@
   top: 100%;
   left: 0;
   right: 0;
-  z-index: 99;
+
+  /*overflow: visible !important;*/
 }
 
 /* Hide the items when the select box is closed: */
@@ -64,7 +65,8 @@
   background-color: #dcebf5;
 }
 .select-items div:hover {
-  /*background-color: rgba(0, 0, 0, 0.1);*/
   background-color: #f5f4dc;
   font-weight: bolder;
 }
+
+/*-------------------*/

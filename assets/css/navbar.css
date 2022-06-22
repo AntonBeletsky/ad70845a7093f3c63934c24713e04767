@@ -16,7 +16,7 @@ body {
 }
 
 .nav-bar-container {
-  overflow: hidden;
+  /* overflow: hidden; TODO: overflow: hidden  */
   background-color: #333;
   /* position: fixed;  /* TODO:  fixed */
   top: 0;
@@ -48,7 +48,7 @@ body {
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* flex container */
 .topnav {
-  overflow: hidden;
+  /* overflow: hidden; TODO: overflow: hidden  */
   background-color: #333;
   /* position: fixed;  /* TODO:  fixed */
   top: 0;
@@ -187,7 +187,7 @@ body {
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  /* overflow: hidden; TODO: overflow: hidden  */
 }
 
 .dropdown .dropbtn {
@@ -320,7 +320,7 @@ ul.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; TODO: overflow: hidden */
   background-color: #333;
   /*color: #F5F4DC;*/
 
