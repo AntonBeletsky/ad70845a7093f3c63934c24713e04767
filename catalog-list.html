@@ -50,6 +50,7 @@
     <link rel="stylesheet" href="./assets/css/leftbar.css">
     <link rel="stylesheet" href="./assets/css/product_page.css">
     <link rel="stylesheet" href="./assets/css/product_list.css">
+    <link rel="stylesheet" href="./assets/css/select.css">
     <link rel="stylesheet" href="./assets/css/breadcrumb.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/media_screen.css">
@@ -123,16 +124,25 @@
                             <form action="/action_page.php">
                                 <!-- select -->
 
-                                <div class="grid-buttons">
-                                    <div class="custom-select" style="width:200px; z-index: 120;">
-                                        <select>
-                                            <option value="0">Select search:</option>
-                                            <option value="1">Rairing</option>
-                                            <option value="2">Low Price</option>
-                                            <option value="3">Custum review</option>
-                                        </select>
-                                    </div>
+                                <div>
+                                    <select name="cars" id="cars">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
                                 </div>
+
+
+                                <div class="custom-select" style="width:200px; z-index: 1200;">
+                                    <select>
+                                        <option value="0">Select search:</option>
+                                        <option value="1">Rairing</option>
+                                        <option value="2">Low Price</option>
+                                        <option value="3">Custum review</option>
+                                    </select>
+                                </div>
+
                                 <!-- select -->
 
                                 <input type="text" placeholder="What you Search..." name="search">
