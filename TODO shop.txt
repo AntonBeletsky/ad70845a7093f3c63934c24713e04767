@@ -72,5 +72,6 @@ search
 второй батан лайн под меню  - тонкая полоска анимаций загрузки 
 
 модальное окно 
+https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 
