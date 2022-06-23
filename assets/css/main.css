@@ -1,73 +1,76 @@
-body{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    background-color: var(--background-color); /* --background-color: #e6f1f8; */
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: var(--background-color); /* --background-color: #e6f1f8; */
 }
 
-a { 
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
-div.wrapper{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    background-color: var(--background-color);
+div.wrapper {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: var(--background-color);
 }
 
-
-.main-header{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    background-color: #81968f;
+.main-header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: #81968f;
 }
 
-.main-footer{
-    margin: 0px 0px 0px 0px;  
-    padding: 0px 0px 0px 0px;
-    background-color: rgb(173, 212, 212);
+.main-footer {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: rgb(173, 212, 212);
 }
 
-.main-content{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    /*background-color: var(--background-color);*/
-    background-color: #DCEBF5;
+.main-content {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  /*background-color: var(--background-color);*/
+  background-color: #dcebf5;
 }
 
-.main-content>main{
-    margin: 0px 0px 0px 0px;
-    /* Сверху | Справа | Снизу | Слева */
-    padding: 2rem 1rem 1rem 1rem;
-    /*background-color: blanchedalmond;*/
-    background-color: inherit;
+.main-content > main {
+  margin: 0px 0px 0px 0px;
+  /* Сверху | Справа | Снизу | Слева */
+  padding: 2rem 1rem 1rem 1rem;
+  /*background-color: blanchedalmond;*/
+  background-color: inherit;
 
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 
-    align-items: stretch; /* base line */
-    align-content: flex-start; /* center */
+  align-items: stretch; /* base line */
+  align-content: flex-start; /* center */
 
-    /* отступ */
-    /* gap: 50px;*/ 
-    row-gap: 1rem;
-    column-gap: 2rem;
+  /* отступ */
+  /* gap: 50px;*/
+  row-gap: 1rem;
+  column-gap: 2rem;
 }
 
-
-
+.page-content {
+  background-color: inherit;
+  width: 100%;
+}
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background */
 /* flex layout ****************************************************************/
 /* box for items */
 
+/*
 .flex-container{
     display: flex; 
     justify-content: flex-start;
 
-    align-items: stretch; /* base line */
+    align-items: stretch; /* base line */ /*
     align-content: flex-start; /* center */
 
-    /* отступ*/
+/* отступ */
+/*
     row-gap: 10px;
     column-gap: 20px;
 }
@@ -75,12 +78,6 @@ div.wrapper{
 .flex-item-container{
     flex-basis: auto;
 }
-
+*/
 
 /* page content */
-.page-content{
-    background-color: inherit;
-    width: 100%;
-}
-
-

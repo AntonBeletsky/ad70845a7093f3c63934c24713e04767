@@ -1,12 +1,5 @@
-
 /* breadcrumb */
 /* Style the list */
-.breadcrumbs{
-    height: 40px;
-    margin-left: 20px;
-    margin-top: 0px;
-}
-
 
 ul.breadcrumb {
   padding: 2px 16px;
@@ -14,7 +7,7 @@ ul.breadcrumb {
   /*background-color: #eee;*/
   background-color: inherit;
   /*color: #DCEBF5;*/
-  color: #F5F4DC;
+  color: #f5f4dc;
 }
 
 /* Display list items side by side */
@@ -24,18 +17,17 @@ ul.breadcrumb li {
 }
 
 /* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
+ul.breadcrumb li + li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
   /*content: "\003E";*/
-  
 }
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
   /*color: #DCEBF5;*/
-  color: #F5F4DC;
+  color: #f5f4dc;
   text-decoration: none;
 }
 
@@ -43,6 +35,4 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
-
 }
-
