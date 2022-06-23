@@ -129,15 +129,22 @@ body {
 
 /* search */
 .topnav .search-container {
-  margin-top: 1px;
-  margin-bottom: 1px;
+  /*margin-top: 1px;
+  margin-bottom: 1px;*/
 
-  padding-top: 1px;
-  padding-bottom: 1px;
+  /* рабюотает 
+  padding-top: 8px;
+  padding-bottom: 7px;
+  */
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  align-items: stretch; /* TODO: align-items: stretch;  .topnav .search-container {*/
 }
 
 .topnav .search-container .ui-item {
-  /* вывести общее за скобки */
+  /* вывести общее за скобки , хуевая была идея */
 }
 
 .topnav .search-container,
@@ -147,6 +154,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+
+  align-items: stretch;
 }
 
 .topnav .search-container .search-select {
