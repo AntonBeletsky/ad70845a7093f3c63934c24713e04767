@@ -219,3 +219,9 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 800px) {
+  nav.topnav {
+    overflow: hidden;
+  }
+}
