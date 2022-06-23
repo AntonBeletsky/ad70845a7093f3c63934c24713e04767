@@ -24,7 +24,7 @@
 }
 
 /* Style the arrow inside the select element: */
-/*
+
 .search-container .select-selected:after {
   position: absolute;
   content: "";
@@ -35,18 +35,18 @@
   border: 6px solid transparent;
   border-color: #fff transparent transparent transparent;
 }
-*/
+
+/* hide arrow 
 .search-container .search-select .select-selected:after {
   visibility: hidden;
 }
+*/
 
 /* Point the arrow upwards when the select box is open (active): */
-/*
 .search-container .select-selected.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
   top: 7px;
 }
-*/
 
 /* style the items (options), including the selected item: */
 .search-container .select-items div,
