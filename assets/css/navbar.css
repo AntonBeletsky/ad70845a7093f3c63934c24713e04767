@@ -163,8 +163,9 @@ body {
 }
 
 .topnav input[type="text"],
-.topnav .search-container button {
-  margin-top: 6px; /* 8 */
+.topnav .search-container button,
+.search-container form .search-select {
+  /*margin-top: 6px;*/
   font-size: 17px;
 }
 
