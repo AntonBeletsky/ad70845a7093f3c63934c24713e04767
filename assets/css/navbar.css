@@ -187,6 +187,7 @@ body {
   border: none;
   /*background-color: #f5f4dc;*/
   background-color: #dcebf5;
+  width: 350px;
 }
 
 .topnav .search-container button {
