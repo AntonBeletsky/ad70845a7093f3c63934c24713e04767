@@ -129,8 +129,9 @@ body {
 
 /* search */
 .topnav .search-container {
-  /*margin-top: 1px;
-  margin-bottom: 1px;*/
+  /* TODO: see  select search. css .search-container .search-select .select-selected { */
+  margin-top: 5px;
+  margin-bottom: 5px;
 
   /* рабюотает 
   padding-top: 8px;
