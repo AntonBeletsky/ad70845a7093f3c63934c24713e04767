@@ -21,431 +21,447 @@ TODO: перечитать все классі от начала до конца
 <html>
 
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<style>
-        
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.main {
-    margin-top: 100px; /* top nav h */
-    /* Used in this example to enable scrolling */
-}
-
-
-.hide-responsive{
-    
-}
-
-.fuck-in-responsive{
-
-}
-
-
-/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-/* flex container */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    /* position: fixed;  /* TODO:  fixed */
-    top: 0;
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-    flex-basis: auto;
-
-    justify-content: space-around; /* !!*/
-
-
-}
-
-/* flex item for .topnav  */
-.topnav-base-block{
-    align-self: stretch;
-}
-
-.topnav-left-block {
-    /*align-self: flex-start; не то*/
-    justify-content: flex-start;
-}
-
-.topnav-center-block {
-    /*align-self:  center;не то*/
-    justify-content: center;
-}
-
-.topnav-right-block {
-    /*align-self: flex-end;не то*/
-    justify-content: flex-end;
-}
-
-
-.topnav-fixed, .fixed{
-    position: fixed;
-}
-
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-   
- /* search */ 
-.topnav .search-container , .topnav .search-container form{
-    /*float: right; */
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    
-}
-
-.topnav input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-}
-
-.topnav .search-container button {
-    /* float: right; */
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-    background: #ccc;
-}
-
-/******************* dropdown *******************/
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    font-size: 17px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.dropdown-content {
-    display: none;
-    /*position: absolute;*/
-    /*position: fixed; /* ! */
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    
-}
-
-
-.topnav a:hover,
-.dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block; /* !important;*/ 
-    /* !!!*/
-
-}
-
-/* media в отдельній файл нахуй */
-
-@media screen and (max-width: 600px) {
-
-/* этот класс в самый вверх !!!*/
-.topnav a.sidebar-icon{
-    display: none;
-}
-
-.topnav a{
-    /*background-color: aqua;*/
-}
-
-    
-.topnav, .dropdown-content{
-position: relative;
-display: flex;
-flex-direction: column;
-}
-
-.main {
-margin-top: 0px;
-}
-
-
-
-.topnav .search-container , .topnav .search-container form{
-    /*float: none;*/
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.topnav a:not(.fuck-in-responsive), /* TODO: a */
-.topnav input[type=text],
-.topnav .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-}
-
-.topnav input[type=text] {
-    border: 1px solid #ccc;
-}
- 
-/*.topnav a:not(:first-child), /* прячет копки*/
-/* TODO: заменить на класс .responsive hide в html */
-.dropdown .dropbtn { /* + .dropdown-content */
-    /*display: none;*/
-    
-    display: flex;
-    flex-direction: column;
-    
-    
-    
-}
-
-.topnav a.gamburger-smart-icon {
-    /* float: right; */
-    display: block;
-}
-
-
-.topnav.responsive {
-    position: relative;
-}
-
-.topnav.responsive .gamburger-smart-icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-/* TODO: a */
-.topnav.responsive a:not(.fuck-in-responsive) {
-    float: none;
-    display: block;
-    text-align: left;
-}
-
-
-.topnav.responsive .dropdown-content>a {
-    float: none;
-    display: block; /* показать детей дропдавн */
-    text-align: left;
-}
-
-.topnav.responsive .dropdown {
-    float: none;
-}
-
-.topnav.responsive .dropdown-content {
-    position: relative;
-}
-
-.topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-}
-
-}
-
-
-.topnav .gamburger-smart-icon {
-  display: none;
-}
-
-/* top nav gamburger*/
-/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
-@media screen and (max-width: 600px) {
-  /*.topnav a:not(:first-child) {display: none;} TODO: вот эта хуйня сьела половину кнопок  */
-  .topnav a.gamburger-smart-icon {
-    /*float: right;*/
-    display: flex;
-  }
-  .hide-responsive{display: none;}
-
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {
-      position: relative;
-    }
-
-  .topnav.responsive .gamburger-smart-icon {
-    /*position: absolute; поменятиь на флекс 1 */
-    order: 0; /* for gamburger */
-    position: relative;
-    right: 0;
-    top: 0;
-  }
-
-.topnav-base-block{
-    order: 5; /* for gamburger */
-}
-
-.topnav.responsive .dropdown-content>a {
-float: none;
-display: block; /* показать детей дропдавн */
-text-align: left;
-}
-
-}
-
-
-@media screen and (min-width: 700px) {
-    .hide-responsive{
-        display: flex;
-    }
-}
-
-
-/* sidebar-icon */
-.sidebar-icon{
-    color: chartreuse;
-    background-color: #FA5DF5;
-}
-
-@media screen and (max-width: 600px) {
-
-.sidebar-icon{
-    color: chartreuse;
-    background-color: #1ad452;
-    display: none; /* костіль */
-}
-
-.fuck-in-responsive{
-    display: none; /* костіль */
-    /* display: none !important; /* костіль */
-    background-color: blue;
-}
-
-}
-
-
-/* SIDEBAT HERE AAAA*/
-
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
-
-/* SIDEBAR END */
-
-
-</style>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main {
+            margin-top: 100px;
+            /* top nav h */
+            /* Used in this example to enable scrolling */
+        }
+
+
+        .hide-responsive {}
+
+
+
+        /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+        /* flex container */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            /* position: fixed;  /* TODO:  fixed */
+            top: 0;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            flex-basis: auto;
+
+            justify-content: space-around;
+            /* !!*/
+
+
+        }
+
+        /* flex item for .topnav  */
+        .topnav-base-block {
+            align-self: stretch;
+        }
+
+        .topnav-left-block {
+            /*align-self: flex-start; не то*/
+            justify-content: flex-start;
+        }
+
+        .topnav-center-block {
+            /*align-self:  center;не то*/
+            justify-content: center;
+        }
+
+        .topnav-right-block {
+            /*align-self: flex-end;не то*/
+            justify-content: flex-end;
+        }
+
+
+        .topnav-fixed,
+        .fixed {
+            position: fixed;
+        }
+
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        /* search */
+        .topnav .search-container,
+        .topnav .search-container form {
+            /*float: right; */
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+        }
+
+        .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .topnav .search-container button {
+            /* float: right; */
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .topnav .search-container button:hover {
+            background: #ccc;
+        }
+
+        /******************* dropdown *******************/
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            /*position: absolute;*/
+            /*position: fixed; /* ! */
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+
+        }
+
+
+        .topnav a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #555;
+            color: white;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            /* !important;*/
+            /* !!!*/
+
+        }
+
+        /* media в отдельній файл нахуй */
+
+        @media screen and (max-width: 600px) {
+
+            /* этот класс в самый вверх !!!*/
+            .topnav a.sidebar-icon {
+                display: none;
+            }
+
+            .topnav a {
+                /*background-color: aqua;*/
+            }
+
+
+            .topnav,
+            .dropdown-content {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .main {
+                margin-top: 0px;
+            }
+
+
+
+            .topnav .search-container,
+            .topnav .search-container form {
+                /*float: none;*/
+
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+
+            .topnav a:not(.hide-in-responsive),
+            /* TODO: a */
+            .topnav input[type=text],
+            .topnav .search-container button {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+
+            .topnav input[type=text] {
+                border: 1px solid #ccc;
+            }
+
+            /*.topnav a:not(:first-child), /* прячет копки*/
+            /* TODO: заменить на класс .responsive hide в html */
+            .dropdown .dropbtn {
+                /* + .dropdown-content */
+                /*display: none;*/
+
+                display: flex;
+                flex-direction: column;
+
+
+
+            }
+
+            .topnav a.gamburger-smart-icon {
+                /* float: right; */
+                display: block;
+            }
+
+
+            .topnav.responsive {
+                position: relative;
+            }
+
+            .topnav.responsive .gamburger-smart-icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            /* TODO: a */
+            .topnav.responsive a:not(.hide-in-responsive) {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+
+            .topnav.responsive .dropdown-content>a {
+                float: none;
+                display: block;
+                /* показать детей дропдавн */
+                text-align: left;
+            }
+
+            .topnav.responsive .dropdown {
+                float: none;
+            }
+
+            .topnav.responsive .dropdown-content {
+                position: relative;
+            }
+
+            .topnav.responsive .dropdown .dropbtn {
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
+
+        }
+
+
+        .topnav .gamburger-smart-icon {
+            display: none;
+        }
+
+        /* top nav gamburger*/
+        /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
+        @media screen and (max-width: 600px) {
+
+            /*.topnav a:not(:first-child) {display: none;} TODO: вот эта хуйня сьела половину кнопок  */
+            .topnav a.gamburger-smart-icon {
+                /*float: right;*/
+                display: flex;
+            }
+
+            .hide-responsive {
+                display: none;
+            }
+
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+            .topnav.responsive .gamburger-smart-icon {
+                /*position: absolute; поменятиь на флекс 1 */
+                order: 0;
+                /* for gamburger */
+                position: relative;
+                right: 0;
+                top: 0;
+            }
+
+            .topnav-base-block {
+                order: 5;
+                /* for gamburger */
+            }
+
+            .topnav.responsive .dropdown-content>a {
+                float: none;
+                display: block;
+                /* показать детей дропдавн */
+                text-align: left;
+            }
+
+        }
+
+
+        @media screen and (min-width: 700px) {
+            .hide-responsive {
+                display: flex;
+            }
+        }
+
+
+        /* sidebar-icon */
+        .sidebar-icon {
+            color: chartreuse;
+            background-color: #FA5DF5;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .sidebar-icon {
+                color: chartreuse;
+                background-color: #1ad452;
+                display: none;
+                /* костіль */
+            }
+
+            .hide-in-responsive {
+                display: none;
+                /* костіль */
+                /* display: none !important; /* костіль */
+                background-color: blue;
+            }
+
+        }
+
+
+        /* SIDEBAT HERE AAAA*/
+
+
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #111;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+        }
+
+        .openbtn:hover {
+            background-color: #444;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 15px;
+            }
+
+            .sidebar a {
+                font-size: 18px;
+            }
+        }
+
+        /* SIDEBAR END */
+    </style>
 
 </head>
 
@@ -469,60 +485,60 @@ text-align: left;
     </div>
     -->
 
-<script src="jquery-3.6.0.js">
+    <script src="jquery-3.6.0.js">
 
-</script>
-
-
+    </script>
 
 
-    
-<nav class="topnav fixed" id="myTopnav">
-    
-<div class="topnav-base-block topnav-left-block hide-responsive">
 
-    <a href="javascript:void(0);" class="sidebar-icon fuck-in-responsive" onclick="openNav()">
-        <i class="fa fa-bars"></i>
-    </a>
 
-    <a href="#home" class="active">Home</a>
-    <a href="#home" class="active">Home 2 </a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content fixed">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+
+    <nav class="topnav fixed" id="myTopnav">
+
+        <div class="topnav-base-block topnav-left-block hide-responsive">
+
+            <a href="javascript:void(0);" class="sidebar-icon hide-in-responsive" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <a href="#home" class="active">Home</a>
+            <a href="#home" class="active">Home 2 </a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content fixed">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+
         </div>
-    </div>
 
-</div>
-
-<div class="topnav-base-block topnav-center-block hide-responsive">
-    <div class="search-container">
-        <form action="/action_page.php">
-            <input type="text" placeholder="What you Search..." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-</div>
+        <div class="topnav-base-block topnav-center-block hide-responsive">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="What you Search..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
 
 
-<div class="topnav-base-block topnav-right-block hide-responsive">
-    <a href="#news">News 2</a>
-    <a href="#search">Search</a>
-    <a href="#about">About</a>
-</div>
+        <div class="topnav-base-block topnav-right-block hide-responsive">
+            <a href="#news">News 2</a>
+            <a href="#search">Search</a>
+            <a href="#about">About</a>
+        </div>
 
-<a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
-    <i class="fa fa-bars"></i>
-</a>
+        <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
+            <i class="fa fa-bars"></i>
+        </a>
 
-</nav> <!-- -->
+    </nav> <!-- -->
 
 
 
@@ -534,8 +550,8 @@ text-align: left;
         <h1>Fixed Top Menu</h1>
         <h2>Scroll this page to see the effect</h2>
         <h2>The navigation bar will stay at the top of the page while scrolling</h2>
-    
-            <br>
+
+        <br>
 
 
 
@@ -560,100 +576,100 @@ text-align: left;
         <p>Some text some text some text some text..</p>
         <p>Some text some text some text some text..</p>
 
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
     </div>
 
 
-<!-- РЕСПОНГСИВНОЕ МЕНЮ n -->
-<script>
-    
-/* Gamburger */
+    <!-- РЕСПОНГСИВНОЕ МЕНЮ n -->
+    <script>
 
-let screen_mode = "desk"; /*  "smart" */
-const width_param = 600;
+        /* Gamburger */
 
-function screenModeSwither() {
-    if (screen_mode == "smart") {
-        $(".responsive").removeClass("responsive");
-        $(".hide-responsive").css("display", "none"); 
-        screen_mode = "desk";
-        /*alert('hide');*/
-    }
-    else{
-        $("#myTopnav.topnav").addClass("responsive"); /* широкие кнопки */
-        $(".hide-responsive").css("display", "block");
-        screen_mode = "smart";
-        /*alert('show');*/
-    }
+        let screen_mode = "desk"; /*  "smart" */
+        const width_param = 600;
 
-}
+        function screenModeSwither() {
+            if (screen_mode == "smart") {
+                $(".responsive").removeClass("responsive");
+                $(".hide-responsive").css("display", "none");
+                screen_mode = "desk";
+                /*alert('hide');*/
+            }
+            else {
+                $("#myTopnav.topnav").addClass("responsive"); /* широкие кнопки */
+                $(".hide-responsive").css("display", "block");
+                screen_mode = "smart";
+                /*alert('show');*/
+            }
 
-/* so that the menu is not hidden when zoom returns */
-$(window).resize(function () {
-    if ( ($(document).width() > width_param) && (screen_mode == "desk") ){
-        $(".responsive").removeClass("responsive");
-        $(".hide-responsive").css("display", "block");
-        screen_mode = "desk";
-    }
+        }
 
-    if (($(document).width() <= width_param) && (screen_mode == "desk")) {
-        $(".responsive").removeClass("responsive");
-        $(".hide-responsive").css("display", "none");
-        screen_mode = "desk";
-    }
+        /* so that the menu is not hidden when zoom returns */
+        $(window).resize(function () {
+            if (($(document).width() > width_param) && (screen_mode == "desk")) {
+                $(".responsive").removeClass("responsive");
+                $(".hide-responsive").css("display", "block");
+                screen_mode = "desk";
+            }
 
-});
+            if (($(document).width() <= width_param) && (screen_mode == "desk")) {
+                $(".responsive").removeClass("responsive");
+                $(".hide-responsive").css("display", "none");
+                screen_mode = "desk";
+            }
 
-/* Gamburger end */
+        });
 
-/* sidebar - icon */
+        /* Gamburger end */
 
-/* sidebar - icon end */
+        /* sidebar - icon */
 
-        
-</script>
+        /* sidebar - icon end */
 
-<script>
-    /* SIDEBAAAAAAAAAR*/
 
-/* если сайд бар откріт то он главный гамбургер на респонсив
-а если закрыт , то гамьбургер основной 
-*/
+    </script>
 
-    function openNav() {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
+    <script>
+        /* SIDEBAAAAAAAAAR*/
 
-        /*document.getElementById("myTopnav").style.marginLeft = "250px";*/
-        
-    }
+        /* если сайд бар откріт то он главный гамбургер на респонсив
+        а если закрыт , то гамьбургер основной 
+        */
 
-    function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
 
-        document.getElementById("myTopnav").style.marginLeft = "0px";
-    }
-</script>
+            /*document.getElementById("myTopnav").style.marginLeft = "250px";*/
+
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+
+            document.getElementById("myTopnav").style.marginLeft = "0px";
+        }
+    </script>
 
 </body>
 
