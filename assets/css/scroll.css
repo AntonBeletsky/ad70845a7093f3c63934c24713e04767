@@ -1,0 +1,28 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
+
+/* FOR SELECT SEARCH */
+/* width */
+div.select-items::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+div.select-items::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+/* Handle */
+div.select-items::-webkit-scrollbar-thumb {
+  background: #dcebf5;
+}
+
+/* Handle on hover */
+div.select-items::-webkit-scrollbar-thumb:hover {
+  background: #f5f4dc;
+}
+
+div.select-items::-webkit-scrollbar-button {
+  background: #97a2a8;
+}
+
+/**********************************************/

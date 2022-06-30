@@ -72,6 +72,11 @@
   left: 0;
   right: 0;
 
+  height: 200px;
+
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar *
+
   /*overflow: visible !important;*/
 }
 
