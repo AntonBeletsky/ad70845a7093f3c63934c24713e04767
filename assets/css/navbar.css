@@ -114,8 +114,8 @@ body {
 }
 
 /* fix for incons */
-.topnav a.material-icons {
-  padding-bottom: 11px;
+.topnav a.material-iconsf {
+  padding-bottom: 8px; /* 11 */
 }
 
 /* fix for incons */
