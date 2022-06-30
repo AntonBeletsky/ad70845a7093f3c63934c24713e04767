@@ -113,6 +113,7 @@ body {
   margin-right: 0px;
 }
 
+/*TODO: padding fix */
 /* fix for incons */
 .topnav a.material-iconsf {
   padding-bottom: 8px; /* 11 */
@@ -120,7 +121,9 @@ body {
 
 /* fix for incons */
 .topnav a.fa-iconsf {
-  padding-bottom: 16px;
+  /*padding-bottom: 16px;*/
+  padding-top: 18px;
+  padding-bottom: 12px;
 }
 
 .topnav a.active {
@@ -265,6 +268,20 @@ body {
   /* !important;*/
   /* !!!*/
 }
+
+/*TODO: padding fix */
+/* dropdown padding fix */
+.topnav .topnav-right-block .dropdown button.dropbtn {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.topnav .topnav-right-block .dropdown button.dropbtn .fa-iconsf-btn {
+  /*padding-bottom: 16px;
+  font-size: 24px;*/
+}
+
+/***********************************************/
 
 .topnav .gamburger-smart-icon {
   display: none;
