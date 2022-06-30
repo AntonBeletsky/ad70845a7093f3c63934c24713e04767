@@ -308,6 +308,10 @@ body {
   top: 0px;
   right: -5px;
   padding: 1px 5px;
+
+  margin-right: 6px;
+  margin-top: 5px;
+
   border-radius: 50%;
   background: #ff0000;
   color: white;
