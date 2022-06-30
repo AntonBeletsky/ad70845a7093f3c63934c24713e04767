@@ -113,6 +113,15 @@ body {
   margin-right: 0px;
 }
 
+/* fix for incons */
+.topnav a.material-icons {
+  padding-bottom: 11px;
+}
+
+/* fix for incons */
+.topnav a.fa-icons {
+}
+
 .topnav a.active {
   background-color: #1b594e;
   font-weight: bolder;
@@ -328,8 +337,10 @@ body {
 }
 */
 
-.material-icons {
-  font-size: 17px;
+/* material-icons fix */
+.material-icons,
+.material-icons-outlined {
+  font-size: 24px;
 }
 
 /* TODO: SIDEBAT HERE AAAA TODO: to sidebar.css*/
