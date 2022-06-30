@@ -252,12 +252,13 @@ body {
 /* notification badge */
 .notification {
   background-color: #555;
+  /*background: inherit !important;*/
   color: white;
   text-decoration: none;
-  padding: 15px 26px;
+  /*padding: 15px 26px;*/
   position: relative;
-  display: inline-block;
-  border-radius: 2px;
+  /*display: inline-block;*/
+  /*border-radius: 2px;*/
 }
 
 .notification:hover {
@@ -301,9 +302,10 @@ body {
 }
 
 /* material icons */
+/*
 .material-container {
   height: inherit;
-  width: inherit;
+  width: auto;
   overflow: hidden;
 }
 
@@ -314,6 +316,7 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+*/
 
 /* TODO: SIDEBAT HERE AAAA TODO: to sidebar.css*/
 
