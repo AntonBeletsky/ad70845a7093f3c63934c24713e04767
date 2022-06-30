@@ -244,3 +244,20 @@
     width: 100%;
   }
 }
+
+/* 1600 - 900 */
+/* TODO: сделать выпадающите меню в стоббик 
+уменшить поиск 
+пример , несколько диапазонов, прятать по немногу элементы
+https://rozetka.com.ua/ua/
+*/
+/*
+@media only screen and (min-device-width: 900px) and (max-device-width: 1650px) {
+  .topnav-right-block,
+  .topnav-left-block {
+    overflow: hidden;
+    width: 100%;
+    display: none !important;
+  }
+}
+*/
