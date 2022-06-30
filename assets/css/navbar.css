@@ -289,7 +289,7 @@ body {
 
 /* notification badge */
 .notification {
-  background-color: #555;
+  background-color: #34675c;
   /*background: inherit !important;*/
   color: white;
   text-decoration: none;
@@ -313,7 +313,7 @@ body {
   margin-top: 5px;
 
   border-radius: 50%;
-  background: #ff0000;
+  background: #f26800;
   color: white;
 }
 
@@ -339,7 +339,7 @@ body {
   right: -5px;
   padding: 1px 5px;
   border-radius: 50%;
-  background: #ff0000;
+  background: #f26800;
   color: white;
 }
 
