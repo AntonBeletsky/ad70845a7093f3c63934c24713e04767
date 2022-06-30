@@ -301,9 +301,16 @@ body {
 }
 
 /* material icons */
+.material-container {
+  height: inherit;
+  width: inherit;
+  overflow: hidden;
+}
+
 .topnav > a.mico {
   color: #f5f4dc;
-  /*padding: 14px 16px;*/
+  margin: 0px 0px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
