@@ -119,7 +119,8 @@ body {
 }
 
 /* fix for incons */
-.topnav a.fa-icons {
+.topnav a.fa-iconsf {
+  padding-bottom: 16px;
 }
 
 .topnav a.active {
