@@ -250,7 +250,6 @@ body {
 }
 
 /* notification badge */
-
 .notification {
   background-color: #555;
   color: white;
@@ -262,7 +261,7 @@ body {
 }
 
 .notification:hover {
-  background: red;
+  /*background: red;*/
 }
 
 .notification .badge {
@@ -273,16 +272,32 @@ body {
   border-radius: 50%;
   background: #ff0000;
   color: white;
+}
 
-  /*
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  padding: 5px 10px;
-  border-radius: 50%;
-  background: red;
+/* notification badge for dropdown-content */
+
+.dropdown-content .notification {
+  background-color: #555;
   color: white;
-  */
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.dropdown-content .notification:hover {
+  /*background: red;*/
+}
+
+.dropdown-content .notification .badge {
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background: #ff0000;
+  color: white;
 }
 
 /* TODO: SIDEBAT HERE AAAA TODO: to sidebar.css*/
