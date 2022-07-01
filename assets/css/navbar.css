@@ -240,6 +240,16 @@ body {
   margin-top: 1px; /* TODO: see top nav */
 }
 
+/* add custom  .dropdown-content width: here */
+
+.dropdown-content.profile {
+  width: 270px;
+}
+
+.dropdown-content.leftbar {
+  width: 220px;
+}
+
 .dropdown-content a {
   float: none;
   /*color: black;*/
@@ -265,8 +275,6 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
-  /* !important;*/
-  /* !!!*/
 }
 
 /*TODO: padding fix */
