@@ -276,6 +276,9 @@ body {
   padding-bottom: 10px;
 }
 
+hr {
+  border-color: #fcfae3;
+}
 /*
 .topnav .topnav-right-block .dropdown button.dropbtn .costumfa {
 }
