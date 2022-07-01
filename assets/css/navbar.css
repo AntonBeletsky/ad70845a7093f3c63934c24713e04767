@@ -276,10 +276,10 @@ body {
   padding-bottom: 10px;
 }
 
-.topnav .topnav-right-block .dropdown button.dropbtn .fa-iconsf-btn {
-  /*padding-bottom: 16px;
-  font-size: 24px;*/
+/*
+.topnav .topnav-right-block .dropdown button.dropbtn .costumfa {
 }
+*/
 
 /***********************************************/
 
@@ -345,22 +345,6 @@ body {
   background: #f26800;
   color: white;
 }
-
-/* material icons */
-/*
-.topnav .mico {
-  /*color: #f5f4dc;*/ /*
-  margin: 0px 0px 0px 0px;
-
-  padding-top: 14px;
-  padding-right: 16px;
-  padding-bottom: 9px;
-  padding-left: 16px;
-
-  text-decoration: none;
-  font-size: 17px !important;
-}
-*/
 
 /* material-icons fix */
 .material-icons,
