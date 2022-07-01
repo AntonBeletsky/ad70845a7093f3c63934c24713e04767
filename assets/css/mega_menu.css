@@ -29,15 +29,13 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 
+  /*TODO: glass here*/
   /* From https://css.glass */
-  /*
-      background: #77a4db26;
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(14.3px);
-      -webkit-backdrop-filter: blur(14.3px);
-      border: 1px solid rgba(119, 164, 219, 0.77);
-      */
+  background: rgba(227, 249, 252, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
 }
 
 /* Mega Menu header, if needed */
