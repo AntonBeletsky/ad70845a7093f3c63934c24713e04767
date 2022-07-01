@@ -11,6 +11,12 @@ div.select-items::-webkit-scrollbar-track {
   background: #0d0d0d;
 }
 
+/*
+div.select-items::-webkit-scrollbar-track:hover {
+  background: #0d0d0d;
+}
+*/
+
 /* Handle */
 div.select-items::-webkit-scrollbar-thumb {
   background: #dcebf5;
