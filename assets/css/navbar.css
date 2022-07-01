@@ -232,21 +232,23 @@ body {
   display: none;
   /*position: absolute;*/
   /*position: fixed; /* ! */
-  background-color: #333333;
+  /*background-color: #333333;*/
+  background-color: #020001;
   color: #f5f4dc;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
   margin-top: 1px; /* TODO: see top nav */
 }
 
-/* add custom  .dropdown-content width: here */
+/* add custom  .dropdown-content here */
 
 .dropdown-content.profile {
+  /*background-color: #020001;*/
   width: 270px;
 }
 
 .dropdown-content.leftbar {
+  /*background-color: #020001;*/
   width: 220px;
 }
 
