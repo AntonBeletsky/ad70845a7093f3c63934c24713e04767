@@ -83,3 +83,6 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp
 - удалить фильтры ,
 подменить меин на простое 
 
+машинка доставки едет 
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_animation-delay
+
