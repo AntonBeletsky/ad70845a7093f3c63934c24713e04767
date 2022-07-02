@@ -33,6 +33,8 @@ body {
 
   height: var(--top-container-height-px);
 
+  /*gap: 5px;*/
+
   /* !!*/
 }
 
@@ -75,6 +77,8 @@ body {
   align-self: stretch;
   display: flex;
   flex-wrap: nowrap;
+
+  column-gap: 3px;
 }
 
 .topnav-left-block {
