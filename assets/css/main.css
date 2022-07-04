@@ -41,6 +41,12 @@ div.wrapper {
   background-color: inherit;
 
   display: flex;
+  /* TODO: select  right or left aside bar */
+  flex-direction: row;
+  /*flex-direction: row-reverse;*/
+
+  /*flex-direction: column !important; for smart */
+
   justify-content: flex-start;
 
   align-items: stretch; /* base line */
