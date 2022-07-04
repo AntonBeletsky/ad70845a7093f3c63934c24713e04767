@@ -252,11 +252,23 @@
   .topnav-base-block {
   }
 
-  /* column all / fix all elements*/
-  .topnav .topnav-base-block .dropbtn,
-  .topnav .topnav-base-block .dropdown-content {
+  /* fix elements*/
+  .topnav .topnav-base-block .dropbtn {
     width: 100%;
     flex-direction: column;
+  }
+
+  /* left sub-menu to scrol */
+  .topnav .topnav-left-block .dropdown-content {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+
+  .topnav .topnav-left-block .dropdown-content::-webkit-scrollbar {
+    /* go to scroll.css*/
   }
 
   /* left bar only*/
@@ -284,6 +296,10 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     width: 100%;
+  }
+
+  /* left sub-menu to scrol */
+  .topnav-right-block .dropdown-content {
   }
 }
 
