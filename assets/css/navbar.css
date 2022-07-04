@@ -75,15 +75,14 @@ body {
 /* flex item for .topnav  */
 .topnav-base-block {
   align-self: stretch;
-  display: flex;
+  display: flex !important; /* '!important;' - need modif in media screen */
   flex-wrap: nowrap;
-
+  flex-direction: row;
   column-gap: 3px;
 }
 
 .topnav-left-block {
   /*align-self: flex-start; не то*/
-  display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
   /*width: 600px;*/
