@@ -43,13 +43,13 @@ $(window).resize(function () {
 /* при переходе в смарт короткие кнопки , а это делает широкие исправлено doc_width */
 function smart_fix() {
   $("#itopnav.topnav").addClass("responsive"); /* широкие кнопки */
-  $(".hide-responsive").css("display", "block");
+  $(".hide-responsive").css("display", "none");
   screen_mode = "smart";
 }
 
 $(window).resize(function () {
   if (doc_width <= width_param) {
-    // smart_fix();
+    /*smart_fix();*/
   }
 });
 
