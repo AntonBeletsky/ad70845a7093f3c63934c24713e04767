@@ -25,6 +25,7 @@
   .dropdown-content,
   .nav-bar-container {
     position: relative;
+    /*position: fixed;*/
     display: flex !important;
     flex-direction: column;
   }
