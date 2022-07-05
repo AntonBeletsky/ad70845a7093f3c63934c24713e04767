@@ -191,7 +191,7 @@
   }
 }
 
-/* On smaller alls, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {
     padding-top: 15px;
@@ -205,7 +205,7 @@
 /* */
 /* phones */
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
-@media only /*all and */(max-width: 600px) {
+@media only screen and (max-width: 600px) {
   ul.navbar li.right,
   ul.navbar li {
     float: none;
@@ -303,18 +303,12 @@
   }
 }
 
-/* child hide*/
+/* попрятать, уменьшить*/
 @media screen and (max-width: 600px) {
-  .topnav-left-block:nth-child(n),
-  .topnav-left-block:nth-child(n):nth-child(n),
-  .topnav-center-block:nth-child(n),
-  .topnav-center-block:nth-child(n):nth-child(n),
-  .topnav-right-block:nth-child(n),
-  .topnav-right-block:nth-child(n):nth-child(n) {
-    /* display: none !important;*/
-  }
 }
 
+@media screen and (max-width: 600px) {
+}
 /* 1600 - 900 */
 /* TODO: сделать выпадающите меню в стоббик 
 уменшить поиск 
@@ -323,10 +317,12 @@ https://rozetka.com.ua/ua/
 
 УМЕНЬШАТЬ Иконке по куче диапазонам!! 
 */
-
-/* joke
-@media (max-width: 350px) {
-  body {
+/*
+@media only screen and (min-device-width: 900px) and (max-device-width: 1650px) {
+  .topnav-right-block,
+  .topnav-left-block {
+    overflow: hidden;
+    width: 100%;
     display: none !important;
   }
 }
