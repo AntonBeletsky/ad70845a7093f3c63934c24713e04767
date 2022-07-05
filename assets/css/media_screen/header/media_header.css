@@ -1,0 +1,8 @@
+/* fix for width nav bar in header on mobile*/
+
+@media screen and (max-width: 600px) {
+  header.main-header {
+    display: block !important;
+    width: 600px;
+  }
+}
