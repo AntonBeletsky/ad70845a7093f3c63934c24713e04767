@@ -293,16 +293,10 @@
   /* right block bottns*/
   .topnav-right-block {
     display: inline-flex !important;
-    /*
-    TODO: costumizationm rigth menu 
-     flex-direction: column;
-    flex-wrap: nowrap;
-    */
-
     flex-direction: row;
-    flex-wrap: wrap;
-
+    flex-wrap: nowrap; /*  TODO: or wrap*/
     justify-content: flex-start;
+    align-items: stretch;
     width: 100%;
   }
 
