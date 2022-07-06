@@ -82,26 +82,21 @@ body {
 }
 
 .topnav-left-block {
-  /*align-self: flex-start; не то*/
+  display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  /*width: 600px;*/
 }
 
 .topnav-center-block {
-  /*align-self:  center;не то*/
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  /*width: 500px;*/
 }
 
 .topnav-right-block {
-  /*align-self: flex-end;не то*/
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
-  /*width: 100%;*/
 }
 
 .topnav-fixed,
@@ -233,6 +228,7 @@ body {
 
 .dropdown {
   float: left;
+  width: 100%;
   /* overflow: hidden; TODO: overflow: hidden  */
 }
 
