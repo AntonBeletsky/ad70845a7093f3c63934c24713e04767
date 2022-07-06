@@ -294,15 +294,25 @@
   .topnav-right-block {
     display: inline-flex !important;
     flex-direction: row;
-    flex-wrap: nowrap; /*  TODO: or wrap*/
+    flex-wrap: wrap; /*  TODO: or nowrap*/
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: stretch; /* or flex-start; */
     width: 100%;
   }
 
   /* left sub-menu to scrol */
-  .topnav-right-block .dropdown-content {
-    display: none !important;
+  .topnav .topnav-right-block .dropdown-content {
+    /*display: none !important; */
+
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+
+  .topnav .topnav-right-block .dropdown-content::-webkit-scrollbar {
+    /* go to scroll.css*/
   }
 
   /* fix */
