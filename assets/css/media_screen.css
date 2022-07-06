@@ -292,21 +292,30 @@
 
   /* right block bottns*/
   .topnav-right-block {
-    display: flex !important;
-    flex-direction: row;
+    display: inline-flex !important;
+    /*
+    TODO: costumizationm rigth menu 
+     flex-direction: column;
     flex-wrap: nowrap;
+    */
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
     justify-content: flex-start;
     width: 100%;
   }
 
   /* left sub-menu to scrol */
   .topnav-right-block .dropdown-content {
+    display: none !important;
   }
 
   /* fix */
 }
 
 /* child hide*/
+/*
 @media screen and (max-width: 600px) {
   .topnav-left-block:nth-child(n),
   .topnav-left-block:nth-child(n):nth-child(n),
@@ -314,9 +323,10 @@
   .topnav-center-block:nth-child(n):nth-child(n),
   .topnav-right-block:nth-child(n),
   .topnav-right-block:nth-child(n):nth-child(n) {
-    /* display: none !important;*/
+    display: none !important;
   }
 }
+*/
 
 /* 1600 - 900 */
 /* TODO: сделать выпадающите меню в стоббик 
