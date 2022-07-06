@@ -77,6 +77,8 @@ function closeNav() {
 }
 
 /**********************/
+/* new ham */
+/*
 var ham = 1;
 
 $(document).ready(function () {
@@ -107,3 +109,4 @@ $("a.gamburger-smart-icon").click(function () {
     console.log("flex");
   }
 });
+*/
