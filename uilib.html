@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Anton Beletsky">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="width">
+
+    <title>Elegast</title>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="./assets/css/normalize.css"> <!-- TODO: normalize.css -->
+
+    <!-- Add icon library  https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+    <!-- google icons -->
+    <!-- https://material.io/resources/icons/?style=baseline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+
+
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <!-- https://fonts.google.com/icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <link rel="stylesheet" href="./assets/css/debug_theme.css"> <!-- TODO: theme here-->
+    <link rel="stylesheet" href="./assets/css/values.css">
+
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/leftbar.css">
+    <link rel="stylesheet" href="./assets/css/product_page.css">
+    <link rel="stylesheet" href="./assets/css/product_list.css">
+    <link rel="stylesheet" href="./assets/css/select-search.css">
+    <link rel="stylesheet" href="./assets/css/select-product-list.css">
+    <link rel="stylesheet" href="./assets/css/breadcrumb.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+
+    <link rel="stylesheet" href="./assets/css/scroll.css">
+    <link rel="stylesheet" href="./assets/css/mega_menu.css">
+
+    <!-- for smart devices-->
+    <link rel="stylesheet" href="./assets/css/media_screen/media_general.css">
+
+    <link rel="stylesheet" href="./assets/css/media_screen.css">
+
+    <link rel="stylesheet" href="./assets/css/media_screen/header/media_header.css">
+
+
+
+    <!-- important to button
+    <link rel="stylesheet" href="./assets/css/media_screen/header/hamburger.css">
+    -->
+</head>
+
+<body>
+
+    <script src="./assets/js/jquery-3.6.0.js">
+
+    </script>
+
+
+    <div class="wrapper">
+
+        <!-- main header -->
+        <header class="main-header">
+
+            <!-- TODO: top nav container-->
+            <div class="nav-bar-container fixed">
+
+                <!--delete it if you don't need it -->
+
+                <div class="top-line-bar">shopy | 0800 500 10 95 | курс валют | контакты оплата | и доставка Харкьов UA
+                    | RUS
+                </div>
+
+
+                <!--<div class="top-line-bar">2th bar
+                </div>-->
+
+                <!-- NAVBAR -->
+                <!-- TODO: NavBar here-->
+                <!-- itopnav using in navbar.js -->
+                <nav class="topnav" id="itopnav">
+                    <div class="topnav-base-block topnav-left-block hide-responsive-disable">
+
+                        <a href="javascript:void(0);" class="sidebar-icon hide-in-responsive" onclick="openNav()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+
+                        <a href="#home" class="">Company</a>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Pages
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content fixed leftbar">
+                                <a href="#">index</a>
+                                <a href="#">catalog (product list + filter)</a>
+                                <a href="#">product-page</a>
+                                <a href="">sign-up</a>
+                                <a href="">sign-in</a>
+                                <a href="">order/s</a>
+                                <a href="">wishlist</a>
+                                <a href="">cart</a>
+                                <a href="">compare</a>
+                                <a href="">messages</a>
+                                <a href="">profile</a>
+                                <a href="">setting</a>
+                                <a href="">shipping</a>
+                                <a href="">browsing history</a>
+                                <a href="">sell history</a>
+                                <a href="">404</a>
+                                <a href="">Contact</a>
+                                <a href="">features</a>
+                            </div>
+                        </div>
+
+
+                        <a href="#news" class="active">Catalog</a>
+
+                        <!-- mega menu -->
+                        <div class="mega-menu mega-dropdown hide-responsive-disable">
+                            <button class="mega-dropbtn">
+                                <span class="material-icons-outlined">
+                                    widgets
+                                </span>
+                                <span>Catalog</span>
+                            </button>
+                            <div class="mega-dropdown-content">
+                                <div class="header">
+                                    <span class="material-icons-outlined">
+                                        widgets
+                                    </span>
+                                    <h2>Categoies</h2>
+                                </div>
+                                <div class="row">
+
+                                    <div class="tab">
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab1')">Computers</button>
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab2')">Smartphones</button>
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab3')">Appliances</button>
+                                        <button class="tablinks" onmouseover="openCategory(event, 'tab4')">4</button>
+                                        <button class="tablinks" onmouseover="openCategory(event, 'tab5')">5</button>
+                                        <button class="tablinks" onmouseover="openCategory(event, 'tab6')">6</button>
+                                        <button class="tablinks"
+                                            onmouseover="openCategory(event, 'tab100')">All</button>
+                                    </div>
+
+                                    <div id="tab1" class="tabcontent">
+                                        <h3>Computers</h3>
+                                        <p>Computers !!!</p>
+                                        <div class="column">
+                                            <h3>Category 1</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 2</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 3</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab2" class="tabcontent">
+                                        <div class="column">
+                                            <h3>Category 1</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 2</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 3</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab3" class="tabcontent">
+                                        <h3>Samsung</h3>
+                                        <p>Washing machines!</p>
+                                    </div>
+
+                                    <div id="tab4" class="tabcontent">
+
+                                    </div>
+
+                                    <div id="tab5" class="tabcontent">
+
+                                    </div>
+
+                                    <div id="tab6" class="tabcontent">
+
+                                    </div>
+
+                                    <div id="tab100" class="tabcontent">
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- mega menu stop-->
+
+
+
+                        <!-- 
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content fixed">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        -->
+
+                    </div>
+
+                    <div class="topnav-base-block topnav-center-block hide-responsive-disable">
+                        <!-- TODO: search -->
+
+                        <div class="search-container">
+                            <form action="/action_page.php">
+
+                                <div class="search-select ui-item hide-in-responsive">
+                                    <select>
+                                        <option value="0">Select search:</option>
+                                        <option value="1">PC</option>
+                                        <option value="2">phonees</option>
+                                        <option value="3">cars</option>
+                                        <option value="4">option</option>
+                                        <option value="5">Option</option>
+                                        <option value="6">Option</option>
+                                        <option value="7">Option</option>
+                                        <option value="8">Option</option>
+                                        <option value="9">Option</option>
+                                        <option value="10">Option</option>
+                                        <option value="11">Option</option>
+                                        <option value="12">Option</option>
+                                        <option value="13">Option</option>
+                                        <option value="14">Option</option>
+                                    </select>
+                                </div>
+
+                                <input class="ui-item" type="text" placeholder="What you Search..." name="search">
+
+                                <button class="ui-item" type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <!-- search end -->
+
+                    <!-- rigth nav block -->
+
+                    <div class="topnav-base-block topnav-right-block hide-responsive-disable">
+
+                        <a class="material-iconsf" href="">
+                            <!-- dropdown youtoobe-->
+                            <span class="icon material-icons">
+                                notifications
+                            </span>
+                        </a>
+
+                        <div class="dropdown">
+
+                            <button class="dropbtn">
+                                <i class="fa-solid fa-fw fa-user"></i>
+                                Accaunt Name
+                            </button>
+                            <div class="dropdown-content fixed profile">
+
+                                <a href="#">Profile</a>
+                                <a href="#">Notifications</a>
+
+                                <div>
+                                    <a href="#" class="notification fa-iconsf">
+                                        <i class="fa fa-fw fa-envelope"></i>
+                                        <span class="badge">3</span>
+                                    </a>
+
+                                    <a href="#" class="notification fa-iconsf">
+                                        <i class="fa fa-fw fa-envelope"></i>
+                                        <span class="badge">3</span>
+                                    </a>
+                                </div>
+
+                                <a href="#about">Setting</a>
+                                <hr>
+                                <a href="#about">Wishlist</a>
+                                <a href="#about">Orders</a>
+                                <a href="#rand">Setting</a>
+                                <a href="#rand">Log Out</a>
+                                <a href="#about">Sigm In</a>
+                                <a href="#about">******</a>
+                                <a href="#about">******</a>
+                                <a href="#about">******</a>
+                                <a href="#about">******</a>
+                                <a href="#about">******</a>
+                                <a href="#about">******</a>
+                                <a href="#about">******</a>
+                            </div>
+                        </div>
+
+                        <a href="#" class="fa-iconsf notification">
+                            <span><i class="fa fa-fw fa-envelope"></i></span>
+                            <span class="badge">3</span>
+                        </a>
+
+                        <a href="#" class="material-iconsf notification">
+                            <span class="material-icons md-dark">face</span>
+                        </a>
+
+                        <a href="#" class="material-iconsf">
+                            <span class="material-icons-outlined">
+                                language
+                            </span>
+                        </a>
+
+                        <a href="#" class="notification">
+                            <i class="fa fa-list" aria-hidden="true"></i> <span class="badge">3</span>
+                        </a>
+
+                    </div>
+
+                    <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                </nav>
+
+                <div class="top-line-bar-btm">
+                </div>
+
+            </div> <!-- nav-bar-container end -->
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+            <!-- NAVBAR END -->
+        </header>
+
+        <!-- main content -->
+        <div class="main-content main" id="main">
+            <main>
+
+                <section class="left-bar">
+
+                    <div class="left-box">
+
+                        <header>
+                            <h2>Categories</h1>
+                        </header>
+
+                        <button class="accordion">
+                            Section 1
+                        </button>
+                        <div class="panel">
+                            <div class="vertical-menu">
+                                <a href="#" class="active">Home</a>
+                                <a href="#rand">Link 1</a>
+                                <a href="#rand">Link 2</a>
+                                <a href="#rand">Link 3</a>
+                                <a href="#rand">Link 4</a>
+                            </div>
+                        </div>
+
+                        <button class="accordion">Section 2</button>
+                        <div class="panel">
+                            <div class="vertical-menu">
+                                <a href="#" class="active">Home</a>
+                                <a href="#rand">Link 1</a>
+                                <a href="#rand">Link 2</a>
+                                <a href="#rand">Link 3</a>
+                                <a href="#rand">Link 4</a>
+                            </div>
+                        </div>
+
+                        <button class="accordion">Section 3</button>
+                        <div class="panel">
+                            <div class="vertical-menu">
+                                <a href="#" class="active">Home</a>
+                                <a href="#rand">Link 1</a>
+                                <a href="#rand">Link 2</a>
+                                <a href="#rand">Link 3</a>
+                                <a href="#rand">Link 4</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="left-box">
+
+                        <header>
+                            <h2>Filters</h1>
+                        </header>
+
+                        <button class="accordion">Section 1</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo
+                                consequat.</p>
+                        </div>
+
+                        <button class="accordion">Section 2</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo
+                                consequat.</p>
+                        </div>
+
+                        <button class="accordion">Section 3</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo
+                                consequat.</p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- ++++ ====================================== ++++ -->
+
+                <div class="page-content">
+
+                    <header class="page-content-header">
+                        <h1>Header</h1>
+                    </header>
+
+                    <div class="container-lib">
+
+
+                        <div class="base-box">
+                            <header>
+                                <h2>Box</h2>
+                            </header>
+
+                            <div class="panel">
+                                <div class="vertical-menu">
+                                    <a href="#" class="active">Home</a>
+                                    <a href="#rand">Link 1</a>
+                                    <a href="#rand">Link 2</a>
+                                    <a href="#rand">Link 3</a>
+                                    <a href="#rand">Link 4</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+            </main>
+        </div>
+
+
+        <!-- sidebar -->
+
+        <div id="isidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- main footer -->
+        <footer class="main-footer">
+            main-footer
+        </footer>
+
+
+
+    </div> <!-- wrapper end--->
+
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/mega_menu.js"></script>
+    <script src="./assets/js/set_grid.js"></script>
+
+    <script src="./assets/js/custom_select.js"></script>
+    <script src="./assets/js/search_select.js"></script>
+    <script src="./assets/js/onload_categories.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+
+
+
+</body>
+
+</html>
+
+<!-- icons: 
+    https://fontawesome.com/search?s=thin 
+    https://fonts.google.com/icons
+-->
