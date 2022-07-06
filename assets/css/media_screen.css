@@ -304,7 +304,7 @@
   .topnav .topnav-right-block .dropdown-content {
     /*display: none !important; */
 
-    width: 100%;
+    width: 600px; /* from media*/
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
