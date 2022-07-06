@@ -75,3 +75,35 @@ function closeNav() {
 
   console.log("closeNav");
 }
+
+/**********************/
+var ham = 1;
+
+$(document).ready(function () {
+  $(".topnav-base-block").attr(
+    "style",
+    "display: none !important; position: fixed;"
+  );
+  console.log("none");
+  ham = 0;
+});
+
+$("a.gamburger-smart-icon").click(function () {
+  console.log('a.gamburger-smart-icon"');
+
+  if (ham == 1) {
+    $(".topnav-base-block").attr(
+      "style",
+      "display: none !important; position: fixed;"
+    );
+    console.log("none");
+    ham = 0;
+  } else {
+    $(".topnav-base-block").attr(
+      "style",
+      "display: flex !important; position: relative;"
+    );
+    ham = 1;
+    console.log("flex");
+  }
+});
