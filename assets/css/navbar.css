@@ -331,8 +331,8 @@ hr {
   margin-top: 5px;
 
   border-radius: 50%;
-  /*background: red;*/
-  background: #f26800;
+  background: red;
+  /*background: #f26800;*/
   color: white;
 }
 
@@ -358,8 +358,8 @@ hr {
   right: -5px;
   padding: 1px 5px;
   border-radius: 50%;
-  /*background: red;*/
-  background: #f26800;
+  background: red;
+  /*background: #f26800;*/
   color: white;
 }
 
@@ -367,6 +367,11 @@ hr {
 .material-icons,
 .material-icons-outlined {
   font-size: 24px;
+}
+
+.lang {
+  display: inline-flex;
+  column-gap: inherit;
 }
 
 /* TODO: SIDEBAT HERE AAAA TODO: to sidebar.css*/
