@@ -83,7 +83,7 @@
 
 .products.catalog-view-list .product-card {
   width: inherit;
-  height: 180px;
+  min-height: 180px;
   flex-direction: row;
 }
 
