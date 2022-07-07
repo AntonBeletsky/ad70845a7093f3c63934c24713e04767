@@ -78,6 +78,7 @@
 .products.catalog-view-grid .product-card {
   width: 250px;
   flex-direction: column;
+  height: auto;
 }
 
 .products.catalog-view-list .product-card {
@@ -96,6 +97,7 @@
   padding-right: 10px;
   /*background-color: cadetblue; !*/
   background-color: inherit;
+  overflow: hidden; /* TODO: overflow: hidden; */
 }
 
 .product-card-text .card-text {

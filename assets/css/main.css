@@ -15,13 +15,8 @@ main {
 a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
+
 /*
-
-    background-color: #e6f1f8;
-    
-margin: 0px 0px 0px 0px;
-padding: 0px 0px 0px 0px;
-
 display: flex;
 flex-wrap: wrap;
 align-content: flex-start;
@@ -44,7 +39,7 @@ div.wrapper {
   flex-direction: row;
   flex-wrap: nowrap;
 
-  justify-content: space-evenly;
+  justify-content: space-between; /* а то нав бар скукожиться */
   align-items: flex-start;
   /*align-self: auto; for items */
   align-content: flex-start;
