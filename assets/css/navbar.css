@@ -4,17 +4,6 @@
  https://www.w3schools.com/css/css_dropdowns.asp
 */
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.main {
-  margin-top: 80px;
-  /* top nav h */
-  /* Used in this example to enable scrolling */
-}
-
 .nav-bar-container {
   /* overflow: hidden; TODO: overflow: hidden  */
   background-color: #333;
