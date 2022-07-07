@@ -1,12 +1,16 @@
 /* fix for width nav bar in header on mobile*/
-/*
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 800px) {
   div.wrapper {
-    display: block !important;
-    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
-*/
 
 /*
 TODO:

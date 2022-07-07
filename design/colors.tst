@@ -1,0 +1,1 @@
+azure 	#F0FFFF
