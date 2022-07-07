@@ -7,6 +7,8 @@
   flex-direction: column;
 
   row-gap: 25px;
+
+  transition: margin-left 2s 0.5s;
 }
 
 .left-box {

@@ -76,7 +76,7 @@ $(window).resize(function () {
 
 function openNav() {
   document.getElementById("isidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("leftbar").style.marginLeft = "250px";
 
   console.log("openNav");
   /*document.getElementById("itopnav").style.marginLeft = "250px";*/
@@ -84,7 +84,7 @@ function openNav() {
 
 function closeNav() {
   document.getElementById("isidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+  document.getElementById("leftbar").style.marginLeft = "0";
 
   document.getElementById("itopnav").style.marginLeft = "0px";
 
