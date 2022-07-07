@@ -38,6 +38,26 @@
     flex-direction: column !important;
   }
 
+  .left-bar {
+    /*
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    */
+  }
+
+  .left-box {
+    width: 80%;
+    margin-left: 5px;
+    margin-right: 5px;
+    row-gap: 5px;
+  }
+
+  div.wrapper section.left-bar,
+  main {
+    margin-top: 5px;
+  }
+
   .topnav .search-container,
   .topnav .search-container form {
     /*float: none;*/
