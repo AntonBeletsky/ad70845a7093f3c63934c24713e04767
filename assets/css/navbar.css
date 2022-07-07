@@ -336,6 +336,19 @@ hr {
   color: white;
 }
 
+.notification .badge-l {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 1px 1px;
+  margin-right: 0px;
+  margin-top: 0px;
+  border-radius: 100%;
+  background: red;
+  /* background: #f26800; */
+  color: white;
+}
+
 /* notification badge for dropdown-content */
 
 .dropdown-content .notification {
