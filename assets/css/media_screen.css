@@ -1,8 +1,8 @@
 /* navbar*/
 
 /* media в отдельній файл нахуй */
-/* TODO: smart 600px */
-@media screen and (max-width: 600px) {
+/* TODO: smart 1000px 600old*/
+@media screen and (max-width: 1000px) {
   /* этот класс в самый вверх !!!*/
   .topnav a.sidebar-icon,
   .top-line-bar,
@@ -32,6 +32,10 @@
 
   main {
     margin-top: 0px;
+  }
+
+  .wrapper {
+    flex-direction: column !important;
   }
 
   .topnav .search-container,
@@ -129,7 +133,7 @@
 
 /* top nav gamburger*/
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   /*.topnav a:not(:first-child) {display: none;} TODO: вот эта хуйня сьела половину кнопок  */
   .topnav a.gamburger-smart-icon {
     /*float: right;*/
@@ -141,7 +145,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav.responsive {
     position: relative;
   }
@@ -176,7 +180,7 @@
 
 /* sidebar */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .sidebar-icon {
     color: chartreuse;
     background-color: #1ad452;
@@ -206,7 +210,7 @@
 /* */
 /* phones */
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
-@media only /*all and */(max-width: 600px) {
+@media only /*all and */(max-width: 1000px) {
   ul.navbar li.right,
   ul.navbar li {
     float: none;
@@ -214,7 +218,7 @@
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .mega-menu .column {
     width: 100%;
     height: auto;
@@ -228,7 +232,7 @@
 }
 
 /* select width*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .search-select {
     display: block;
     width: 100%;
@@ -248,7 +252,7 @@
 
 /* nav bar buttons */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   /* for all classes*/
   .topnav-base-block {
   }
@@ -304,7 +308,7 @@
   .topnav .topnav-right-block .dropdown-content {
     /*display: none !important; */
 
-    /*width: 600px; /* fix /  from media*/
+    /*width: 1000px; /* fix /  from media*/
     width: 100%; /* go to .dropdown  in navbar.css*/
     flex-direction: row;
     flex-wrap: nowrap;
@@ -319,9 +323,22 @@
   /* fix */
 }
 
+/* search to mobile */
+/*
+@media screen and (max-width: 1350px) and (min-width: 1000px) {
+  .topnav .search-container input[type="text"].hide-in-responsive {
+    width: 80px; /*350*/ /*
+  }
+
+  .topnav .search-container .search-select.hide-in-responsive {
+    width: 60px; /*160*/ /*
+  }
+}
+*/
+
 /* child hide*/
 /*
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav-left-block:nth-child(n),
   .topnav-left-block:nth-child(n):nth-child(n),
   .topnav-center-block:nth-child(n),
