@@ -5,17 +5,30 @@
 /* Gamburger */
 
 let screen_mode = "desk"; /*  "smart" */
-const width_param = 600;
+const width_param = 600; /*600*/
+
+function set_display_none_nav() {
+  $(".topnav-base-block").attr("style", "display: none !important;");
+}
+
+function set_display_flex_nav() {
+  $(".topnav-base-block").attr("style", "display: flex !important;");
+}
 
 function screenModeSwither() {
   if (screen_mode == "smart") {
     $(".responsive").removeClass("responsive");
     $(".hide-responsive").css("display", "none");
+
+    set_display_none_nav();
+
     screen_mode = "desk";
     /*alert('hide');*/
   } else {
     $("#itopnav.topnav").addClass("responsive"); /* широкие кнопки */
     $(".hide-responsive").css("display", "block");
+
+    set_display_flex_nav();
     screen_mode = "smart";
     /*alert('show');*/
   }
@@ -36,6 +49,8 @@ $(window).resize(function () {
     $(".responsive").removeClass("responsive");
     $(".hide-responsive").css("display", "none");
     screen_mode = "desk";
+
+    set_display_none_nav();
     console.log("remove respons");
   }
 });
