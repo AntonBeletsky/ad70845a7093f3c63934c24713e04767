@@ -30,6 +30,10 @@
     flex-direction: column;
   }
 
+  .mega-menu {
+    display: none !important;
+  }
+
   main {
     margin-top: 0px;
   }
