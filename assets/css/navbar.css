@@ -414,7 +414,8 @@ hr {
 }
 
 .notification:hover {
-  /*background: red;*/
+  /*background: #E41E3F;*/
+  /*E41E3F - fb*/
 }
 
 .notification .badge {
@@ -427,7 +428,7 @@ hr {
   margin-top: 0px;
 
   border-radius: 50%;
-  background: red;
+  background: #e41e3f;
   /*background: #f26800;*/
   color: white;
 }
@@ -440,7 +441,7 @@ hr {
   margin-right: 0px;
   margin-top: 0px;
   border-radius: 100%;
-  background: red;
+  background: #e41e3f;
   /* background: #f26800; */
   color: white;
 }
@@ -458,7 +459,7 @@ hr {
 }
 
 .dropdown-content .notification:hover {
-  /*background: red;*/
+  /*background: #E41E3F;*/
 }
 
 .dropdown-content .notification .badge {
@@ -467,7 +468,7 @@ hr {
   right: -5px;
   padding: 1px 5px;
   border-radius: 50%;
-  background: red;
+  background: #e41e3f;
   /*background: #f26800;*/
   color: white;
 }
