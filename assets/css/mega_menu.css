@@ -26,6 +26,8 @@
   background-color: #caa5a5;
   width: 100%;
   left: 0;
+  /*top: 24px; /* top nav h / 2*/
+  margin-top: 47px !important;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 
