@@ -44,11 +44,9 @@
   display: flex;
   gap: 0px 15px;
   align-items: baseline;
-
   background: red;
   /*padding: 16px;*/
   color: white;
-
   padding-left: 28px;
 }
 
@@ -67,6 +65,8 @@
   /*background-color: #298158;*/
   display: block;
   transition: 0.2s linear;
+
+  margin-top: 48px;
 }
 
 /* Create three equal columns that floats next to each other */
