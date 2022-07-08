@@ -216,7 +216,7 @@
     display: none;
     /* костіль */
     /* display: none !important; /* костіль */
-    background-color: blue;
+    /*background-color: blue;*/
   }
 }
 
@@ -333,6 +333,7 @@
     /*display: none !important; */
 
     /*width: 600px; /* fix /  from media*/
+    margin-left: 5px; /* -170px in desk*/
     width: 100%; /* go to .dropdown  in navbar.css*/
     flex-direction: row;
     flex-wrap: nowrap;

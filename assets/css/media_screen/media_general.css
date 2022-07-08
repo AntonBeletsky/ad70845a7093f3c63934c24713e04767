@@ -16,3 +16,9 @@
 TODO:
 мега меню нахуй в none
 */
+
+@media screen and (max-width: 600px) {
+  .delete-in-responsive {
+    display: none !important;
+  }
+}
