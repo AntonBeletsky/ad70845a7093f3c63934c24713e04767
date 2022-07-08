@@ -68,6 +68,8 @@
     <link rel="stylesheet" href="./assets/css/scroll.css">
     <link rel="stylesheet" href="./assets/css/mega_menu.css">
 
+    <link rel="stylesheet" href="./assets/css/modal.css">
+
     <!-- for smart devices-->
     <link rel="stylesheet" href="./assets/css/media_screen/media_general.css">
 
@@ -124,6 +126,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content fixed leftbar">
+                                <button id="myBtn">Open Modal</button>
                                 <a href="#">index</a>
                                 <a href="#">catalog (product list + filter)</a>
                                 <a href="#">product-page</a>
@@ -348,12 +351,6 @@
                                     <a href="#rand">Setting</a>
                                     <a href="#rand">Log Out</a>
                                     <a href="#about">Sigm In</a>
-                                    <a href="#about">******</a>
-                                    <a href="#about">******</a>
-                                    <a href="#about">******</a>
-                                    <a href="#about">******</a>
-                                    <a href="#about">******</a>
-                                    <a href="#about">******</a>
                                     <a href="#about">******</a>
                                 </div>
                                 <div>
@@ -1048,6 +1045,17 @@
     </div> <!-- wrapper end--->
 
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+
+    </div>
+
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 
@@ -1061,6 +1069,7 @@
     <script src="./assets/js/search_select.js"></script>
     <script src="./assets/js/onload_categories.js"></script>
     <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/modal.js"></script>
 
 
 
