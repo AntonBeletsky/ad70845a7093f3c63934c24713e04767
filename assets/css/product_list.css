@@ -349,7 +349,8 @@
 }
 
 .products-list-header .grid-buttons .grid-btn {
-  color: #333;
+  /*color: #333;*/
+  color: #4a6575;
   cursor: default;
   background-color: #97a2a8;
   transition: 0.2s linear;
@@ -357,10 +358,12 @@
 }
 
 .products-list-header .grid-buttons .grid-btn:hover {
-  color: #333;
+  /*color: #333;*/
+  color: #4a6575;
   cursor: pointer;
   /*background-color: #F5F5F5;*/
-  background-color: #f5f4dc;
+  /*background-color: #f5f4dc;*/
+  background-color: #fcfae3;
   transition: 0.2s linear;
 }
 
