@@ -277,7 +277,10 @@
   border-right: 1px solid #020001;
 }
 .dropdown-content.profile div:nth-child(2) {
-  background-color: #84a9bf;
+  /*background-color: #84a9bf;*/
+  background-color: #4a6575;
+  /*background-color: #b4bdc2;*/
+
   /*color: #020001;*/
 }
 
@@ -293,13 +296,27 @@
 }
 
 .dropdown-content.profile div:nth-child(2) h2 {
-  color: #fafafa;
+  /*color: #fafafa;*/
+  color: #fcfae3;
   /*border-bottom: 1px solid #020001;*/
   padding-bottom: 15px;
 }
 
-.dropdown-content.profile div a:hover {
+.dropdown-content.profile div:nth-child(2) a {
+  color: #fcfae3;
+  /*border-bottom: 1px solid #020001;*/
+  padding-bottom: 15px;
+}
+
+.dropdown-content.profile div:nth-child(1) a:hover {
+  background-color: #8abedb;
+  color: #020001;
+}
+
+.dropdown-content.profile div:nth-child(2) a:hover {
   background-color: #fafafa;
+  color: #020001;
+  /*color: #222e36;*/
 }
 
 .dropdown-content.profile h2 {
