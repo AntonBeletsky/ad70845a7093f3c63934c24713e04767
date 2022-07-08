@@ -29,7 +29,12 @@
 
 .top-line-bar {
   background-color: #97a2a8;
+  /*background-color: #b4bdc2;*/
+  /*background-color: #d9d9d9;*/
+
   height: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .top-line-bar-btm {
@@ -131,7 +136,8 @@
 }
 
 .topnav a.active {
-  background-color: #1b594e;
+  /*background-color: #1b594e;*/
+  background-color: #053d38;
   font-weight: bolder;
 
   /*color: white;*/
@@ -242,8 +248,11 @@
   /*position: absolute;*/
   /*position: fixed; /* ! */
   /*background-color: #333333;*/
-  background-color: #020001;
-  color: #f5f4dc;
+  /*background-color: #020001;*/
+  background-color: #4a6575;
+  color: #fcfae3;
+  /*color: #f5f4dc;*/
+
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   margin-top: 1px; /* TODO: see top nav */
@@ -350,13 +359,23 @@
 
 .topnav a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #84a9bf;
-  color: #fafafa;
+  /*background-color: #84a9bf;*/
+  background-color: #4a6575;
+  /*color: #fafafa;*/
+  color: #fcfae3;
 }
 
 .dropdown-content a:hover {
+  /*
   background-color: #f5f4dc;
   color: black;
+  */
+  /*
+ background-color: #8abedb;
+  color: #020001;
+  */
+  background-color: #fafafa;
+  color: #020001;
 }
 
 /* TODO:  .dropdown:hover .dropdown-content { */
