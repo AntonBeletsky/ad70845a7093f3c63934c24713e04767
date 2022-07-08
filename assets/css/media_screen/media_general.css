@@ -1,5 +1,5 @@
 /* fix for width nav bar in header on mobile*/
-
+/*
 @media screen and (max-width: 800px) {
   div.wrapper {
     display: flex;
@@ -11,7 +11,7 @@
     flex-direction: column;
   }
 }
-
+*/
 /*
 TODO:
 мега меню нахуй в none
