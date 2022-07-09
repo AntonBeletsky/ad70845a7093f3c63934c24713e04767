@@ -77,7 +77,8 @@
   float: left;
   width: 250px;
   padding: 10px;
-  background-color: #94cbeb;
+  /*background-color: #94cbeb;*/
+  background-color: #e4eef5;
   height: 250px;
 }
 
@@ -158,8 +159,12 @@
 }
 
 /* Style the tab content */
-.tabcontent {
-  /* TODO: !!! */
+.mega-menu-tabcontent {
+  color: white;
+  display: none;
+  padding: 0px 0px;
+  min-height: 800px;
+
   background-color: #749fb8;
   float: left;
   padding: 0px 12px;
