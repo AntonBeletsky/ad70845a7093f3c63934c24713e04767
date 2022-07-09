@@ -152,6 +152,9 @@
   background-color: #8abedb;
   color: #000000;
   border: #000000;
+  /*box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);*/
+  /*box-shadow: inset 0px 5px 10px 0px #000000b3;*/
+  box-shadow: 0 3px 3px #575555 inset;
 }
 
 /* Style the tab content */
