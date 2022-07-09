@@ -150,7 +150,8 @@
 /* Create an active/current "tab button" class */
 .tab button.active {
   background-color: #8abedb;
-  color: #020001;
+  color: #000000;
+  border: #000000;
 }
 
 /* Style the tab content */
