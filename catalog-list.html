@@ -152,7 +152,9 @@
 
                         <a href="#news" class="active">Products</a>
 
-                        <!-- mega menu -->
+                        <!-- Mega Menu -->
+
+
                         <div class="mega-menu mega-dropdown hide-responsive">
                             <button class="mega-dropbtn">
                                 <span class="material-icons-outlined">
@@ -160,7 +162,8 @@
                                 </span>
                                 <span>Catalog</span>
                             </button>
-                            <div class="mega-dropdown-content">
+                            <!-- TODO: delete style css in prod-->
+                            <div class="mega-dropdown-content" style="display: block !important;">
                                 <div class="header">
                                     <span class="material-icons-outlined">
                                         widgets
@@ -255,24 +258,26 @@
                         </div>
                         <!-- mega menu stop-->
 
+
                         <!-- 
                         <div class="dropdown">
                             <button class="dropbtn">Dropdown
                                 <i class="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-content fixed">
+                            <-!-- leftbar its modifer  -->
+                        <!--
+                            <div class="dropdown-content leftbar fixed">
                                 <a href="#">Link 1</a>
                                 <a href="#">Link 2</a>
                                 <a href="#">Link 3</a>
                             </div>
                         </div>
-                        -->
+                    -->
 
                     </div>
 
                     <div class="topnav-base-block topnav-center-block hide-responsive">
                         <!-- TODO: search -->
-
                         <div class="search-container">
                             <form action="/action_page.php">
 
@@ -301,7 +306,6 @@
                                 <button class="ui-item" type="submit"><i class="fa fa-search"></i></button>
                             </form>
                         </div>
-
                     </div>
 
                     <!-- search end -->
@@ -310,16 +314,6 @@
 
                     <!-- TODO: !!! use 'material-iconsf' class or 'fa-iconsff' for diferent paddings-->
                     <div class="topnav-base-block topnav-right-block hide-responsive">
-
-                        <!-- lang  add dropdown and gap column 
-                        <a href="#" class="material-iconsf lang">
-                            <span>ua</span>
-                            <span class="material-icons">
-                                language
-                            </span>
-                        </a>
-                        -->
-
 
                         <!-- profile button-->
                         <div class="dropdown">
@@ -364,19 +358,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!--    <a class="material-iconsf notification" href="#">
-                            <span class="icon material-icons">
-                                notifications
-                            </span>
-                            <span class="badge">3</span>
-                        </a> -->
-                        <!--  <a href="#" class="notification fa-iconsf">
-                            <i class="fa fa-list" aria-hidden="true"></i>
-                            <span class="badge">3</span>
-                        </a> -->
-
-
                         <!-- wishlist-->
                         <a href="#" class="material-iconsf notification">
                             <span class="material-icons">
@@ -385,39 +366,16 @@
                             <!-- 3-1x; 15-2x; 100-3x; badge-l for 2x badge for 1x -->
                             <span class="badge badge-l">15</span>
                         </a>
-
                         <!-- compare -->
                         <a href="#" class="fa-iconsf notification">
                             <i class="icon fa-solid fa-scale-balanced"></i>
                             <span class="badge">3</span>
                         </a>
-
                         <!-- cart -->
                         <a href="#" class="fa-iconsf notification">
                             <span><i class="fa-solid fa-cart-shopping"></i></span>
                             <span class="badge">7</span>
                         </a>
-
-
-                        <!-- 
-                        <a href="#" class="fa-iconsf notification">
-                            <span><i class="fa fa-fw fa-envelope"></i></span>
-                            <span class="badge">3</span>
-                        </a>
-                        -->
-
-                        <!--  <a href="#" class="material-iconsf notification">
-                            <span class="material-icons md-dark">face</span>
-                        </a> -->
-
-                        <!-- 
-                        <a href="#" class="material-iconsf">
-                            <span class="material-icons-outlined">
-                                language
-                            </span>
-                        </a>
-                    -->
-
                     </div>
 
                     <!-- on mobile only-->
@@ -432,22 +390,16 @@
 
             </div> <!-- nav-bar-container end -->
             <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-
-
             <!-- NAVBAR END -->
+
         </header>
-
         <!-- main content -->
-
         <!-- left-bar = sidebar for filters. accardions, etc-->
         <section id="leftbar" class="left-bar">
-
             <div class="left-box">
-
                 <header>
                     <h2>Categories</h1>
                 </header>
-
                 <button class="accordion">
                     Section 1
                 </button>
@@ -460,7 +412,6 @@
                         <a href="#rand">Link 4</a>
                     </div>
                 </div>
-
                 <button class="accordion">Section 2</button>
                 <div class="panel">
                     <div class="vertical-menu">
@@ -471,7 +422,6 @@
                         <a href="#rand">Link 4</a>
                     </div>
                 </div>
-
                 <button class="accordion">Section 3</button>
                 <div class="panel">
                     <div class="vertical-menu">
@@ -482,16 +432,12 @@
                         <a href="#rand">Link 4</a>
                     </div>
                 </div>
-
             </div>
 
-
             <div class="left-box">
-
                 <header>
                     <h2>Filters</h1>
                 </header>
-
                 <button class="accordion">Section 1</button>
                 <div class="panel">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -500,7 +446,6 @@
                         aliquip ex ea commodo
                         consequat.</p>
                 </div>
-
                 <button class="accordion">Section 2</button>
                 <div class="panel">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -509,7 +454,6 @@
                         aliquip ex ea commodo
                         consequat.</p>
                 </div>
-
                 <button class="accordion">Section 3</button>
                 <div class="panel">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -518,17 +462,12 @@
                         aliquip ex ea commodo
                         consequat.</p>
                 </div>
-
             </div>
-
         </section>
 
         <main id="main">
 
-
-
             <!-- ++++ ====================================== ++++ -->
-
             <div class="page-content">
                 <header class="page-content-header">
 
@@ -1041,20 +980,16 @@
             main-footer
         </footer>
 
-
-
     </div> <!-- wrapper end--->
 
 
     <!-- The Modal -->
     <div id="modal1" class="modal">
-
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close_btn1">&times;</span>
             <p>Some text in the Modal..</p>
         </div>
-
     </div>
 
     <!-- JS -->

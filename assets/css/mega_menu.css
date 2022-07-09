@@ -23,7 +23,7 @@
 .mega-dropdown-content {
   display: none;
   position: absolute;
-  background-color: #caa5a5;
+  background-color: #f70f0f;
   width: 100%;
   left: 0;
   /*top: 24px; /* top nav h / 2*/
@@ -46,9 +46,9 @@
   display: flex;
   gap: 0px 15px;
   align-items: baseline;
-  background: red;
+  background-color: #4a6575;
   /*padding: 16px;*/
-  color: white;
+  color: #fafafa;
   padding-left: 28px;
 }
 
@@ -57,8 +57,9 @@
 }
 
 .mega-dropbtn:hover {
-  background-color: #f5f4dc;
-  color: #333;
+  background-color: #4a6575;
+  color: #fafafa;
+  /*color: #333;*/
   /*font-weight: bolder; едет все */
   transition: 0.2s linear;
 }
@@ -76,7 +77,7 @@
   float: left;
   width: 250px;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #94cbeb;
   height: 250px;
 }
 
@@ -100,7 +101,7 @@
 
 /* Add a background color on hover */
 .mega-menu .column a:hover {
-  background-color: #ddd;
+  background-color: #fafafa;
   transition: 0.2s linear;
 }
 
@@ -116,10 +117,10 @@
 /* Style the tab */
 .tab {
   float: left; /* TODO: to flex*/
-  border: 1px solid #ccc;
-  background-color: #8dbb91;
-  width: 300px;
-  height: 800px;
+  border: 1px solid #222e36;
+  background-color: #4d6a7a;
+  width: 300px; /* заменить */
+  height: 800px; /* заменить */
   transition: 0.2s linear;
 }
 
@@ -127,33 +128,38 @@
 .tab button {
   display: block;
   background-color: inherit;
-  color: black;
+  /*color: black;*/
+  color: #fafafa;
   padding: 22px 16px;
   width: 100%;
   border: none;
   outline: none;
   text-align: left;
   cursor: pointer;
+
+  font-weight: bolder;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #fafafa;
+  color: #020001;
   transition: 0.2s linear;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #8abedb;
+  color: #020001;
 }
 
 /* Style the tab content */
 .tabcontent {
   /* TODO: !!! */
-  background-color: #e4b164;
+  background-color: #749fb8;
   float: left;
   padding: 0px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #25333b;
   border-left: none;
   /*width: 700px;*/
   /*height: 300px;*/
