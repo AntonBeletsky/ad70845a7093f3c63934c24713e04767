@@ -1,5 +1,0 @@
-hide-responsive
-hide-in-responsive
-
- классы юзаються в js, из-за чего едет верстка
- из-за смені display block flex nonme 
