@@ -13,6 +13,8 @@
   min-height: 100px;
   justify-content: center;
   align-content: center;
+
+  border-top: 4mm solid #4a6575;
 }
 
 .main-footer div.main-footer-row {
