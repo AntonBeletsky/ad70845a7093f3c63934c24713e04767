@@ -1,6 +1,6 @@
 const search_len_drop_datalist_param = 3;
 
-$("#search-input").keyup(function () {
+$("#search-input").on("input", function () {
   /* console.log("ku"); */
   if ($("#search-input").val().length >= search_len_drop_datalist_param) {
     // Enable
