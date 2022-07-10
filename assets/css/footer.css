@@ -1,0 +1,40 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  padding: 50px 50px 50px 50px;
+  /*background-color: #020002;*/
+  background-color: #333;
+  color: #fafafa;
+  width: auto;
+  min-height: 100px;
+  justify-content: center;
+}
+
+.main-footer div {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  color: #fafafa;
+  justify-content: flex-start;
+  padding: 40px 10px;
+}
+
+.main-footer div div {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fafafa;
+}
+
+.main-footer div p,
+.main-footer div a {
+  background-color: #333;
+  color: #fafafa;
+}
+
+.main-footer div div p,
+.main-footer div div a {
+  background-color: #333;
+  color: #fafafa;
+}
