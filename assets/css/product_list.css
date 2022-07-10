@@ -14,8 +14,8 @@
   flex-wrap: wrap;
 
   justify-content: flex-start;
-  align-items: stretch; /* base line */
   align-content: stretch;
+  align-items: stretch; /* base line */
 
   /* отступ*/
   row-gap: 20px; /*  между строками*/

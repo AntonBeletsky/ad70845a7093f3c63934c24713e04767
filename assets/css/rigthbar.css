@@ -1,7 +1,6 @@
-/* left bar | sidebar */
+/* rigth bar | sidebar */
 
-.left-bar {
-  margin-top: 100px;
+.rigth-bar {
   /*background-color: #c8d2e6; /*fb*/
   background-color: inherit;
   display: flex;
@@ -9,10 +8,10 @@
 
   row-gap: 25px;
   /* property name | duration | delay */
-  transition: margin-left 1s 0.1s;
+  transition: margin-rigth 1s 0.1s;
 }
 
-.left-box {
+.rigth-box {
   background-color: #97a2a8;
   /*color: #F5F5F5;*/
   color: #333;
@@ -25,7 +24,7 @@
   padding: 5px 25px 25px 25px;
 }
 
-.left-box header {
+.rigth-box header {
   margin: 0px 0px;
   padding: 0px 0px;
   background-color: inherit;
@@ -41,7 +40,7 @@
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: rigth;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
