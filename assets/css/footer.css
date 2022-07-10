@@ -1,6 +1,7 @@
 .main-footer {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   /* Сверху | Справа | Снизу | Слева */
   margin: 0px 0px 0px 0px;
   padding-top: 30px;
@@ -16,6 +17,7 @@
 
 .main-footer div.main-footer-row {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   background-color: #333;
   color: #fafafa;
@@ -26,6 +28,7 @@
 
 .main-footer div.main-footer-row div.main-footer-column {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: #333;
   color: #fafafa;
@@ -35,6 +38,8 @@
 }
 
 .main-footer div.main-footer-row.butrow {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #020202;
   margin-top: 20px;
   padding-bottom: 10px;
