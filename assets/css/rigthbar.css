@@ -1,14 +1,17 @@
 /* rigth bar | sidebar */
 
 .rigth-bar {
+  margin-top: 100px;
   /*background-color: #c8d2e6; /*fb*/
   background-color: inherit;
   display: flex;
   flex-direction: column;
 
-  row-gap: 25px;
+  row-gap: 5px;
   /* property name | duration | delay */
   transition: margin-rigth 1s 0.1s;
+
+  flex-grow: 1;
 }
 
 .rigth-box {
@@ -17,11 +20,11 @@
   color: #333;
   box-shadow: 7px 7px 12px -9px #777;
   border: 2px solid #ffffffff;
-  border-radius: 3px;
+  border-radius: 1px;
 
-  width: 350px;
+  width: 150px;
   /* Сверху | Справа | Снизу | Слева */
-  padding: 5px 25px 25px 25px;
+  padding: 1px 1px 1px 1px;
 }
 
 .rigth-box header {
