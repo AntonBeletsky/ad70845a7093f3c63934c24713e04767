@@ -14,7 +14,7 @@
   flex-wrap: wrap;
 
   justify-content: flex-start;
-  align-content: stretch;
+  /*align-content: stretch;*/
   align-items: stretch; /* base line */
 
   /* отступ*/
