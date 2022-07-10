@@ -11,7 +11,7 @@
   /* property name | duration | delay */
   transition: margin-rigth 1s 0.1s;
 
-  flex-grow: 1;
+  /*flex-grow: 1;*/
 }
 
 .rigth-box {

@@ -53,6 +53,7 @@ div.wrapper {
 
 .main-footer {
   display: flex;
+  flex: row;
 
   margin: 0px 0px 0px 0px;
   padding: 50px 50px 50px 50px;
@@ -62,6 +63,11 @@ div.wrapper {
 
   width: auto;
   min-height: 100px;
+}
+
+.main-footer div {
+  display: flex;
+  flex-direction: column;
 }
 
 .main-content {
