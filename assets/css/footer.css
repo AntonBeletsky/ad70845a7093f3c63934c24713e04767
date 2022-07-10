@@ -28,7 +28,7 @@
   padding: 8px 100px;
 }
 
-.main-footer div.main-footer-row div.main-footer-column {
+.main-footer div.main-footer-column {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -39,9 +39,10 @@
   padding: 8px 100px;
 }
 
-.main-footer div.main-footer-row.butrow {
+.main-footer .main-footer-column.butrow {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   background-color: #020202;
   margin-top: 20px;
   padding-bottom: 10px;
@@ -49,19 +50,31 @@
   align-content: center;
 }
 
+.main-footer div.main-footer-column.butrow p,
+.main-footer div.main-footer-column.butrow a {
+  display: flex;
+  background-color: #020202;
+  color: #fafafa;
+  justify-content: center;
+  align-content: center;
+}
+
 .main-footer p,
 .main-footer a {
+  display: flex;
   background-color: #333;
   color: #fafafa;
 }
 
-.main-footer div.main-footer-row.butrow p,
-.main-footer div.main-footer-row.butrow a {
-  background-color: #020202;
+.main-footer p,
+.main-footer a {
+  display: flex;
+  background-color: #333;
   color: #fafafa;
 }
 
 .main-footer hr {
+  display: flex;
   color: #e0c972;
   background-color: #e0c972;
   width: 650px;
