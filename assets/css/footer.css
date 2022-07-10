@@ -60,3 +60,9 @@
   background-color: #020202;
   color: #fafafa;
 }
+
+.main-footer hr {
+  color: #e0c972;
+  background-color: #e0c972;
+  width: 650px;
+}
