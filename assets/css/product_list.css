@@ -27,6 +27,8 @@
   padding-bottom: 150px;
 
   box-shadow: 7px 7px 12px -9px #777;
+
+  /*box-shadow: #00000059 0px 5px 15px;*/
 }
 
 /* see set_grid.js*/
@@ -52,19 +54,28 @@
   /* Сверху | Справа | Снизу | Слева */
   padding: 0px 0px 0px 0px;
   /*box-shadow: 5px 3px 3px #314785;*/
-  box-shadow: 7px 7px 12px -9px #777;
+  /*box-shadow: 7px 7px 12px -9px #777;*/
   border: 2px solid #ffffff; /**/
   border-radius: 3px;
   /* flex container img > text data*/
   display: flex;
   transition: 0.2s linear;
   cursor: default;
+
+  box-shadow: #00000059 0px 5px 15px;
 }
 
 .products .product-card:hover {
   /*background-color: #DCEBF5;*/
   transition: 0.2s linear;
   background-color: #f5f4dc;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  /*
+  box-shadow: rgba(74, 101, 117, 0.3) 0px 19px 38px,
+    rgba(74, 101, 117, 0.2) 0px 15px 12px;
+    */
 }
 
 .products .product-card a {
@@ -293,7 +304,10 @@
   background-color: #97a2a8;
   /*color: #F5F5F5;*/
   color: #333;
-  box-shadow: 7px 7px 12px -9px #777;
+
+  /*box-shadow: 7px 7px 12px -9px #777;*/
+  box-shadow: #00000059 0px 5px 15px;
+
   border: 2px solid #ffffffff;
   border-radius: 3px;
 

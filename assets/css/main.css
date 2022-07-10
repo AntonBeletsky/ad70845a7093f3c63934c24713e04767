@@ -11,6 +11,7 @@ body {
 main {
   margin-top: 100px;
   width: 100%;
+  margin-right: 100px;
 }
 
 a {
@@ -104,28 +105,3 @@ div.wrapper {
   /*background-color: inherit;*/
   /*width: 100%;*/
 }
-
-/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background */
-/* flex layout ****************************************************************/
-/* box for items */
-
-/*
-.flex-container{
-    display: flex; 
-    justify-content: flex-start;
-
-    align-items: stretch; /* base line */ /*
-    align-content: flex-start; /* center */
-
-/* отступ */
-/*
-    row-gap: 10px;
-    column-gap: 20px;
-}
-
-.flex-item-container{
-    flex-basis: auto;
-}
-*/
-
-/* page content */

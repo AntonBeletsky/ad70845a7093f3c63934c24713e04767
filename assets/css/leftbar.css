@@ -16,7 +16,11 @@
   background-color: #97a2a8;
   /*color: #F5F5F5;*/
   color: #333;
-  box-shadow: 7px 7px 12px -9px #777;
+
+  /*box-shadow: 7px 7px 12px -9px #777;*/
+
+  box-shadow: #00000059 0px 5px 15px;
+
   border: 2px solid #ffffffff;
   border-radius: 3px;
 
