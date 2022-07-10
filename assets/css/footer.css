@@ -1,40 +1,53 @@
 .main-footer {
   display: flex;
   flex-direction: column;
+  /* Сверху | Справа | Снизу | Слева */
   margin: 0px 0px 0px 0px;
-  padding: 50px 50px 50px 50px;
+  padding-top: 30px;
+
   /*background-color: #020002;*/
   background-color: #333;
   color: #fafafa;
   width: auto;
   min-height: 100px;
   justify-content: center;
+  align-content: center;
 }
 
-.main-footer div {
+.main-footer div.main-footer-row {
   display: flex;
   flex-direction: row;
   background-color: #333;
   color: #fafafa;
-  justify-content: flex-start;
-  padding: 40px 10px;
+  justify-content: center;
+  align-content: flex-start;
+  padding: 8px 100px;
 }
 
-.main-footer div div {
+.main-footer div.main-footer-row div.main-footer-column {
   display: flex;
   flex-direction: column;
   background-color: #333;
   color: #fafafa;
+  justify-content: center;
+  align-content: flex-start;
+  padding: 8px 100px;
 }
 
-.main-footer div p,
-.main-footer div a {
+.main-footer div.main-footer-row.butrow {
+  background-color: #020202;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.main-footer p,
+.main-footer a {
   background-color: #333;
   color: #fafafa;
 }
 
-.main-footer div div p,
-.main-footer div div a {
-  background-color: #333;
+.main-footer div.main-footer-row.butrow p,
+.main-footer div.main-footer-row.butrow a {
+  background-color: #020202;
   color: #fafafa;
 }
