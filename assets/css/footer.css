@@ -19,11 +19,11 @@
 
 .main-footer div.main-footer-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   background-color: #333;
   color: #fafafa;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: flex-start;
   padding: 8px 100px;
 }
@@ -45,6 +45,8 @@
   background-color: #020202;
   margin-top: 20px;
   padding-bottom: 10px;
+  justify-content: center;
+  align-content: center;
 }
 
 .main-footer p,
