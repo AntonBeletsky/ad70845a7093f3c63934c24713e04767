@@ -18,17 +18,6 @@ a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
-/*
-display: flex;
-flex-wrap: wrap;
-align-content: flex-start;
-row-gap: 1rem;
-column-gap: 2rem;
-align-items: flex-start;
-flex-direction: column;
-
-*/
-
 div.wrapper {
   background-color: #e6f1f8;
   /*background-color: azure;*/
@@ -67,11 +56,12 @@ div.wrapper {
 
   margin: 0px 0px 0px 0px;
   padding: 50px 50px 50px 50px;
+  /*background-color: #020002;*/
   background-color: #333;
   color: #fafafa;
 
   width: auto;
-  height: 100px;
+  min-height: 100px;
 }
 
 .main-content {
