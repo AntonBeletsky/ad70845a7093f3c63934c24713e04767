@@ -132,6 +132,20 @@
   gap: 20px 20px;
 }
 
+.product-detals {
+  margin-bottom: 15px;
+}
+.product-detals a {
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 1px #707070;
+}
+.product-detals a:hover {
+  background-color: #e8e8e8;
+}
+
 .product-detals a span {
   color: #020202;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
