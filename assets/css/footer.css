@@ -7,7 +7,7 @@
   padding-top: 30px;
 
   /*background-color: #020002;*/
-  background-color: #333;
+  background-color: #202020; /*333*/
   color: #fafafa;
   width: auto;
   min-height: 100px;
@@ -21,22 +21,62 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  background-color: #333;
+  background-color: #202020;
   color: #fafafa;
   justify-content: flex-start;
   align-content: flex-start;
-  padding: 8px 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 .main-footer div.main-footer-column {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #333;
+  background-color: #202020;
   color: #fafafa;
   justify-content: center;
   align-content: flex-start;
-  padding: 8px 100px;
+  padding: 0px 20px;
+}
+
+.main-footer div.footer-row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #202020;
+  color: #707070;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+
+.column-heading {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  color: #fafafa !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+
+  justify-content: flex-start;
+  align-content: flex-start;
+
+  padding: 0px 20px;
+  margin-bottom: 10px;
+
+  color: #fafafa !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+
+  min-width: 120px;
+  min-height: 40px;
 }
 
 .main-footer .main-footer-column.butrow {
@@ -50,26 +90,17 @@
   align-content: center;
 }
 
-.main-footer div.main-footer-column.butrow p,
-.main-footer div.main-footer-column.butrow a {
-  display: flex;
-  background-color: #020202;
-  color: #fafafa;
-  justify-content: center;
-  align-content: center;
-}
-
 .main-footer p,
 .main-footer a {
   display: flex;
-  background-color: #333;
-  color: #fafafa;
+  background-color: #202020;
+  color: #707070;
 }
 
-.main-footer p,
-.main-footer a {
+.main-footer p:hover,
+.main-footer a:hover {
   display: flex;
-  background-color: #333;
+  background-color: #202020;
   color: #fafafa;
 }
 
@@ -78,4 +109,13 @@
   color: #e0c972;
   background-color: #e0c972;
   width: 650px;
+}
+
+.main-footer div.main-footer-column.butrow p,
+.main-footer div.main-footer-column.butrow a {
+  display: flex;
+  background-color: #020202;
+  color: #fafafa;
+  justify-content: center;
+  align-content: center;
 }
