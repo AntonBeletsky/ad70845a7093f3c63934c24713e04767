@@ -6,6 +6,7 @@
 
 .nav-bar-container {
   /* overflow: hidden; TODO: overflow: hidden  */
+  /*background-color: #202020; /* #333 */
   background-color: #333;
   /* position: fixed;  /* TODO:  fixed */
   top: 0;
@@ -47,6 +48,7 @@
 .topnav {
   /* overflow: hidden; TODO: overflow: hidden  */
   background-color: #333;
+  /*background-color: #202020;*/
   /* position: fixed;  /* TODO:  fixed */
   top: 0;
 
@@ -249,10 +251,7 @@ button:hover {
 
 .dropdown-content {
   display: none;
-  /*position: absolute;*/
-  /*position: fixed; /* ! */
-  /*background-color: #333333;*/
-  /*background-color: #020001;*/
+
   background-color: #4a6575;
   color: #fcfae3;
   /*color: #f5f4dc;*/

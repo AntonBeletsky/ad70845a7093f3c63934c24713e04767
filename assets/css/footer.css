@@ -8,7 +8,7 @@
 
   /*background-color: #020002;*/
   background-color: #202020; /*333*/
-  color: #fafafa;
+  color: #f0f0f0;
   width: auto;
   min-height: 100px;
   justify-content: center;
@@ -22,7 +22,7 @@
   flex-wrap: nowrap;
   flex-direction: row;
   background-color: #202020;
-  color: #fafafa;
+  color: #f0f0f0;
   justify-content: flex-start;
   align-content: flex-start;
   padding-top: 30px;
@@ -36,7 +36,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   background-color: #202020;
-  color: #fafafa;
+  color: #f0f0f0;
   justify-content: center;
   align-content: flex-start;
   padding: 0px 20px;
@@ -58,23 +58,16 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-
-  color: #fafafa !important;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px;
-
   justify-content: flex-start;
   align-content: flex-start;
 
-  padding: 0px 20px;
-  margin-bottom: 10px;
-
-  color: #fafafa !important;
+  color: #f0f0f0 !important;
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
 
+  padding: 0px 20px;
+  margin-bottom: 10px;
   min-width: 120px;
   min-height: 40px;
 }
@@ -101,7 +94,7 @@
 .main-footer a:hover {
   display: flex;
   background-color: #202020;
-  color: #fafafa;
+  color: #f0f0f0;
 }
 
 .main-footer hr {
@@ -115,7 +108,7 @@
 .main-footer div.main-footer-column.butrow a {
   display: flex;
   background-color: #020202;
-  color: #fafafa;
+  color: #f0f0f0;
   justify-content: center;
   align-content: center;
 }
