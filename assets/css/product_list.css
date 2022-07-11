@@ -132,6 +132,9 @@
   gap: 20px 20px;
 }
 
+.product-detals {
+}
+
 .products .product-card .product-card-body {
   /* Сверху | Справа | Снизу | Слева */
   padding: 12px 5px 12px 10px; /* TODO: разделить по гридам */
