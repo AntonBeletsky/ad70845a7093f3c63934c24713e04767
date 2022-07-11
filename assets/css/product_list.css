@@ -132,7 +132,26 @@
   gap: 20px 20px;
 }
 
-.product-detals {
+.product-detals a span {
+  color: #020202;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.product-detals a span:hover {
+  color: #0b7abf;
+}
+
+.card-title {
+  color: #020202;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.card-title:hover {
+  color: #0b7abf;
 }
 
 .products .product-card .product-card-body {
