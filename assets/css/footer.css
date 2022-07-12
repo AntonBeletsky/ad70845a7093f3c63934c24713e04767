@@ -37,8 +37,8 @@
   flex-direction: column;
   background-color: #202020;
   color: #f0f0f0;
-  justify-content: center;
-  align-content: flex-start;
+  /*justify-content: center;*/
+  /*align-content: flex-start;*/
   padding: 0px 20px;
 }
 
