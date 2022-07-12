@@ -86,7 +86,8 @@
 }
 
 .products.catalog-view-grid .product-card {
-  width: 250px;
+  /*width: 250px;*/
+  width: 300px;
   flex-direction: column;
   height: auto;
 }
@@ -247,8 +248,11 @@
   /*padding: 7px;*/
   background: no-repeat;
   /* 1.38 */
-  width: 250px;
+  /*width: 250px;
   height: 180px;
+  */
+  width: 300px;
+  height: 216px;
 }
 
 /* chechbox ******************************************************************/
