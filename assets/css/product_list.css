@@ -100,7 +100,12 @@
 
 /* ***** *******************/
 .product-card-text {
-  /* TODO: list*/
+  /*resp*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
+
   width: inherit;
   display: inline;
   margin-left: 5px;
@@ -240,6 +245,7 @@
 .card-img-top-containe {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
+  width: 100%; /**resp /
 }
 
 .card-img-top {
