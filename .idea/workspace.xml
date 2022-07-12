@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efde4d15-555d-42be-b149-bb3ddca749fe" name="Default Changelist" comment="">
+    <list default="true" id="efde4d15-555d-42be-b149-bb3ddca749fe" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +39,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -79,8 +79,16 @@
       <workItem from="1655401165776" duration="6000" />
       <workItem from="1655720456472" duration="101000" />
       <workItem from="1657631531274" duration="338000" />
-      <workItem from="1657632720992" duration="193000" />
+      <workItem from="1657632720992" duration="356000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1657632948280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657632948280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +104,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="763" y="401" key="#Custom_Plugin_Repositories" timestamp="1655400032819">
