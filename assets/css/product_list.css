@@ -239,7 +239,14 @@
   color: #0b7abf;
 }
 
-.products .product-card .product-card-body .star-rating > span.checked {
+.products .product-card .product-card-body .star-rating {
+  color: #97a2a8;
+  background-color: none;
+}
+
+.products .product-card .product-card-body .star-rating > .checked {
+  color: goldenrod;
+  background-color: none;
 }
 
 .card-img-top-container {
