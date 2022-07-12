@@ -225,18 +225,17 @@
 .products .product-card .product-card-body .product-icons a {
   width: 30px;
   height: 30px;
-  /*color: #333;*/
-  /*    color: #0B7ABF;*/
   color: #343d46;
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
-.products .product-card .product-card-body .product-icons a:hover {
-  color: #f2bd1d;
-}
-
 .products .product-card .product-card-body .product-icons a.addet {
   color: #0b7abf;
+}
+
+.products .product-card .product-card-body .product-icons a:hover,
+.products .product-card .product-card-body .product-icons a.addet:hover {
+  color: #f2bd1d;
 }
 
 .products .product-card .product-card-body .star-rating {
@@ -277,6 +276,14 @@ img.card-img-top {
   max-height: 253px;
 
   width: 100%; /* resp */
+}
+
+.card-img-top-container .img-box {
+  min-width: 250px;
+  min-height: 230px;
+
+  max-width: 350px;
+  max-height: 253px;
 }
 
 /* chechbox ******************************************************************/
@@ -362,7 +369,7 @@ img.card-img-top {
 
 /*****************************************************************************/
 
-/* page content */
+/* page content TODO: to main */
 .page-content-header {
   background-color: #97a2a8;
   /*color: #F5F5F5;*/
