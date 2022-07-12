@@ -427,7 +427,8 @@ hr {
   margin-top: 0px;
 
   border-radius: 50%;
-  background: #e41e3f;
+  /*background: #e41e3f;*/
+  background-color: #eb001b;
   /*background: #f26800;*/
   color: white;
 }
@@ -440,7 +441,8 @@ hr {
   margin-right: 0px;
   margin-top: 0px;
   border-radius: 100%;
-  background: #e41e3f;
+  /*background: #e41e3f;*/
+  background-color: #eb001b;
   /* background: #f26800; */
   color: white;
 }
