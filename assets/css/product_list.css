@@ -242,13 +242,19 @@
 .products .product-card .product-card-body .star-rating > span.checked {
 }
 
-.card-img-top-containe {
+.card-img-top-container {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   width: 100%; /* resp */
+  /*1.38*/
+  min-width: 250px;
+  min-height: 180px;
+
+  max-width: 350px;
+  max-height: 253px;
 }
 
-.card-img-top {
+img.card-img-top {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   /*padding: 7px;*/
@@ -257,8 +263,13 @@
   /*width: 250px;
   height: 180px;
   */
-  width: 300px;
-  height: 216px;
+  min-width: 250px;
+  min-height: 180px;
+
+  max-width: 350px;
+  max-height: 253px;
+
+  width: 100%; /* resp */
 }
 
 /* chechbox ******************************************************************/
