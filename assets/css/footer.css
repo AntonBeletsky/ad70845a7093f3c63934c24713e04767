@@ -113,5 +113,15 @@
   align-content: center;
 }
 
-.svg-logo {
+svg.footer-svg:hover {
+  /*
+    box-shadow: #fafafa 0px 54px 55px, #fafafa 0px -12px 30px, #fafafa 0px 4px 6px,
+    #fafafa 0px 12px 13px, #fafafa 0px -3px 5px;
+  */
+
+  /*box-shadow: #fafafa 0px 8px 24px, #fafafa 0px 16px 56px, #fafafa 0px 24px 80px;*/
+
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+  z-index: 10;
 }
