@@ -3,15 +3,9 @@ body {
   padding: 0px 0px 0px 0px;
   /*background-color: var(--background-color); */
   /* background-color: #e6f1f8; */
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
   font-family: Arial, Helvetica, sans-serif;
-}
-
-/*div.wrapper section.left-bar,*/
-main {
-  margin-top: 100px;
-  width: 100%;
-  margin-right: 100px;
+  background-color: #e6f1f8;
 }
 
 a {
@@ -21,20 +15,16 @@ a {
 div.wrapper {
   background-color: #e6f1f8;
   /*background-color: azure;*/
-
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   /*background-color: var(--background-color);*/
-
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; /* no wrap */
-
   justify-content: space-between; /* а то нав бар скукожиться */
   align-items: flex-start;
   /*align-self: auto; for items */
   align-content: flex-start;
-
   row-gap: 1rem;
   column-gap: 2rem;
 }
@@ -43,42 +33,48 @@ div.wrapper {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   background-color: #81968f;
-  /*
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  */
 }
 
-.main-content {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  /*background-color: #dcebf5;*/
-}
-
-.main-content > main {
-  margin: 0px 0px 0px 0px;
-  /* Сверху | Справа | Снизу | Слева */
-  padding: 2rem 1rem 1rem 1rem;
+main {
   display: flex;
-  /* TODO: select  right or left aside bar */
-  flex-direction: row;
-  /*flex-direction: row-reverse;*/
+  flex-direction: column;
+  width: 100%;
 
-  /*flex-direction: column !important; for smart */
+  margin-top: 100px;
+  margin-right: 0px;
+
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 2rem;
+  padding-bottom: 0px;
 
   justify-content: flex-start;
   align-items: stretch; /* base line */
   align-content: flex-start; /* center */
 
-  /* отступ */
-  /* gap: 50px;*/
   row-gap: 1rem;
   column-gap: 2rem;
 }
 
-.page-content {
-  /*background-color: inherit;*/
-  /*width: 100%;*/
+/* page content TODO: to main */
+.page-content-header {
+  background-color: #97a2a8;
+  /*color: #F5F5F5;*/
+  color: #333;
+
+  /*box-shadow: 7px 7px 12px -9px #777;*/
+  box-shadow: #00000059 0px 5px 15px;
+
+  border: 2px solid #ffffffff;
+  border-radius: 3px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: stretch; /* base line */
+  align-content: center;
+
+  padding-left: 50px;
 }
