@@ -1,0 +1,64 @@
+
+.page-content-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    justify-content: space-between;
+}
+
+.page-content-header h1 {
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.page-content-header .grid-buttons {
+    /*float: right;*/
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+    background-color: inherit;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: stretch; /* base line */
+    align-content: center;
+
+    gap: 20px;
+}
+
+/* grid icons */
+.page-content-header .grid-buttons .grid-btn .grid-icon {
+    font-size: 36px;
+}
+
+.page-content-header .grid-buttons .grid-btn {
+    /*color: #333;*/
+    color: #4a6575;
+    cursor: default;
+    background-color: #97a2a8;
+    transition: 0.2s linear;
+    border: none;
+}
+
+.page-content-header .grid-buttons .grid-btn:hover {
+    /*color: #333;*/
+    color: #4a6575;
+    cursor: pointer;
+    /*background-color: #F5F5F5;*/
+    /*background-color: #f5f4dc;*/
+    background-color: #fcfae3;
+    transition: 0.2s linear;
+}
+
+.page-content-header .grid-buttons .grid-btn.active {
+    color: black;
+    cursor: default;
+    background-color: #f5f5f5;
+}

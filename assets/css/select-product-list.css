@@ -3,22 +3,22 @@
 /* TODO: хавает селект */
 
 /* The container must be positioned relative: */
-.products-list-header .custom-select {
+.page-content-header .custom-select {
   position: relative;
   /*font-family: Arial;*/
 }
 
-.products-list-header .custom-select select {
+.page-content-header .custom-select select {
   display: none; /*hide original SELECT element: */
 }
 
-.products-list-header .select-selected {
+.page-content-header .select-selected {
   background-color: #97a2a8;
 }
 
 /* Style the arrow inside the select element: */
 
-.products-list-header .select-selected:after {
+.page-content-header .select-selected:after {
   position: absolute;
   content: "";
   top: 14px;
@@ -30,14 +30,14 @@
 }
 
 /* Point the arrow upwards when the select box is open (active): */
-.products-list-header .select-selected.select-arrow-active:after {
+.page-content-header .select-selected.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
   top: 7px;
 }
 
 /* style the items (options), including the selected item: */
-.products-list-header .select-items div,
-.products-list-header .select-selected {
+.page-content-header .select-items div,
+.page-content-header .select-selected {
   color: #333333;
   padding: 8px 16px;
   border: 1px solid transparent; /* TODO: шо-то придумать */
@@ -47,7 +47,7 @@
 }
 
 /* Style items (options): */
-.products-list-header .select-items {
+.page-content-header .select-items {
   position: absolute;
   background-color: #97a2a8;
   top: 100%;
@@ -59,14 +59,14 @@
 }
 
 /* Hide the items when the select box is closed: */
-.products-list-header .select-hide {
+.page-content-header .select-hide {
   display: none;
 }
 
-.products-list-header .same-as-selected {
+.page-content-header .same-as-selected {
   background-color: #dcebf5;
 }
-.products-list-header .select-items div:hover {
+.page-content-header .select-items div:hover {
   background-color: #f5f4dc;
   font-weight: bolder;
 }

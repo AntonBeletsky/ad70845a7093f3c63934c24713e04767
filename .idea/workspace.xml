@@ -20,7 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efde4d15-555d-42be-b149-bb3ddca749fe" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/assets/css/page-content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/product_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/product_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/select-product-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/select-product-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-list old.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-list old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/free-page-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/free-page-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/free-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/free-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-page-old.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-page-old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/яzя_trash/uilib.html" beforeDir="false" afterPath="$PROJECT_DIR$/яzя_trash/uilib.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +41,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2AfT4bDGwmn5ExW9mAoL7P5m178" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -80,6 +102,8 @@
       <workItem from="1655720456472" duration="101000" />
       <workItem from="1657631531274" duration="338000" />
       <workItem from="1657632720992" duration="356000" />
+      <workItem from="1657762395811" duration="45000" />
+      <workItem from="1657762472555" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1657632948280</created>
@@ -104,6 +128,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
