@@ -1,0 +1,25 @@
+.product-page-main-container {
+  display: flex;
+  flex-direction: row;
+  /* multi-lines */
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+  /*align-content: stretch;*/
+  align-items: stretch; /* base line */
+
+  /* отступ*/
+  row-gap: 20px; /*  между строками*/
+  column-gap: 20px; /* между столбцами */
+
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 150px;
+
+  box-shadow: 7px 7px 12px -9px #777;
+}
+
+.rigth-bar-container {
+  display: flex;
+}
