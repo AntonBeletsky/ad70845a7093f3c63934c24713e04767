@@ -4,7 +4,7 @@
   /* multi-lines */
   flex-wrap: wrap;
 
-  justify-content: flex-start;
+  justify-content: center;
   /*align-content: stretch;*/
   align-items: stretch; /* base line */
 
