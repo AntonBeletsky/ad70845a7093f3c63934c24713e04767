@@ -1,5 +1,23 @@
 .productpage-content-header-box {
-  justify-content: center !important;
-  align-self: center !important;
-  width: 70% !important;
+  background-color: #97a2a8;
+  /*color: #F5F5F5;*/
+  color: #333;
+
+  /*box-shadow: 7px 7px 12px -9px #777;*/
+  box-shadow: #00000059 0px 5px 15px;
+
+  border: 2px solid #ffffffff;
+  border-radius: 3px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  /*width: 75%;*/
+
+  padding-left: 50px;
+  padding-bottom: 10px;
 }

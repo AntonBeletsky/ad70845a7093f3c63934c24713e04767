@@ -1,12 +1,23 @@
+#main {
+  justify-content: center;
+  align-items: stretch; /* base line */
+  align-content: center; /* center */
+  margin-bottom: 30px;
+}
+
 .product-page-main-container {
+  background-color: chartreuse !important;
+  color: chartreuse;
+
   display: flex;
   flex-direction: row;
   /* multi-lines */
   flex-wrap: wrap;
 
   justify-content: center;
-  /*align-content: stretch;*/
+  align-content: center;
   align-items: stretch; /* base line */
+  align-self: center;
 
   /* отступ*/
   row-gap: 20px; /*  между строками*/
@@ -18,6 +29,10 @@
   padding-bottom: 150px;
 
   box-shadow: 7px 7px 12px -9px #777;
+}
+
+.product-page-center-container {
+  width: 75%;
 }
 
 .rigth-bar-container {
