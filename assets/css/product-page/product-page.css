@@ -7,7 +7,7 @@
 
 .product-page-main-container {
   background-color: chartreuse !important;
-  color: chartreuse;
+  color: rgb(21, 37, 5);
 
   display: flex;
   flex-direction: row;
