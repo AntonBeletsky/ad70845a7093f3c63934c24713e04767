@@ -37,6 +37,8 @@
 
 /* picture, filter , description  */
 .product-page-product-info {
+  display: flex;
+  flex-direction: row;
 }
 
 /* tabs for product page*/
