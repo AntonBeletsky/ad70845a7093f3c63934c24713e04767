@@ -78,6 +78,8 @@
     <link rel="stylesheet" href="./assets/css/product-page/product-content-header-box.css">
     <link rel="stylesheet" href="./assets/css/product-page/productpage-rigthbar-container.css">
 
+    <link rel="stylesheet" href="./assets/css/product-page/product-page-product-info/product-info-slider.css">
+
 
     <!-- for smart devices-->
     <link rel="stylesheet" href="./assets/css/media_screen/media_general.css">
@@ -514,9 +516,68 @@
             <!-- TODO: product page content here -->
             <div class="product-page-main-container product-page-center-container">
                 .product-page-main-container
-                <div class="product-page-product-info">пикча фильтры описание
-                    <div> picture </div>
-                    <div> descr </div>
+                <div class="product-page-product-info">
+                    <div>
+                        <!-- todo: slider product-->
+                        <div class="product-info-slider-container">
+                            <div class="product-info-slider">
+                                <img src="./assets/img/img_woods_wide.jpg" style="width:100%">
+                            </div>
+
+                            <div class="product-info-slider">
+                                <img src="./assets/img/img_5terre_wide.jpg" style="width:100%">
+                            </div>
+
+                            <div class="product-info-slider">
+                                <img src="./assets/img/img_mountains_wide.jpg" style="width:100%">
+                            </div>
+
+                            <div class="product-info-slider">
+                                <img src="./assets/img/img_lights_wide.jpg" style="width:100%">
+                            </div>
+
+                            <div class="product-info-slider">
+                                <img src="./assets/img/img_nature_wide.jpg" style="width:100%">
+                            </div>
+
+                            <div class="product-info-slider">
+                                <img src="./assets/img/img_snow_wide.jpg" style="width:100%">
+                            </div>
+
+                            <a class="pis-prev" onclick="plusSlides(-1)">❮</a>
+                            <a class="pis-next" onclick="plusSlides(1)">❯</a>
+
+                            <div class="pis-row">
+                                <div class="pis-column">
+                                    <img class="product-info-demo-img pis-cursor" src="./assets/img/img_woods.jpg"
+                                        style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                                </div>
+                                <div class="pis-column">
+                                    <img class="product-info-demo-img pis-cursor" src="./assets/img/img_5terre.jpg"
+                                        style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                                </div>
+                                <div class="pis-column">
+                                    <img class="product-info-demo-img pis-cursor" src="./assets/img/img_mountains.jpg"
+                                        style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                </div>
+                                <div class="pis-column">
+                                    <img class="product-info-demo-img pis-cursor" src="./assets/img/img_lights.jpg"
+                                        style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                                </div>
+                                <div class="pis-column">
+                                    <img class="product-info-demo-img pis-cursor" src="./assets/img/img_nature.jpg"
+                                        style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                                </div>
+                                <div class="pis-column">
+                                    <img class="product-info-demo-img pis-cursor" src="./assets/img/img_snow.jpg"
+                                        style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        .descr
+                    </div>
                 </div>
                 <div class="product-page-tabs">табсы</div>
                 <div class="product-page-relative-products">связанны товары</div>
@@ -737,8 +798,8 @@
     <script src="./assets/js/search-dropbox.js"></script>
     <script src="./assets/js/modal.js"></script>
 
-
-
+    <script src="./assets/js/product_page/product-page-product-info/product-page-product-info.js"></script>
+    <script src="./assets/js/product_page/product-page-product-info/product-info-slider.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,70 @@
+/* pis - pdoduct info slider*/
+
+/* Position the image product-info-slider-container (needed to position the left and right arpis-rows) */
+.product-info-slider-container {
+  width: 700px;
+  height: 100%;
+  position: relative;
+}
+
+/* Hide the images by default */
+.product-info-slider {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.pis-cursor {
+  cursor: pointer;
+}
+
+/* pis-next & pis-previous buttons */
+.pis-prev,
+.pis-next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "pis-next button" to the right */
+.pis-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.pis-prev:hover,
+.pis-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pis-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six pis-columns side by side */
+.pis-column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.product-info-demo-img {
+  opacity: 0.6;
+}
+
+/* product info slider */
+.pis-active,
+.product-info-demo-img:hover {
+  opacity: 1;
+}
