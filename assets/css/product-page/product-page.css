@@ -90,6 +90,7 @@ h1.product-info-header {
 
 a.brand-link {
   font-size: 14px;
+  line-height: 20px;
 }
 
 .product-info-content-gray-line {
@@ -97,4 +98,23 @@ a.brand-link {
   border-bottom: 1px solid #777;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.price-info-container {
+  background-color: chocolate;
+  color: #0f1111;
+}
+
+.price-info-container div {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.price-info-note {
+}
+
+.price-info-note-left {
+}
+
+.price-info-note-right {
 }
