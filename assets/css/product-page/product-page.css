@@ -57,15 +57,20 @@
 /* slider + content container */
 .product-page-product-info {
   background-color: aquamarine;
+  width: 100%;
 }
 
 .product-page-product-info .product-info-content {
   background-color: #8cc0db;
+  padding-left: 20px;
 }
 
 /* star + rating + answers*/
 .product-page-product-info .rating-container {
   background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
 }
 
 /* stars rating*/
@@ -85,4 +90,11 @@ h1.product-info-header {
 
 a.brand-link {
   font-size: 14px;
+}
+
+.product-info-content-gray-line {
+  width: 100%;
+  border-bottom: 1px solid #777;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
