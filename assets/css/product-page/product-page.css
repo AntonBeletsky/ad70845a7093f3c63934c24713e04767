@@ -54,8 +54,21 @@
   display: flex;
 }
 
-/* stars rating*/
+/* slider + content container */
+.product-page-product-info {
+  background-color: aquamarine;
+}
 
+.product-page-product-info .product-info-content {
+  background-color: #8cc0db;
+}
+
+/* star + rating + answers*/
+.product-page-product-info .rating-container {
+  background-color: burlywood;
+}
+
+/* stars rating*/
 .product-page-product-info .star-rating {
   color: #97a2a8;
   background-color: none;
@@ -64,4 +77,12 @@
 .product-page-product-info .star-rating > .checked {
   color: goldenrod;
   background-color: none;
+}
+
+h1.product-info-header {
+  margin: 0 0 0 0;
+}
+
+a.brand-link {
+  font-size: 14px;
 }
