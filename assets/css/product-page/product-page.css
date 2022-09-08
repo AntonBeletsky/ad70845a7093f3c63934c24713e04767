@@ -56,18 +56,18 @@
 
 /* slider + content container */
 .product-page-product-info {
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
   width: 100%;
 }
 
 .product-page-product-info .product-info-content {
-  background-color: #8cc0db;
+  /*background-color: #8cc0db;*/
   padding-left: 20px;
 }
 
 /* star + rating + answers*/
 .product-page-product-info .rating-container {
-  background-color: burlywood;
+  /*background-color: burlywood;*/
   display: flex;
   flex-direction: row;
   column-gap: 10px;
@@ -101,12 +101,12 @@ a.brand-link {
 }
 
 .price-info-container {
-  background-color: chocolate;
+  /*background-color: chocolate;*/
   color: #0f1111;
 }
 
 .price-info-container div {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -118,11 +118,24 @@ a.brand-link {
 
 .price-info-note-left {
   width: 100px;
-  background-color: brown;
+  /*background-color: brown;*/
   text-align: right;
 }
 
 .price-info-note-right {
   width: 200px;
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
+}
+
+.price-info-note-was-price {
+  text-decoration: line-through;
+}
+
+.price-info-note-price {
+  color: #b12704;
+  font-weight: bolder;
+}
+
+.price-info-note-save {
+  color: #b12704;
 }
