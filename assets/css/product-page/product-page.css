@@ -111,10 +111,18 @@ a.brand-link {
 }
 
 .price-info-note {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
 }
 
 .price-info-note-left {
+  width: 100px;
+  background-color: brown;
+  text-align: right;
 }
 
 .price-info-note-right {
+  width: 200px;
+  background-color: blueviolet;
 }
