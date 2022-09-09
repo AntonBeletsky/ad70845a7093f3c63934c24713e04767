@@ -1,5 +1,8 @@
-/* The container */
 /* pif */
+.product-info-filters-container {
+  /*display: flex;*/
+}
+
 .product-info-filters-filter-container {
   display: flex;
   position: relative;
@@ -15,16 +18,16 @@
 
 /* Hide the browser's default radio button */
 .product-info-filters-filter-container input {
-  position: absolute;
+  /* position: absolute; */
   opacity: 0;
   cursor: pointer;
 }
 
 /* Create a custom radio button */
 .pif-checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
+  /* position: absolute; */
+  /*top: 0;
+  left: 0;*/
   /*height: 25px;
   width: 25px;*/
   background-color: #eee;
@@ -44,7 +47,7 @@
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .pif-checkmark:after {
   content: "";
-  position: absolute;
+  /*/* position: absolute; */*/
   display: none;
 }
 
@@ -55,11 +58,11 @@
 
 /* Style the indicator (dot/circle) */
 .product-info-filters-filter-container .pif-checkmark:after {
-  top: 9px;
+  /*top: 9px;
   left: 9px;
   width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  height: 8px;*/
+  /*border-radius: 50%;*/
   background: white;
 }
 
@@ -98,9 +101,12 @@
 }
 
 .puf-fieldset {
+  display: flex;
   border-color: rgba(0, 0, 0, 0);
   border-style: solid;
   border-width: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .puf-fieldset {
