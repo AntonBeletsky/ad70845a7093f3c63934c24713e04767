@@ -3,11 +3,9 @@
   /*display: flex;*/
 }
 
-.product-info-filters-filter-container {
+.product-info-filters-filter-control {
   display: flex;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
@@ -17,8 +15,8 @@
 }
 
 /* Hide the browser's default radio button */
-.product-info-filters-filter-container input {
-  /* position: absolute; */
+.product-info-filters-filter-control input {
+  position: absolute;
   opacity: 0;
   cursor: pointer;
 }
@@ -35,29 +33,29 @@
 }
 
 /* On mouse-over, add a grey background color */
-.product-info-filters-filter-container:hover input ~ .pif-checkmark {
+.product-info-filters-filter-control:hover input ~ .pif-checkmark {
   background-color: #ccc;
 }
 
 /* When the radio button is checked, add a blue background */
-.product-info-filters-filter-container input:checked ~ .pif-checkmark {
+.product-info-filters-filter-control input:checked ~ .pif-checkmark {
   background-color: #2196f3;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .pif-checkmark:after {
-  content: "";
-  /*/* position: absolute; */*/
-  display: none;
+  /*content: "";*/
+  /*/* position: absolute; */
+  /*display: none;*/
 }
 
 /* Show the indicator (dot/circle) when checked */
-.product-info-filters-filter-container input:checked ~ .pif-checkmark:after {
+.product-info-filters-filter-control input:checked ~ .pif-checkmark:after {
   display: flex;
 }
 
 /* Style the indicator (dot/circle) */
-.product-info-filters-filter-container .pif-checkmark:after {
+.product-info-filters-filter-control .pif-checkmark:after {
   /*top: 9px;
   left: 9px;
   width: 8px;
@@ -69,6 +67,7 @@
 .product-info-filters-group-container {
   display: flex;
   flex-direction: row;
+  column-gap: 10px;
 }
 
 .pif-btn {
@@ -113,4 +112,18 @@
   border-color: rgba(0, 0, 0, 50);
   border-style: solid;
   border-width: 5px;
+}
+
+.product-info-filter-name {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  column-gap: 5px;
+}
+
+.product-info-filter-name-left {
+}
+
+.product-info-filter-name-right {
+  font-weight: 700;
 }
