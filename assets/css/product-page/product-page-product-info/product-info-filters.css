@@ -1,0 +1,98 @@
+  /* The container */
+  /* pif */
+  .product-info-filters-filter-container {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio button */
+  .product-info-filters-filter-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .pif-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .product-info-filters-filter-container:hover input~.pif-checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .product-info-filters-filter-container input:checked~.pif-checkmark {
+    background-color: #2196F3;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .pif-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .product-info-filters-filter-container input:checked~.pif-checkmark:after {
+    display: flex;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .product-info-filters-filter-container .pif-checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .product-info-filters-group-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pif-btn {
+    min-width: 70px;
+    /*max-width: 200px;*/
+    /*height: 30px;*/
+    text-align: center;
+    padding: 5px 10px 5px 11px;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    font-family: "Amazon Ember", Arial, sans-serif;
+  }
+
+  .pif-btn-default {
+    background-color: #fafafa;
+    border: 1px solid #db9044;
+  }
+
+  .pif-btn-active {
+    background-color: #FEFAF6;
+    border: 1px solid #db9044;
+    font-weight: 700;
+  }
+
+  .pif-btn-disabled {
+    background-color: #FFFFFF;
+    border: 1px dashed #777;
+  }
