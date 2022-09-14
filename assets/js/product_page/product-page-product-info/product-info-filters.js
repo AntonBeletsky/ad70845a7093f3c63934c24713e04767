@@ -1,19 +1,21 @@
 /* product filters buttons classes click events */
 
 $(".pif-btn-default").click(function () {
-  console.log("div.pif-btn-default");
+  console.log(".pif-btn-default");
+  console.log(this);
+});
+
+$(".pif-btn-active").click(function () {
+  console.log(".pif-btn-active");
 });
 
 $("div.pif-btn-default").click(function () {
   /* remove old active btn */
 
   /* div */
-  $(".product-info-filters-filter-control > div.pif-btn-active").addClass(
-    "pif-btn-default"
-  );
-  $(".product-info-filters-filter-control > div.pif-btn-active").removeClass(
-    "pif-btn-active"
-  );
+  $(".product-info-filters-filter-control > div.pif-btn-active")
+    .removeClass("pif-btn-active")
+    .addClass("pif-btn-default");
 
   /* input*/
   $($(".product-info-filters-filter-control > input[checked]")[0]).removeAttr(
@@ -29,8 +31,4 @@ $("div.pif-btn-default").click(function () {
   /* input */
   /*$(this).parent().find("input").attr("checked", "checked");*/
   $(this).parent().find("input").checked = true;
-});
-
-$("div.pif-btn-active").click(function () {
-  console.log("div.pif-btn-active");
 });
