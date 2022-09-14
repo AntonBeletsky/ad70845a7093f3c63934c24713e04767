@@ -47,7 +47,7 @@
 }
 
 /***********************************************/
-/* TODO: buttons here */
+/* TODO: buttons here and see radio button checker on buttom */
 
 .pif-btn {
   min-width: 70px;
@@ -112,5 +112,31 @@
 }
 
 .product-info-filter-name-right {
+  font-weight: 700;
+}
+
+/********************/
+
+/* radio button checker */
+
+/*
+
+/* default */
+.pif-checkmark {
+  background-color: inherit;
+  border: 1px solid #b3b3b3;
+}
+
+/* On mouse-over, add a grey background color */
+.product-info-filters-filter-control:hover input ~ .pif-checkmark {
+  /* hover */
+  background-color: #e6e6e6;
+}
+
+/* When the radio button is checked, add a blue background */
+/*active*/
+.product-info-filters-filter-control input:checked ~ .pif-checkmark {
+  background-color: #fefaf6;
+  border: 1px solid #e27822;
   font-weight: 700;
 }

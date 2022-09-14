@@ -33,10 +33,12 @@ $("div.pif-btn-default").click(function () {
   /* input */
   $($(this)).prev().attr("checked", "checked");
 
+  /*
   console.log($(this));
   console.log("def");
+  */
 });
 
 $("div.pif-btn-active").click(function () {
-  console.log("active lol kurwa");
+  /*console.log("active lol kurwa");*/
 });
