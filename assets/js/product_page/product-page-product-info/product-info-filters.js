@@ -10,3 +10,8 @@
 
 поменять заголовок 
 */
+
+$("div.pif-btn-default").click(function () {
+  alert("Handler for .click()");
+  console.log(this);
+});
