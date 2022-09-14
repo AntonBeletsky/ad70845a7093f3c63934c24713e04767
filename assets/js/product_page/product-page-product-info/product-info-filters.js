@@ -13,9 +13,9 @@
 
 $("div.pif-btn-default").click(function () {
   alert("Handler for .click()");
-  console.log(this);
+  /*  console.log(this);*/
 
-  $("div.pif-btn-default").prev();
-  /*child ex */
-  $("div").children("input");
+  alert($("div.pif-btn-default").prev().children("input"));
+
+  console.log($("div.pif-btn-default").prev().children("input"));
 });
