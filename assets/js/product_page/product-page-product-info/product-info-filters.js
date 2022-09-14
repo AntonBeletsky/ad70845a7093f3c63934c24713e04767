@@ -14,4 +14,6 @@
 $("div.pif-btn-default").click(function () {
   alert("Handler for .click()");
   console.log(this);
+
+  $("div.pif-btn-default").prev();
 });
