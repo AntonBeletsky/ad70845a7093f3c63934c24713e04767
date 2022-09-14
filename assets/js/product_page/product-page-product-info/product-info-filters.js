@@ -16,4 +16,6 @@ $("div.pif-btn-default").click(function () {
   console.log(this);
 
   $("div.pif-btn-default").prev();
+  /*child ex */
+  $("div").children("input");
 });
