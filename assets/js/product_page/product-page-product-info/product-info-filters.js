@@ -34,8 +34,9 @@ $("div.pif-btn-default").click(function () {
   $($(this)).prev().attr("checked", "checked");
 
   console.log($(this));
+  console.log("def");
 });
 
-$(".pif-btn-active").click(function () {
+$("div.pif-btn-active").click(function () {
   console.log("active lol kurwa");
 });
