@@ -28,16 +28,14 @@ $("div.pif-btn-default").click(function () {
   );
 
   /* select new filter (radio button ) */
-
   /*div btn*/
   $(this).removeClass("pif-btn-default").addClass("pif-btn-active");
   /* input */
   $($(this)).prev().attr("checked", "checked");
 
-  /*
-  $("element").attr("id", "newId");
-  $("element").attr("disabled", true);
-  $("element").removeAttr("id");
-  $("element").removeAttr("disabled");
-  */
+  console.log($(this));
+});
+
+$(".pif-btn-active").click(function () {
+  console.log("active lol kurwa");
 });
