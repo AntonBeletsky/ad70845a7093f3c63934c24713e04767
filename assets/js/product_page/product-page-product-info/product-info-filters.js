@@ -12,10 +12,32 @@
 */
 
 $("div.pif-btn-default").click(function () {
-  alert("Handler for .click()");
-  /*  console.log(this);*/
+  /* input = $($(this)[0]).prev()[0];*/
+  /*console.log($($(this)[0]).prev()[0]);*/
+  /* div .btn*/
+  /*console.log($($(this)[0])[0]);*/
 
-  alert($("div.pif-btn-default").prev().children("input"));
+  /* remove old active btn */
+  /* div */
+  $($(".product-info-filters-filter-control > div.pif-btn-active")[0])
+    .removeClass("pif-btn-active")
+    .addClass("pif-btn-default");
+  /* input*/
+  $($(".product-info-filters-filter-control > input[checked]")[0]).removeAttr(
+    "checked"
+  );
 
-  console.log($("div.pif-btn-default").prev().children("input"));
+  /* select new filter (radio button ) */
+
+  /*div btn*/
+  $(this).removeClass("pif-btn-default").addClass("pif-btn-active");
+  /* input */
+  $($(this)).prev().attr("checked", "checked");
+
+  /*
+  $("element").attr("id", "newId");
+  $("element").attr("disabled", true);
+  $("element").removeAttr("id");
+  $("element").removeAttr("disabled");
+  */
 });
