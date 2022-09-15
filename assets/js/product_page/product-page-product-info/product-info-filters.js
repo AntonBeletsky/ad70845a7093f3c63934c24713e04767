@@ -3,11 +3,7 @@ JS for product filters on product page
 */
 
 $("div.pif-btn-default").click(function () {
-  /* rm save fieldset [name] --*/
-
   /* remove old active btn */
-  /* rm! use fieldset [name]  !!!! */
-  /* div */
   $(".product-info-filters-filter-control > div.pif-btn-active")
     .removeClass("pif-btn-active")
     .addClass("pif-btn-default");
@@ -23,9 +19,6 @@ $("div.pif-btn-default").click(function () {
   $(this).parent().find("input").attr("checked", "checked");
 
   /* update selected-filter */
-  /* rm !!! use fieldset [name] */
-  /*$(".selected-filter-prodszie").text($(".pif-btn-active").text());*/
-
   $(this)
     .parent()
     .parent()
