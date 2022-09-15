@@ -140,3 +140,9 @@
   border: 1px solid #e27822;
   font-weight: 700;
 }
+
+/* fieldset */
+.product-info-content fieldset {
+  border: unset;
+  /*border-bottom: 1px solid #b3b3b3;*/
+}

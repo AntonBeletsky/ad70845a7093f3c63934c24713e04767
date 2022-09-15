@@ -1,41 +1,28 @@
-/* product filters buttons classes click events */
 /*
-$(".pif-btn-default").click(function () {
-  console.log(".pif-btn-default");
-  console.log(this);
-});
-*/
-
-/*
-$(".pif-btn-active").click(function () {
-  console.log(".pif-btn-active");
-});
+JS for product filters on product page 
 */
 
 $("div.pif-btn-default").click(function () {
-  /* remove old active btn */
+  /* save fieldset [name] */
 
+  /* remove old active btn */
+  /* +++ ! use fieldset [name]  !!!! */
   /* div */
   $(".product-info-filters-filter-control > div.pif-btn-active")
     .removeClass("pif-btn-active")
     .addClass("pif-btn-default");
-
-  /* input*/
+  /* input */
   $(".product-info-filters-filter-control > input[checked]").removeAttr(
     "checked"
   );
 
-  /*$($(".product-info-filters-filter-control > input[checked]")[0]).removeAttr(
-    "checked"
-  );*/
-
-  /************************************************************* */
-
   /* select new filter (radio button ) */
-  /*div btn*/
-
+  /*div buttons */
   $(this).removeClass("pif-btn-default").addClass("pif-btn-active");
   /* input */
   $(this).parent().find("input").attr("checked", "checked");
-  /*$(this).parent().find("input").checked = true;*/
+
+  /* update selected-filter */
+  /* +++ !!! use fieldset [name] */
+  $(".selected-filter-prodszie").text($(".pif-btn-active").text());
 });
