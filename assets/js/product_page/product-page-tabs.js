@@ -1,4 +1,4 @@
-/*
+/* TODO: delite it 
 function FuckproductPageOpenPage(pageName) {
   /* hide all tabs */ /*
   var i, tabcontent;
@@ -21,4 +21,8 @@ $(".product-page-tabs button[tabid]").click(function () {
   var attr = $(this).attr("tabid");
   $(".product-page-tabcontent").css("display", "none");
   $($(".product-page-tabs #" + attr)).css("display", "block");
+
+  $(".product-page-tablink-active").removeClass("product-page-tablink-active");
+
+  $(this).addClass("product-page-tablink-active");
 });

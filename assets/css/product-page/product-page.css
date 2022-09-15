@@ -59,8 +59,12 @@
   width: 20%;
 }
 
-.product-page-tablink:hover {
+.product-page-tablink-active {
   background-color: #777;
+}
+
+.product-page-tablink:hover {
+  background-color: #999;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -71,23 +75,23 @@
   height: 100%;
 }
 
-#tab0 {
+#prodtabstab0 {
   background-color: #777;
   display: block;
 }
-#tab1 {
+#prodtabstab1 {
   background-color: green;
   display: none;
 }
-#tab2 {
+#prodtabstab2 {
   background-color: blue;
   display: none;
 }
-#tab3 {
+#prodtabstab3 {
   background-color: orange;
   display: none;
 }
-#tab4 {
+#prodtabstab4 {
   background-color: yellow;
   display: none;
 }
