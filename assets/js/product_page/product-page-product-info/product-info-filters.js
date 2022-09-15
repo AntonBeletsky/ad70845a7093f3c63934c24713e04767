@@ -3,10 +3,10 @@ JS for product filters on product page
 */
 
 $("div.pif-btn-default").click(function () {
-  /* save fieldset [name] */
+  /* rm save fieldset [name] --*/
 
   /* remove old active btn */
-  /* +++ ! use fieldset [name]  !!!! */
+  /* rm! use fieldset [name]  !!!! */
   /* div */
   $(".product-info-filters-filter-control > div.pif-btn-active")
     .removeClass("pif-btn-active")
@@ -23,6 +23,14 @@ $("div.pif-btn-default").click(function () {
   $(this).parent().find("input").attr("checked", "checked");
 
   /* update selected-filter */
-  /* +++ !!! use fieldset [name] */
-  $(".selected-filter-prodszie").text($(".pif-btn-active").text());
+  /* rm !!! use fieldset [name] */
+  /*$(".selected-filter-prodszie").text($(".pif-btn-active").text());*/
+
+  $(this)
+    .parent()
+    .parent()
+    .parent()
+    .find(".product-info-filter-name")
+    .find(".selected-filter-prodszie")
+    .text($(this).text());
 });
