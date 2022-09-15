@@ -680,7 +680,32 @@
                 <div>пум пум</div>
 
                 <div class="product-page-tabs">
-                    TABS
+                    <button class="product-page-tablink" tabid="tab0" onclick="productPageOpenPage('tab0')"
+                        id="prodPageDefaultOpen">tab0</button>
+                    <button class="product-page-tablink" tabid="tab1" onclick="productPageOpenPage('tab1')">1</button>
+                    <button class="product-page-tablink" tabid="tab2" onclick="productPageOpenPage('tab2')">2</button>
+                    <button class="product-page-tablink" tabid="tab3" onclick="productPageOpenPage('tab3')">3</button>
+                    <button class="product-page-tablink" tabid="tab4" onclick="productPageOpenPage('tab4')">4</button>
+
+                    <div id="tab0" class="product-page-tabcontent">
+                        0
+                    </div>
+
+                    <div id="tab1" class="product-page-tabcontent">
+                        1
+                    </div>
+
+                    <div id="tab2" class="product-page-tabcontent">
+                        2
+                    </div>
+
+                    <div id="tab3" class="product-page-tabcontent">
+                        3
+                    </div>
+
+                    <div id="tab4" class="product-page-tabcontent">
+                        4
+                    </div>
                 </div>
 
                 <div class="product-page-relative-products">связанны товары</div>
@@ -902,6 +927,7 @@
     <script src="./assets/js/product_page/product-page-product-info/product-page-product-info.js"></script>
     <script src="./assets/js/product_page/product-page-product-info/product-info-slider.js"></script>
     <script src="./assets/js/product_page/product-page-product-info/product-info-filters.js"></script>
+    <script src="./assets/js/product_page/product-page-tabs.js"></script>
 
 </body>
 
