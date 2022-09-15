@@ -66,25 +66,30 @@
 /* Style the tab content (and add height:100% for full page content) */
 .product-page-tabcontent {
   color: white;
-  display: block;
+  /*display: none;*/
   padding: 100px 20px;
   height: 100%;
 }
 
 #tab0 {
-  background-color: red;
+  background-color: #777;
+  display: block;
 }
 #tab1 {
   background-color: green;
+  display: none;
 }
 #tab2 {
   background-color: blue;
+  display: none;
 }
 #tab3 {
   background-color: orange;
+  display: none;
 }
 #tab4 {
   background-color: yellow;
+  display: none;
 }
 
 /*tabs end ***********************************/
