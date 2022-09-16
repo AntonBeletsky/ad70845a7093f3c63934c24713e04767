@@ -6,7 +6,7 @@
 }
 
 .product-page-main-container {
-  background-color: #fafafa !important;
+  background-color: #fafafa /*!important*/;
   color: #0f1111;
 
   display: flex;
@@ -44,55 +44,78 @@
 /* tabs start ***********************************/
 /* tabs for product page*/
 .product-page-tabs {
+  color: #0f1111;
+  background-color: #fafafa;
+  /*display: none;*/
+  border: 2px solid #f0f0f0;
+  border-radius: 3px;
+  box-shadow: #00000059 0px 1px 4px;
+}
+
+.product-page-tabs-buttons-container {
+  display: flex;
+  width: 100%;
+  /*background-color: #97a2a8;*/
+  background-color: #f5f5f5;
+  box-shadow: #00000059 0px 1px 4px;
 }
 
 /* Style tab links */
 .product-page-tablink {
-  background-color: #555;
-  color: white;
+  background-color: #333;
+  color: #fafafa;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 20%;
+  min-width: 100px;
 }
 
 .product-page-tablink-active {
-  background-color: #777;
+  /*background-color: #a8a8a8;*/
+  background-color: #c4c4c4;
+  color: #0f1111;
+  border-bottom: 1px solid #0f1111;
 }
 
 .product-page-tablink:hover {
-  background-color: #999;
+  background-color: #c2c2c2;
+  color: #0f1111;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
 .product-page-tabcontent {
-  color: white;
+  color: #0f1111;
+  background-color: #f7f7f7;
   /*display: none;*/
   padding: 100px 20px;
   height: 100%;
+
+  border: 2px solid #f0f0f0;
+  border-radius: 3px;
+  box-shadow: #00000059 0px 1px 4px;
 }
 
 #prodtabstab0 {
-  background-color: #777;
+  /*background-color: #777;*/
   display: block;
 }
 #prodtabstab1 {
-  background-color: green;
+  /*background-color: green;*/
   display: none;
 }
 #prodtabstab2 {
-  background-color: blue;
+  /*background-color: blue;*/
   display: none;
 }
 #prodtabstab3 {
-  background-color: orange;
+  /*background-color: orange;*/
   display: none;
 }
 #prodtabstab4 {
-  background-color: yellow;
+  /*background-color: yellow;*/
   display: none;
 }
 
