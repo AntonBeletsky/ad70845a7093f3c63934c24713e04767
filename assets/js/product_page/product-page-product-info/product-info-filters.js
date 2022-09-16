@@ -5,8 +5,8 @@ JS for product filters on product page
 $("div.pif-btn-default").click(function () {
   /* remove old active btn */
   $(".product-info-filters-filter-control > div.pif-btn-active")
-    .removeClass("pif-btn-active")
-    .addClass("pif-btn-default");
+    .addClass("pif-btn-default")
+    .removeClass("pif-btn-active");
   /* input */
   $(".product-info-filters-filter-control > input[checked]").removeAttr(
     "checked"
