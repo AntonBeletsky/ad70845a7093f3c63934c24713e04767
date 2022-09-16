@@ -1,16 +1,18 @@
 /*
 JS for product filters on product page 
 */
-
-$("div.pif-btn-default").click(function () {
+/* $(".pif-btn-default").click(function () { bug */
+$(".pif-btn").click(function () {
   /* remove old active btn */
-  $(".product-info-filters-filter-control > div.pif-btn-active")
+  $(this)
+    .parent()
+    .parent()
+    .find(".pif-btn-active")
     .addClass("pif-btn-default")
     .removeClass("pif-btn-active");
+
   /* input */
-  $(".product-info-filters-filter-control > input[checked]").removeAttr(
-    "checked"
-  );
+  $(this).parent().parent().find("input[checked]").removeAttr("checked");
 
   /* select new filter (radio button ) */
   /*div buttons */
