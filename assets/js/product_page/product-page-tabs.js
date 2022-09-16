@@ -17,8 +17,8 @@ document.getElementById("prodPageDefaultOpen").click();
 /************************************************************************ */
 
 /* open tabs*/
-$(".product-page-tabs button[tabid]").click(function () {
-  var attr = $(this).attr("tabid");
+$(".product-page-tabs button[prodpagetabid]").click(function () {
+  var attr = $(this).attr("prodpagetabid");
   $(".product-page-tabcontent").css("display", "none");
   $($(".product-page-tabs #" + attr)).css("display", "block");
 
