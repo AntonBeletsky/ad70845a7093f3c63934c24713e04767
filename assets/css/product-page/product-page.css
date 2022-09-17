@@ -47,9 +47,9 @@
   color: #0f1111;
   background-color: #fafafa;
   /*display: none;*/
-  border: 2px solid #f0f0f0;
+  border: 1px solid #f0f0f0;
   border-radius: 3px;
-  box-shadow: #00000059 0px 1px 4px;
+  box-shadow: #00000059 0px 1px 2px;
 }
 
 .product-page-tabs-buttons-container {
@@ -58,6 +58,8 @@
   /*background-color: #97a2a8;*/
   background-color: #efeeee;
   box-shadow: #00000059 0px 1px 4px;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style tab links */
@@ -77,14 +79,13 @@
 }
 
 .product-page-tablink-active {
-  /*background-color: #a8a8a8;*/
-  background-color: #c4c4c4;
+  background-color: #ababab;
   color: #0f1111;
-  /*border-bottom: 1px solid #0f1111;*/
+  /*font-weight: 700;*/
 }
 
 .product-page-tablink:hover {
-  background-color: #c2c2c2;
+  background-color: #c4c4c4;
   color: #0f1111;
 }
 
