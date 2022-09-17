@@ -26,7 +26,7 @@
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 20px;
-  padding-bottom: 150px;
+  padding-bottom: 25px;
 
   box-shadow: 7px 7px 12px -9px #777;
 }
@@ -50,6 +50,7 @@
   border: 1px solid #f0f0f0;
   border-radius: 3px;
   box-shadow: #00000059 0px 1px 2px;
+  width: 100%;
 }
 
 .product-page-tabs-buttons-container {
