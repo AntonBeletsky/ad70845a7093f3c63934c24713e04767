@@ -79,6 +79,7 @@
 }
 
 .product-page-tablink-active {
+  /*background-color: #ababab;*/
   background-color: #ababab;
   color: #0f1111;
   /*font-weight: 700;*/
@@ -103,23 +104,27 @@
 }
 
 #prodtabstab0 {
-  /*background-color: #777;*/
   display: block;
 }
 #prodtabstab1 {
-  /*background-color: green;*/
   display: none;
 }
 #prodtabstab2 {
-  /*background-color: blue;*/
   display: none;
 }
 #prodtabstab3 {
-  /*background-color: orange;*/
   display: none;
 }
 #prodtabstab4 {
-  /*background-color: yellow;*/
+  display: none;
+}
+#prodtabstab5 {
+  display: none;
+}
+#prodtabstab6 {
+  display: none;
+}
+#prodtabstab7 {
   display: none;
 }
 
@@ -175,7 +180,7 @@ a.brand-link {
 
 .product-info-content-gray-line {
   width: 100%;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #e4e0e0;
   margin-top: 5px;
   margin-bottom: 5px;
 }

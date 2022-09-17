@@ -8,3 +8,7 @@ crimson
 
 
 #0F1111
+
+#efeeee white gray 
+
+#e4e0e0; line 
