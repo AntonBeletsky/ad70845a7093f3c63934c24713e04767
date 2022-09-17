@@ -49,7 +49,7 @@
   /*display: none;*/
   border: 1px solid #f0f0f0;
   border-radius: 3px;
-  box-shadow: #00000059 0px 1px 2px;
+  /*box-shadow: #00000059 0px 1px 2px; /for one box */
   width: 100%;
 }
 
@@ -58,7 +58,7 @@
   width: 100%;
   /*background-color: #97a2a8;*/
   background-color: #efeeee;
-  box-shadow: #00000059 0px 1px 4px;
+  /*box-shadow: #00000059 0px 1px 4px; /for one box */
 
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -101,7 +101,9 @@
 
   border: 2px solid #f0f0f0;
   border-radius: 3px;
-  box-shadow: #00000059 0px 1px 4px;
+
+  /*box-shadow: #00000059 0px 1px 4px; /* for one box */
+  box-shadow: #00000059 0px -2px 4px;
 }
 
 #prodtabstab0 {
