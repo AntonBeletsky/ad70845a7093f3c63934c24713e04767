@@ -1,0 +1,100 @@
+/* tabs start ***********************************/
+/* tabs for product page*/
+.product-page-tabs {
+  color: #0f1111;
+  background-color: #fafafa;
+  /*display: none;*/
+  border: 1px solid #f0f0f0;
+  border-radius: 3px;
+  /*box-shadow: #00000059 0px 1px 2px; /for one box */
+  width: 100%;
+}
+
+.product-page-tabs-buttons-container {
+  display: flex;
+  width: 100%;
+  /*background-color: #97a2a8;*/
+  background-color: #efeeee;
+  /*box-shadow: #00000059 0px 1px 4px; /for one box */
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style tab links */
+.product-page-tablink {
+  background-color: inherit;
+  background-color: #f5f5f5;
+  color: #0f1111;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  min-width: 100px;
+
+  box-shadow: #00000059 0px 1px 1px;
+}
+
+.product-page-tablink-active {
+  /*background-color: #ababab;*/
+  background-color: #ababab;
+  color: #0f1111;
+  /*font-weight: 700;*/
+}
+
+.product-page-tablink:hover {
+  background-color: #c4c4c4;
+  color: #0f1111;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.product-page-tabcontent {
+  color: #0f1111;
+  background-color: #f7f7f7;
+  /*display: none;*/
+  padding: 100px 20px;
+  height: 100%;
+
+  border: 2px solid #f0f0f0;
+  border-radius: 3px;
+
+  /*box-shadow: #00000059 0px 1px 4px; /* for one box */
+  box-shadow: #00000059 0px -2px 4px;
+}
+
+#prodtabstab0 {
+  display: none;
+}
+#prodtabstab1 {
+  display: block;
+}
+#prodtabstab2 {
+  display: none;
+}
+#prodtabstab3 {
+  display: none;
+}
+#prodtabstab4 {
+  display: none;
+}
+#prodtabstab5 {
+  display: none;
+}
+#prodtabstab6 {
+  display: none;
+}
+#prodtabstab7 {
+  display: none;
+}
+#prodtabstab8 {
+  display: none;
+}
+#prodtabstab9 {
+  display: none;
+}
+#prodtabstab10 {
+  display: none;
+}
+
+/*tabs end ***********************************/
