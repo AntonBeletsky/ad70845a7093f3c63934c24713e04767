@@ -10,25 +10,24 @@
 }
 
 .product-info-actions-btn {
-  color: #020001;
-  background-image: linear-gradient(213deg, #f2bd1d 7%, #eac862 92%);
-  border: unset;
+  color: #000;
+  border: 1px solid #e6b31c;
   background-color: #f2bd1d;
-  outline: 1px solid #020001;
+
   min-width: 135px;
   min-height: 40px;
   text-align: center;
   text-decoration: none;
 
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
 
-  font-weight: 600;
+  font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .product-info-actions-btn:hover {
-  box-shadow: 7px 7px 12px -9px #66572b;
+  box-shadow: 7px 7px 12px -9px #e6b31c;
 }
 
 /*   
