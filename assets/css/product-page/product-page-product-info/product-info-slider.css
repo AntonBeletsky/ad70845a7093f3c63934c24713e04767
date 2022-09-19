@@ -3,7 +3,8 @@
 /* Position the image product-info-slider-container (needed to position the left and right arpis-rows) */
 .product-info-slider-container {
   width: 700px;
-  height: 100%;
+  /*height: 100%;*/
+
   position: relative;
   background-color: #0f1111;
 }

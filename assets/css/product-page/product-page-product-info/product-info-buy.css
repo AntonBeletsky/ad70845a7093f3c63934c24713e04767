@@ -31,6 +31,15 @@
   background-color: #f2bd1d;
 }
 
+.product-info-shiping-info {
+  line-height: 1.5em;
+}
+
+.product-info-shiping-info-gray {
+  color: #777;
+  font-size: 14px;
+}
+
 /*   
 color: #f2bd1d; - buy
   color: #0b7abf;
