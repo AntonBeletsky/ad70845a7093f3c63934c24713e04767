@@ -12,7 +12,7 @@
 .product-info-actions-btn {
   color: #000;
   border: 1px solid #e6b31c;
-  background-color: #f2bd1d;
+  background-color: #ffec8a;
 
   min-width: 135px;
   min-height: 40px;
@@ -28,6 +28,7 @@
 
 .product-info-actions-btn:hover {
   box-shadow: 7px 7px 12px -9px #e6b31c;
+  background-color: #f2bd1d;
 }
 
 /*   
