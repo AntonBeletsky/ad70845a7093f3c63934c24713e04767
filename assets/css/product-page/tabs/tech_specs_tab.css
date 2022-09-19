@@ -1,7 +1,7 @@
 /* tech specs tab */
 .tech_specs_tab {
   margin: 0px 0px;
-  padding: 0px 0px;
+  padding-bottom: 30px;
 }
 
 .tech_specs_tab-header {
@@ -52,11 +52,6 @@
   width: 30%;
   border-right: 2px solid #dcdcdc;
 }
-/*
-.tech_specs_table tr.prod-specs-data:hover {
-  background-color: #f2f2da;
-}
-*/
 
 .tech_specs_table td {
   font-size: 16px;
@@ -82,4 +77,21 @@
 
 .add-info-text {
   /*padding: 6px 25px;*/
+}
+
+.tech_specs-gray-line {
+  width: 100%;
+  border-bottom: 1px solid #e4e0e0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tech_specs-gray-msg {
+  font-size: 13px;
+  line-height: 1.3;
+  color: #999;
+  display: block;
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
+  margin-top: 3px;
 }
