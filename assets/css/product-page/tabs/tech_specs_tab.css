@@ -50,6 +50,7 @@
 
 .tech_specs_table td:first-child {
   width: 30%;
+  border-right: 2px solid #dcdcdc;
 }
 
 .tech_specs_table td {
