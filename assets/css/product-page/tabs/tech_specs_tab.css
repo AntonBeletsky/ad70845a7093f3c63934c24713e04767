@@ -1,3 +1,19 @@
 /* tech specs tab */
+.tech_specs_tab {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.tech_specs_tab-header {
+}
+
+.tech_specs_tab-header span:nth-child(1) {
+  background-color: rgb(78, 50, 205);
+}
+
+.tech_specs_tab-header span:nth-child(2) {
+  background-color: rgb(255, 210, 127);
+}
+
 .tech_specs_table {
 }
