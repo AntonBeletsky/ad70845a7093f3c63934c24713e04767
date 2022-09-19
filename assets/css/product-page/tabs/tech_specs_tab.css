@@ -26,6 +26,15 @@
 }
 
 .tech_specs_table table {
+  width: 100%;
+}
+
+.tech_specs_table table tbody {
+  width: 100%;
+}
+
+.tech_specs_table tr {
+  width: 100%;
 }
 
 .tech_specs_table th {
@@ -37,15 +46,11 @@
   margin-top: 10px;
 }
 
-.tech_specs_table tr {
-  width: 100%;
-}
-
 .tech_specs_table tr.prod-specs-header th {
 }
 
 .tech_specs_table tr.prod-specs-data:nth-child(even) {
-  background-color: #f6f6f6;
+  background-color: #dae9f2;
 }
 
 .tech_specs_table td {
@@ -53,7 +58,7 @@
   line-height: 18px;
   text-align: left;
   vertical-align: middle;
-  color: #303030;
+  color: #000;
   padding: 6px 25px;
   height: 100%;
 }
