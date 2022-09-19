@@ -52,6 +52,11 @@
   width: 30%;
   border-right: 2px solid #dcdcdc;
 }
+/*
+.tech_specs_table tr.prod-specs-data:hover {
+  background-color: #f2f2da;
+}
+*/
 
 .tech_specs_table td {
   font-size: 16px;
@@ -64,4 +69,15 @@
 
 .add-info {
   margin-top: 25px;
+}
+
+.add-info-container {
+}
+
+.add-info-header {
+  padding: 6px 0px;
+}
+
+.add-info-text {
+  padding: 6px 25px;
 }
