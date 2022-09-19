@@ -72,12 +72,14 @@
 }
 
 .add-info-container {
+  margin-top: 15px;
+  padding-left: 25px;
 }
 
 .add-info-header {
-  padding: 6px 0px;
+  /*padding: 6px 0px;*/
 }
 
 .add-info-text {
-  padding: 6px 25px;
+  /*padding: 6px 25px;*/
 }
