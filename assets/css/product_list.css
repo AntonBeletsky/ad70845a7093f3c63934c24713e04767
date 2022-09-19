@@ -90,6 +90,7 @@
   width: 300px;
   flex-direction: column;
   height: auto;
+  max-height: 700px;
 }
 
 .products.catalog-view-list .product-card {
@@ -118,6 +119,8 @@
 
 .product-card-text .card-text {
   text-align: justify; /* Выравнивание по ширине */
+  max-height: 100px;
+  overflow: hidden;
 }
 
 .product-card .product-card-body .price-container {
