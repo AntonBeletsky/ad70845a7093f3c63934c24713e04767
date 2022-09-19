@@ -5,27 +5,55 @@
 }
 
 .tech_specs_tab-header {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .tech_specs_tab-header span:nth-child(1) {
-  background-color: rgb(78, 50, 205);
+  color: #000;
+  font-weight: 700;
 }
 
 .tech_specs_tab-header span:nth-child(2) {
-  background-color: rgb(255, 210, 127);
+  color: #999;
 }
 
 .tech_specs_table {
+  border: 1px solid #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .tech_specs_table table {
 }
 
 .tech_specs_table th {
+  font-weight: 700;
+  padding-left: 0px;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
 }
 
 .tech_specs_table tr {
+  width: 100%;
+}
+
+.tech_specs_table tr.prod-specs-header th {
+}
+
+.tech_specs_table tr.prod-specs-data:nth-child(even) {
+  background-color: #f6f6f6;
 }
 
 .tech_specs_table td {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  vertical-align: middle;
+  color: #303030;
+  padding: 6px 25px;
+  height: 100%;
 }
