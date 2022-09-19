@@ -66,10 +66,10 @@
   display: none;
 }
 #prodtabstab1 {
-  display: block;
+  display: none;
 }
 #prodtabstab2 {
-  display: none;
+  display: block;
 }
 #prodtabstab3 {
   display: none;
