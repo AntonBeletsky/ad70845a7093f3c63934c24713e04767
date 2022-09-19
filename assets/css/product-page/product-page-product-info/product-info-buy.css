@@ -1,34 +1,34 @@
 /* buttons */
 .product-info-actions-buttons-container {
-}
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-.product-info-actions-btn-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0px 40px;
 }
 
 .product-info-actions-btn {
-  /*
-  background-color: #fcfae3;
-  color: #020001;*/
-
-  min-width: 180px;
-  height: 60px;
-  /*
-  border: none;
-  padding: 15px 32px;
+  color: #020001;
+  background-image: linear-gradient(213deg, #f2bd1d 7%, #eac862 92%);
+  border: unset;
+  background-color: #f2bd1d;
+  outline: 1px solid #020001;
+  min-width: 135px;
+  min-height: 40px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  */
-  padding: 0 24px;
-  min-width: 165px;
-  background-image: linear-gradient(213deg, #ff7b48 7%, #f73c22 92%);
 
-  border-style: solid;
-  background-color: #ff4747;
-  border-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-info-actions-btn:hover {
+  box-shadow: 7px 7px 12px -9px #66572b;
 }
 
 /*   
