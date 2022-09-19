@@ -3,11 +3,13 @@
 }
 
 .product-info-actions-btn {
+  /*
   background-color: #fcfae3;
-  color: #020001;
+  color: #020001;*/
 
   min-width: 180px;
   height: 60px;
+  /*
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -16,6 +18,14 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  */
+  padding: 0 24px;
+  min-width: 165px;
+  background-image: linear-gradient(213deg, #ff7b48 7%, #f73c22 92%);
+
+  border-style: solid;
+  background-color: #ff4747;
+  border-color: transparent;
 }
 
 /*   
@@ -23,4 +33,5 @@ color: #f2bd1d; - buy
   color: #0b7abf;
     color: #343d46;
     color: #97a2a8;
+    color: #343d46;
 */
