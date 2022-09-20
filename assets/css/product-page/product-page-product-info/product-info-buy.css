@@ -9,47 +9,6 @@
   gap: 0px 30px;
 }
 
-.product-info-actions-btn {
-  /*color: #000;*/
-  color: #fff;
-  /*border: 1px solid #e6b31c;*/
-  border: 1px solid transparent;
-  /*background-color: #ffec8a;*/
-  background-color: #fa6400;
-
-  min-width: 140px;
-  min-height: 30px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-
-  /*
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  */
-}
-
-.product-info-actions-btn:hover {
-  box-shadow: 7px 7px 12px -9px #e6b31c;
-  background-color: #f2bd1d;
-  transform: translateY(-1px);
-}
-
-.product-info-shiping-info {
-  line-height: 1.5em;
-}
-
-.product-info-shiping-info-gray {
-  color: #777;
-  font-size: 14px;
-}
-
 /*   
 color: #f2bd1d; - buy
   color: #0b7abf;
@@ -58,12 +17,7 @@ color: #f2bd1d; - buy
     color: #343d46;
 */
 
-/*
-https://getcssscan.com/css-buttons-examples
-*/
-
-/* CSS */
-.button-5 {
+.product-info-actions-btn {
   align-items: center;
   background-clip: padding-box;
   background-color: #fa6400;
@@ -92,14 +46,14 @@ https://getcssscan.com/css-buttons-examples
   vertical-align: baseline;
   width: auto;
 }
-.button-5:hover,
-.button-5:focus {
+.product-info-actions-btn:hover,
+.product-info-actions-btn:focus {
   background-color: #fb8332;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
-.button-5:hover {
+.product-info-actions-btn:hover {
 }
-.button-5:active {
+.product-info-actions-btn:active {
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   transform: translateY(0);
