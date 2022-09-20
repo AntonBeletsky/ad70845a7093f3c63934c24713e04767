@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 0px 40px;
+  gap: 0px 30px;
 }
 
 .product-info-actions-btn {
@@ -80,8 +80,9 @@ https://getcssscan.com/css-buttons-examples
   justify-content: center;
   line-height: 1.25;
   margin: 0;
-  min-height: 3rem;
-  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  min-height: 40px;
+  min-width: 140px;
+  padding: 13px 23px;
   position: relative;
   text-decoration: none;
   transition: all 250ms;
