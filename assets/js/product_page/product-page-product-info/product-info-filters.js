@@ -3,6 +3,9 @@ JS for product filters on product page
 */
 /* $(".pif-btn-default").click(function () { bug */
 $(".pif-btn").click(function () {
+  /* check disabled input click*/
+  if ($(this).parent().find("input[disabled]").length == 1) return false;
+
   /* remove old active btn */
   $(this)
     .parent()
