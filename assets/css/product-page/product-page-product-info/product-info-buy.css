@@ -60,5 +60,27 @@ color: #f2bd1d; - buy
 }
 
 /* icons */
+/*
 .product-info-actions-icon-container {
+  background-color: unset;
+  height: 48px;
+  width: 48px;
+}
+*/
+
+.prod-icons {
+}
+
+/*.product-info-actions-icon,*/
+.prod-info-icon {
+  color: #0b7abf;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.prod-info-icon:hover {
+  color: #f2bd1d;
 }
