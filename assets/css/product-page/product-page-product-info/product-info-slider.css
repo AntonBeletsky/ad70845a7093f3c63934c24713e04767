@@ -2,8 +2,12 @@
 
 /* Position the image product-info-slider-container (needed to position the left and right arpis-rows) */
 .product-info-slider-container {
-  width: 700px;
+  /*width: 700px;*/
+  /*width: 50%;*/
   /*height: 100%;*/
+
+  min-width: 400px;
+  max-width: 1400px;
 
   position: relative;
   background-color: #0f1111;
