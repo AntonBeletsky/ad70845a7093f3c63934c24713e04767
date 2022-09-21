@@ -60,15 +60,14 @@ color: #f2bd1d; - buy
 }
 
 /* icons */
-/*
-.product-info-actions-icon-container {
-  background-color: unset;
-  height: 48px;
-  width: 48px;
-}
-*/
-
-.prod-icons {
+.product-info-product-icons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width: 160px;
 }
 
 /*.product-info-actions-icon,*/
@@ -76,9 +75,7 @@ color: #f2bd1d; - buy
   color: #0b7abf;
   text-align: center;
   text-decoration: none;
-  font-size: 32px;
-  margin-top: 7px;
-  margin-left: 7px;
+  font-size: 42px;
 }
 
 .prod-info-icon:hover {
