@@ -68,10 +68,18 @@ color: #f2bd1d; - buy
   justify-content: space-evenly;
   align-items: baseline;
   width: 160px;
+  column-gap: 60px;
 }
 
 /*.product-info-actions-icon,*/
 .prod-info-icon {
+  color: #343d46;
+  text-align: center;
+  text-decoration: none;
+  font-size: 42px;
+}
+
+.prod-info-icon-added {
   color: #0b7abf;
   text-align: center;
   text-decoration: none;
@@ -79,5 +87,9 @@ color: #f2bd1d; - buy
 }
 
 .prod-info-icon:hover {
+  color: #f2bd1d;
+}
+
+.prod-info-icon-added:hover {
   color: #f2bd1d;
 }
