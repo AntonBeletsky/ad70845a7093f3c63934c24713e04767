@@ -23,7 +23,7 @@
   background-color: #97a2a8;
   /* TODO: see navvar.css .topnav .search-container { * */
   padding-top: 10px;
-  padding-bottom: 8px;
+  padding-bottom: 10px; /* 8 */
 
   padding-left: 15px;
   padding-right: 0px;
