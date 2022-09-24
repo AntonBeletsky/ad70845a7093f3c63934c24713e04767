@@ -20,6 +20,10 @@
   padding: 20px 20px;
 }
 
+.stars-progress-items-container {
+  margin-top: 10px;
+}
+
 .star-progress-item {
   padding-top: 1px;
   padding-bottom: 1px;
@@ -50,5 +54,18 @@ progress[value]::-webkit-progress-value {
 .star-progress-item a {
 }
 
+.star-progress-item a:link {
+  color: #007185;
+}
+
+.star-progress-item a:visited {
+  color: #007185;
+}
+
+.star-progress-item a:active {
+  color: blue;
+}
+
 .star-progress-item a:hover {
+  color: goldenrod;
 }
