@@ -1,5 +1,14 @@
 /* */
 .customer_reviews_tab {
   margin: 0px 0px;
-  padding-bottom: 30px;
+  padding: 0px 0px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.average_rating_panel {
+}
+
+.review_item {
 }
