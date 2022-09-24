@@ -67,7 +67,8 @@ in relative-products.css
 }
 
 /* star + rating + answers*/
-.product-page-product-info .rating-container {
+/*.product-page-product-info .rating-container {*/
+.rating-container {
   /*background-color: burlywood;*/
   display: flex;
   flex-direction: row;
@@ -75,12 +76,14 @@ in relative-products.css
 }
 
 /* stars rating*/
-.product-page-product-info .star-rating {
+/*.product-page-product-info .star-rating {*/
+.star-rating {
   color: #97a2a8;
   background-color: none;
 }
 
-.product-page-product-info .star-rating > .checked {
+/*.product-page-product-info .star-rating > .checked {*/
+.star-rating > .checked {
   color: goldenrod;
   background-color: none;
 }
