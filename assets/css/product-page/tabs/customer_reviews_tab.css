@@ -21,13 +21,16 @@
 }
 
 .star-progress-item {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .star-progress-item progress {
   -webkit-appearance: none;
   appearance: none;
-  width: 300px;
-  height: 30px;
+  width: 200px;
+  height: 20px;
+  /*border: 1px solid #0f1111;*/
 }
 
 .star-progress-item progress:hover {
@@ -35,7 +38,11 @@
 }
 
 .star-progress-item progress::-webkit-progress-bar {
-  background-color: #bb1919;
+  background-color: #97a2a8;
   border-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 2px 5px #00000040 inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: goldenrod;
 }
