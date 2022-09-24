@@ -46,3 +46,9 @@
 progress[value]::-webkit-progress-value {
   background-color: goldenrod;
 }
+
+.star-progress-item a {
+}
+
+.star-progress-item a:hover {
+}
