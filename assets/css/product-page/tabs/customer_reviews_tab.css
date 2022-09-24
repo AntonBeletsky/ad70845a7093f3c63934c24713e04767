@@ -6,12 +6,22 @@
   padding: 0px 0px;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .average_rating_panel {
-  width: 100%;
-  /*border: 1px solid #000;*/
+  /*width: 100%;*/
+  padding-right: 25px;
+}
+
+.rating-container {
+  margin-top: 10px;
+}
+
+.reviews_list_container {
+  background-color: aquamarine;
+  display: flex;
+  row-gap: 5px;
 }
 
 .review_item {
