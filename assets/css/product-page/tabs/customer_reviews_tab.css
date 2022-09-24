@@ -1,10 +1,8 @@
 /* */
 .customer_reviews_tab {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
-
   padding: 0px 0px;
-
   display: flex;
   flex-direction: row;
 }
@@ -12,22 +10,26 @@
 .average_rating_panel {
   /*width: 100%;*/
   padding-right: 25px;
+  padding-bottom: 20px;
 }
 
 .rating-container {
   margin-top: 10px;
 }
 
-.reviews_list_container {
+.reviews-list-container {
   background-color: aquamarine;
   display: flex;
-  row-gap: 5px;
+  flex-direction: column;
+  row-gap: 10px;
+  /*width: 100%;*/
 }
 
-.review_item {
+.review-item {
   background-color: chocolate;
   border: 1px solid #000;
   padding: 20px 20px;
+  width: 100%;
 }
 
 .stars-progress-items-container {
