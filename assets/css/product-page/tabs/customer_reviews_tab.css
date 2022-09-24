@@ -38,6 +38,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  row-gap: 5px;
 }
 
 .star-progress-item {
@@ -92,4 +93,8 @@ progress[value]::-webkit-progress-value {
 
 .star-progress-item a:hover {
   color: goldenrod;
+}
+
+/* comment card */
+.comment-card {
 }
