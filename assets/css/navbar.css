@@ -267,7 +267,8 @@ button:hover {
   /*background-color: #020001;*/
   /*270 170*/
   width: 340px;
-  margin-left: -170px;
+  /*margin-left: -170px;*/
+  margin-left: -240px;
 
   /*display: flex;*/
   display: none;

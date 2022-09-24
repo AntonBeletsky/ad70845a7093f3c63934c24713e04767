@@ -31,8 +31,10 @@
   box-shadow: 7px 7px 12px -9px #777;
 }
 
+/* todo: rewrite in media */
 .product-page-center-container {
   width: 75%;
+  min-width: 980px;
 }
 
 /* picture, filter , description  */
