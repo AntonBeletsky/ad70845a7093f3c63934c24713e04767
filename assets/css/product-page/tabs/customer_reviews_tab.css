@@ -114,6 +114,6 @@ progress[value]::-webkit-progress-value {
   flex-direction: column;
 
   width: 100px;
-  height: 100px;
+
   background-color: darkorange;
 }
