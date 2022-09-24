@@ -15,15 +15,27 @@
 }
 
 .review_item {
-  width: 100%;
   background-color: chocolate;
   border: 1px solid #000;
+  padding: 20px 20px;
 }
 
 .star-progress-item {
 }
 
-.star-progress-item progress[value] {
-  width: 250px;
-  height: 20px;
+.star-progress-item progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 300px;
+  height: 30px;
+}
+
+.star-progress-item progress:hover {
+  /*border: 1px solid #000;*/
+}
+
+.star-progress-item progress::-webkit-progress-bar {
+  background-color: #bb1919;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
