@@ -19,18 +19,19 @@
 }
 
 .reviews-list-container {
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 15px;
   /*overflow: hidden;*/
   /*width: 100%;*/
 }
 
 .review-item {
-  background-color: chocolate;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
   padding: 20px 20px;
+  background-color: #fdfdfd;
+  box-shadow: 10px 5px 5px #fff;
   /*width: 100%;*/
 }
 
