@@ -1,6 +1,8 @@
 /* */
 .customer_reviews_tab {
-  margin: 0px 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
   padding: 0px 0px;
 
   display: flex;
@@ -8,7 +10,12 @@
 }
 
 .average_rating_panel {
+  width: 100%;
+  border: 1px solid #000;
 }
 
 .review_item {
+  width: 100%;
+  background-color: chocolate;
+  border: 1px solid #000;
 }
