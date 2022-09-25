@@ -103,7 +103,6 @@ progress[value]::-webkit-progress-value {
 .comment-card .avatar-part {
   display: flex;
   flex-direction: column;
-  background-color: #007185;
   gap: 10px;
 }
 
@@ -124,7 +123,6 @@ progress[value]::-webkit-progress-value {
 }
 
 .avatar-part .comment-nick-name {
-  background-color: yellow;
 }
 
 /*comment-part */
@@ -142,9 +140,12 @@ progress[value]::-webkit-progress-value {
 }
 
 .comment-color-attribute {
+  color: #97a2a8;
 }
 
 .comment-color-value {
+  color: #97a2a8;
+  font-weight: bolder;
 }
 
 .comment-msg {
