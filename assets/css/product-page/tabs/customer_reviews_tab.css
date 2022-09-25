@@ -134,6 +134,10 @@ progress[value]::-webkit-progress-value {
 }
 
 .comment-colors-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .comment-colors-list-item {
