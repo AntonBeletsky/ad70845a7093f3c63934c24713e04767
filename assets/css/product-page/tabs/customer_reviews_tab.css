@@ -103,17 +103,23 @@ progress[value]::-webkit-progress-value {
 .comment-card .avatar-part {
   display: flex;
   flex-direction: column;
-
-  width: 100px;
-  height: 100px;
   background-color: #007185;
 }
 
 .comment-card .comment-part {
   display: flex;
   flex-direction: column;
-
-  width: 100px;
-
   background-color: darkorange;
+}
+
+/* avatar*/
+.avatar-part .comment-avatar {
+}
+
+.avatar-part .comment-nick-name {
+  background-color: yellow;
+}
+
+/*comment-part */
+.star-date {
 }
