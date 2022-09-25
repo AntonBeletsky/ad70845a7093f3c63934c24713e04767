@@ -104,16 +104,23 @@ progress[value]::-webkit-progress-value {
   display: flex;
   flex-direction: column;
   background-color: #007185;
+  gap: 10px;
 }
 
 .comment-card .comment-part {
   display: flex;
   flex-direction: column;
-  background-color: darkorange;
+  gap: 10px;
 }
 
 /* avatar*/
 .avatar-part .comment-avatar {
+}
+
+.avatar-part .comment-avatar img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 .avatar-part .comment-nick-name {
@@ -122,9 +129,19 @@ progress[value]::-webkit-progress-value {
 
 /*comment-part */
 .comment-star-date {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
 }
 
 .comment-colors-list {
+}
+
+.comment-color-attribute {
+}
+
+.comment-color-value {
 }
 
 .comment-msg {
