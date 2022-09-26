@@ -536,8 +536,14 @@ hr {
 
 /* navbar grid*/
 
+/* 
+ один столбец для одной кнопки
+https://www.w3schools.com/css/css_grid_container.asp
+*/
+/*
 .navbargrid {
   display: grid !important;
+  
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: auto;
   grid-template-areas: "left center rigth";
@@ -552,3 +558,4 @@ hr {
 .item-rigth {
   grid-area: rigth;
 }
+*/
