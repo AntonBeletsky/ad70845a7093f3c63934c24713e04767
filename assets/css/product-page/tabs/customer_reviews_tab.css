@@ -123,6 +123,10 @@ progress[value]::-webkit-progress-value {
 }
 
 .avatar-part .comment-nick-name {
+  display: flex;
+  overflow: hidden;
+  max-width: 100px;
+  justify-content: center;
 }
 
 /*comment-part */
@@ -167,6 +171,12 @@ progress[value]::-webkit-progress-value {
 .comment-photo-container img {
   width: 60px;
   height: 60px;
+  border: 1px solid #00000000;
+}
+
+.comment-photo-container img:hover {
+  cursor: pointer;
+  border: 1px solid orangered;
 }
 
 .comment-helpful {
