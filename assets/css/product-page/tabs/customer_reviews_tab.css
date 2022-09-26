@@ -159,9 +159,14 @@ progress[value]::-webkit-progress-value {
 }
 
 .comment-photo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .comment-photo-container img {
+  width: 60px;
+  height: 60px;
 }
 
 .comment-helpful {
