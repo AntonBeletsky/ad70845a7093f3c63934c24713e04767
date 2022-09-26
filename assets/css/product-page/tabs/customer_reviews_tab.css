@@ -157,6 +157,15 @@ progress[value]::-webkit-progress-value {
 }
 
 .comment-msg {
+  max-height: 300px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* todo: hide scroll here */
+.comment-msg::-webkit-scrollbar {
+  display: none;
 }
 
 .comment-photo {
