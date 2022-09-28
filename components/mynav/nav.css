@@ -1,0 +1,95 @@
+body {
+  background-color: aquamarine;
+}
+
+.wrapper {
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: blue;
+}
+
+main {
+  background-color: brown;
+}
+
+nav {
+  background-color: yellow;
+}
+
+ul {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+li {
+  background-color: chartreuse;
+}
+
+.nav-item-container-1 {
+  flex-grow: 1;
+}
+
+.nav-item-container-2 {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.nav-item-container-3 {
+  flex-grow: 3;
+}
+
+.nav-item-container {
+  flex-grow: unset;
+}
+
+a {
+  background-color: salmon;
+}
+
+.navbtn {
+  height: 50px;
+  min-width: 100px;
+  background-color: #777;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+  width: 300px;
+  height: 400px;
+  background-color: aliceblue;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbtn:hover {
+  background-color: blue;
+}
+
+/*.navbtn:hover ~ .dropdown-content,*/
+li:hover .dropdown-content /*,*/ {
+  /*.dropdown-content:hover {*/
+  display: block;
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+}

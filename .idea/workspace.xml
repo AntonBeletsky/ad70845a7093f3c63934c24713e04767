@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efde4d15-555d-42be-b149-bb3ddca749fe" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/assets/css/page-content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/product_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/product_list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/select-product-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/select-product-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-list old.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-list old.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/free-page-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/free-page-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/free-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/free-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-page-old.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-page-old.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/яzя_trash/uilib.html" beforeDir="false" afterPath="$PROJECT_DIR$/яzя_trash/uilib.html" afterDir="false" />
-    </list>
+    <list default="true" id="efde4d15-555d-42be-b149-bb3ddca749fe" name="Default Changelist" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +91,7 @@
       <workItem from="1657632720992" duration="356000" />
       <workItem from="1657762395811" duration="45000" />
       <workItem from="1657762472555" duration="616000" />
+      <workItem from="1664278054496" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1657632948280</created>

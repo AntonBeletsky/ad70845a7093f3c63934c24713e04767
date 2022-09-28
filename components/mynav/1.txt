@@ -1,0 +1,12 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#media_features
+
+https://developer.mozilla.org/ru/docs/Web/CSS/Media_Queries/Using_media_queries
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution
+
+https://developer.mozilla.org/ru/docs/Web/CSS/flex-basis
+
+
+https://developer.mozilla.org/ru/docs/Web/CSS/flex-shrink
+
+https://developer.mozilla.org/ru/docs/Web/CSS/flex-grow

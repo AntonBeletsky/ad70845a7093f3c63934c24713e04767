@@ -1,0 +1,48 @@
+body {
+  background: url("https://i.ytimg.com/vi/vJKZhZq3RmU/maxresdefault.jpg") repeat-y;
+  font-size: 18px;
+  margin: 0;
+}
+
+.nav {
+  text-align: center;
+  background: #08121E;
+}
+.nav__btn {
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+.nav__list {
+  padding: 10px 20px;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.nav__link {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav__link:hover {
+  background: white;
+  color: #08121E;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav__btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+  }
+  .nav__list {
+    display: none;
+    padding: 10px 0;
+  }
+  .nav__link {
+    display: inline-block;
+    width: 100%;
+  }
+}

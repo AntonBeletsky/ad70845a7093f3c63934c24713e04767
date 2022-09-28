@@ -19,10 +19,9 @@ a {
 
 .wrapper {
   background-color: #e6f1f8;
-  /*background-color: azure;*/
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  /*background-color: var(--background-color);*/
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; /* no wrap */
