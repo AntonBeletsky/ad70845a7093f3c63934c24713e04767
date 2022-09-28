@@ -85,7 +85,7 @@ a {
   background-color: blue;
 }
 
-/*.navbtn:hover ~ .dropdown-content,*/
+/*.navbtn:hover ~+ .dropdown-content,*/
 li:hover .dropdown-content /*,*/ {
   /*.dropdown-content:hover {*/
   display: block;
