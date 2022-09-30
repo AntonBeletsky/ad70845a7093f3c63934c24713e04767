@@ -957,7 +957,7 @@
                                 <!-- add review -->
                                 <div class="review-item">
                                     <h4>You Review:</h4>
-                                    <form>
+                                    <form action="">
                                         <div class="add-review-container">
 
                                             <div class="add-review-container-item">
@@ -966,6 +966,14 @@
                                                 </div>
                                                 <div class="add-review-container-item-input">
 
+                                                    <div class="star-rating">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span class="fa fa-star"></span>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div class="add-review-container-item">
@@ -973,19 +981,20 @@
                                                     <b>text</b>
                                                 </div>
                                                 <div class="add-review-container-item-input">
-                                                    <textarea id="" name="" rows="20" cols="80"
-                                                        minlength="100">What do you think about this product?</textarea>
+                                                    <textarea id="" name="" rows="10" cols="100"
+                                                        minlength="80">What do you think about this product?</textarea>
                                                 </div>
                                             </div>
                                             <div class="add-review-container-item">
                                                 <div class="add-review-container-item-label">
-                                                    <b>photos</b>
+                                                    <label for="photo">Choose a product photo:</label>
                                                 </div>
                                                 <div class="add-review-container-item-input">
-
+                                                    <input multiple type="file" id="photo" name="photo"
+                                                        accept="image/png, image/jpeg">
                                                 </div>
                                             </div>
-                                            <div class="add-review-container-item-submit">
+                                            <div class=" add-review-container-item-submit">
                                                 <div class="add-review-container-item-label">
                                                     <!-- spacer -->
                                                 </div>
