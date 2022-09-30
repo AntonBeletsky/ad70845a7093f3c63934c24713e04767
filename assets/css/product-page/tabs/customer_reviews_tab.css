@@ -218,9 +218,13 @@ progress[value]::-webkit-progress-value {
 
 .add-review-container-item-submit {
   display: flex;
-  flex-direction: column-reverse;
-  margin-left: 20px;
+  flex-direction: row;
   background-color: #007185;
+}
+
+.add-review-container-item-submit input {
+  height: 40px;
+  width: 120px;
 }
 
 .add-review-container-item-input textarea {
