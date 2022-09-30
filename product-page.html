@@ -4,7 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="Author" content="Anton Beletsky">
+
+    <!-- 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+
+    <meta name="viewport" content="width=device-width">
     <meta name="MobileOptimized" content="width">
 
     <title>Elegast</title>
@@ -117,158 +122,157 @@
                 <!-- NAVBAR -->
                 <!-- TODO: NavBar here-->
                 <!-- itopnav using in navbar.js -->
-                <nav class="topnav" id="itopnav">
-                    <div class="topnav-base-block topnav-left-block hide-responsive">
+                <nav class="topnav navbargrid" id="itopnav">
 
-                        <a href="javascript:void(0);" class="sidebar-icon hide-in-responsive" onclick="openNav()">
-                            <i class="fa fa-bars"></i>
-                        </a>
+                    <a href="javascript:void(0);" class="sidebar-icon hide-in-responsive" onclick="openNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
 
-                        <a href="#home" class="">EComerce</a>
+                    <a href="#home" class="navbar-left ">EComerce</a>
 
-                        <!-- pages -->
-                        <div class="dropdown">
-                            <button class="dropbtn">Pages
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content fixed leftbar">
-                                <button id="open_modal_btn1" class="dropbtn">Open Modal</button>
-                                <a href="free-page.html">free page</a>
-                                <a href="index.html">index</a>
-                                <a href="catalog-list.html">catalog (product list + filter)</a>
-                                <a href="product-page.html">product-page</a>
-                                <a href="cart.html">cart</a>
-                                <a href="checkout.html">checkout</a>
-                                <a href="#">sign-up</a>
-                                <a href="#">sign-in</a>
-                                <a href="#">order/s</a>
-                                <a href="#">wishlist</a>
-                                <a href="#">compare products</a>
-                                <a href="#">messages</a>
-                                <a href="#">profile</a>
-                                <a href="#">setting</a>
-                                <a href="#">shipping</a>
-                                <a href="#">browsing history</a>
-                                <a href="#">sell history</a>
-                                <a href="#">404</a>
-                                <a href="#">Contact</a>
-                                <a href="#">features</a>
-                            </div>
+                    <!-- pages -->
+                    <div class="navbar-left dropdown">
+                        <button class="dropbtn">Pages
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content fixed leftbar">
+                            <button id="open_modal_btn1" class="dropbtn">Open Modal</button>
+                            <a href="free-page.html">free page</a>
+                            <a href="index.html">index</a>
+                            <a href="catalog-list.html">catalog (product list + filter)</a>
+                            <a href="product-page.html">product-page</a>
+                            <a href="cart.html">cart</a>
+                            <a href="checkout.html">checkout</a>
+                            <a href="#">sign-up</a>
+                            <a href="#">sign-in</a>
+                            <a href="#">order/s</a>
+                            <a href="#">wishlist</a>
+                            <a href="#">compare products</a>
+                            <a href="#">messages</a>
+                            <a href="#">profile</a>
+                            <a href="#">setting</a>
+                            <a href="#">shipping</a>
+                            <a href="#">browsing history</a>
+                            <a href="#">sell history</a>
+                            <a href="#">404</a>
+                            <a href="#">Contact</a>
+                            <a href="#">features</a>
                         </div>
+                    </div>
 
 
-                        <a href="#news" class="active">Products</a>
+                    <a href="#news" class="active">Products</a>
 
-                        <!-- Mega Menu -->
-                        <div class="mega-menu mega-dropdown hide-responsive">
-                            <button class="mega-dropbtn">
+                    <!-- Mega Menu -->
+                    <div class="navbar-left mega-menu mega-dropdown hide-responsive">
+                        <button class="mega-dropbtn">
+                            <span class="material-icons-outlined">
+                                widgets
+                            </span>
+                            <span>Catalog</span>
+                        </button>
+                        <!-- TODO: delete style css in prod-->
+                        <div class="mega-dropdown-content">
+                            <div class="header">
                                 <span class="material-icons-outlined">
                                     widgets
                                 </span>
-                                <span>Catalog</span>
-                            </button>
-                            <!-- TODO: delete style css in prod-->
-                            <div class="mega-dropdown-content">
-                                <div class="header">
-                                    <span class="material-icons-outlined">
-                                        widgets
-                                    </span>
-                                    <h2>Categoies</h2>
-                                </div>
+                                <h2>Categoies</h2>
+                            </div>
 
-                                <div class="megamenu-row">
-                                    <div class="megamenu-tab">
+                            <div class="megamenu-row">
+                                <div class="megamenu-tab">
 
-                                        <button class="tablinks" megamenutabid="megmntab1">Computers</button>
-                                        <button class="tablinks" megamenutabid="megmntab2">Smartphones</button>
-                                        <button class="tablinks" megamenutabid="megmntab3">Appliances</button>
-                                        <button class="tablinks" megamenutabid="megmntab4">4</button>
-                                        <button class="tablinks" megamenutabid="megmntab5">5</button>
-                                        <button class="tablinks" megamenutabid="megmntab6">6</button>
-                                        <button class="tablinks" megamenutabid="megmntab100">All</button>
-
-                                    </div>
-
-                                    <div id="megmntab1" class="mega-menu-tabcontent">
-                                        <h3>Computers</h3>
-                                        <p>Computers !!!</p>
-                                        <div class="column">
-                                            <h3>Category 1</h3>
-                                            <a href="#rand">Link 1</a>
-                                            <a href="#rand">Link 2</a>
-                                            <a href="#rand">Link 3</a>
-                                        </div>
-                                        <div class="column">
-                                            <h3>Category 2</h3>
-                                            <a href="#rand">Link 1</a>
-                                            <a href="#rand">Link 2</a>
-                                            <a href="#rand">Link 3</a>
-                                        </div>
-                                        <div class="column">
-                                            <h3>Category 3</h3>
-                                            <a href="#rand">Link 1</a>
-                                            <a href="#rand">Link 2</a>
-                                            <a href="#rand">Link 3</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="megmntab2" class="mega-menu-tabcontent">
-                                        <div class="column">
-                                            <h3>Category 1</h3>
-                                            <a href="#rand">Link 1</a>
-                                            <a href="#rand">Link 2</a>
-                                            <a href="#rand">Link 3</a>
-                                        </div>
-                                        <div class="column">
-                                            <h3>Category 2</h3>
-                                            <a href="#rand">Link 1</a>
-                                            <a href="#rand">Link 2</a>
-                                            <a href="#rand">Link 3</a>
-                                        </div>
-                                        <div class="column">
-                                            <h3>Category 3</h3>
-                                            <a href="#rand">Link 1</a>
-                                            <a href="#rand">Link 2</a>
-                                            <a href="#rand">Link 3</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="megmntab3" class="mega-menu-tabcontent">
-                                        <h3>Samsung</h3>
-                                        <p>Washing machines!</p>
-                                    </div>
-
-                                    <div id="megmntab4" class="mega-menu-tabcontent">
-
-                                    </div>
-
-                                    <div id="megmntab5" class="mega-menu-tabcontent">
-
-                                    </div>
-
-                                    <div id="megmntab6" class="mega-menu-tabcontent">
-
-                                    </div>
-
-                                    <div id="megmntab100" class="mega-menu-tabcontent">
-
-                                    </div>
-
+                                    <button class="tablinks" megamenutabid="megmntab1">Computers</button>
+                                    <button class="tablinks" megamenutabid="megmntab2">Smartphones</button>
+                                    <button class="tablinks" megamenutabid="megmntab3">Appliances</button>
+                                    <button class="tablinks" megamenutabid="megmntab4">4</button>
+                                    <button class="tablinks" megamenutabid="megmntab5">5</button>
+                                    <button class="tablinks" megamenutabid="megmntab6">6</button>
+                                    <button class="tablinks" megamenutabid="megmntab100">All</button>
 
                                 </div>
+
+                                <div id="megmntab1" class="mega-menu-tabcontent">
+                                    <h3>Computers</h3>
+                                    <p>Computers !!!</p>
+                                    <div class="column">
+                                        <h3>Category 1</h3>
+                                        <a href="#rand">Link 1</a>
+                                        <a href="#rand">Link 2</a>
+                                        <a href="#rand">Link 3</a>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Category 2</h3>
+                                        <a href="#rand">Link 1</a>
+                                        <a href="#rand">Link 2</a>
+                                        <a href="#rand">Link 3</a>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Category 3</h3>
+                                        <a href="#rand">Link 1</a>
+                                        <a href="#rand">Link 2</a>
+                                        <a href="#rand">Link 3</a>
+                                    </div>
+                                </div>
+
+                                <div id="megmntab2" class="mega-menu-tabcontent">
+                                    <div class="column">
+                                        <h3>Category 1</h3>
+                                        <a href="#rand">Link 1</a>
+                                        <a href="#rand">Link 2</a>
+                                        <a href="#rand">Link 3</a>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Category 2</h3>
+                                        <a href="#rand">Link 1</a>
+                                        <a href="#rand">Link 2</a>
+                                        <a href="#rand">Link 3</a>
+                                    </div>
+                                    <div class="column">
+                                        <h3>Category 3</h3>
+                                        <a href="#rand">Link 1</a>
+                                        <a href="#rand">Link 2</a>
+                                        <a href="#rand">Link 3</a>
+                                    </div>
+                                </div>
+
+                                <div id="megmntab3" class="mega-menu-tabcontent">
+                                    <h3>Samsung</h3>
+                                    <p>Washing machines!</p>
+                                </div>
+
+                                <div id="megmntab4" class="mega-menu-tabcontent">
+
+                                </div>
+
+                                <div id="megmntab5" class="mega-menu-tabcontent">
+
+                                </div>
+
+                                <div id="megmntab6" class="mega-menu-tabcontent">
+
+                                </div>
+
+                                <div id="megmntab100" class="mega-menu-tabcontent">
+
+                                </div>
+
 
                             </div>
+
                         </div>
-                        <!-- mega menu stop-->
+                    </div>
+                    <!-- mega menu stop-->
 
 
-                        <!-- 
+                    <!-- 
                         <div class="dropdown">
                             <button class="dropbtn">Dropdown
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <-!-- leftbar its modifer  -->
-                        <!--
+                    <!--
                             <div class="dropdown-content leftbar fixed">
                                 <a href="#">Link 1</a>
                                 <a href="#">Link 2</a>
@@ -277,125 +281,124 @@
                         </div>
                     -->
 
+
+
+
+                    <!-- TODO: search -->
+                    <div class="item-cente search-container">
+                        <form action="/action_page.php">
+
+                            <div class="search-select ui-item hide-in-responsive">
+                                <select>
+                                    <option value="0">All</option>
+                                    <option value="1">PC</option>
+                                    <option value="2">phonees</option>
+                                    <option value="3">cars</option>
+                                    <option value="4">option</option>
+                                    <option value="5">Option</option>
+                                    <option value="6">Option</option>
+                                    <option value="7">Option</option>
+                                    <option value="8">Option</option>
+                                    <option value="9">Option</option>
+                                    <option value="10">Option</option>
+                                    <option value="11">Option</option>
+                                    <option value="12">Option</option>
+                                    <option value="13">Option</option>
+                                    <option value="14">Option</option>
+                                </select>
+                            </div>
+
+                            <input id="search-input" class="ui-item" type="text" placeholder="What you Search..."
+                                name="search" list="search-datalist-enabled">
+
+                            <!-- TODO: edit options list this with ajax -->
+                            <datalist id="search-datalist-disable" class="search-drop-box">
+                                <option value="Apple"></option>
+                                <option value="PC">
+                                <option value="iphone">
+                                <option value="Macbook">
+                                <option value="shoes">
+                                <option value="ford mustang">
+                                <option value="Computer"></option>
+                                <option value="American Map"></option>
+                                <option value="car"></option>
+                            </datalist>
+
+                            <button class="ui-item" type="submit"><i class="fa fa-search"></i></button>
+
+
+                        </form>
                     </div>
 
-                    <div class="topnav-base-block topnav-center-block hide-responsive">
-                        <!-- TODO: search -->
-                        <div class="search-container">
-                            <form action="/action_page.php">
-
-                                <div class="search-select ui-item hide-in-responsive">
-                                    <select>
-                                        <option value="0">All</option>
-                                        <option value="1">PC</option>
-                                        <option value="2">phonees</option>
-                                        <option value="3">cars</option>
-                                        <option value="4">option</option>
-                                        <option value="5">Option</option>
-                                        <option value="6">Option</option>
-                                        <option value="7">Option</option>
-                                        <option value="8">Option</option>
-                                        <option value="9">Option</option>
-                                        <option value="10">Option</option>
-                                        <option value="11">Option</option>
-                                        <option value="12">Option</option>
-                                        <option value="13">Option</option>
-                                        <option value="14">Option</option>
-                                    </select>
-                                </div>
-
-                                <input id="search-input" class="ui-item" type="text" placeholder="What you Search..."
-                                    name="search" list="search-datalist-enabled">
-
-                                <!-- TODO: edit options list this with ajax -->
-                                <datalist id="search-datalist-disable" class="search-drop-box">
-                                    <option value="Apple"></option>
-                                    <option value="PC">
-                                    <option value="iphone">
-                                    <option value="Macbook">
-                                    <option value="shoes">
-                                    <option value="ford mustang">
-                                    <option value="Computer"></option>
-                                    <option value="American Map"></option>
-                                    <option value="car"></option>
-                                </datalist>
-
-                                <button class="ui-item" type="submit"><i class="fa fa-search"></i></button>
-
-
-                            </form>
-                        </div>
-                    </div>
 
                     <!-- search end -->
 
                     <!-- rigth nav block -->
 
                     <!-- TODO: !!! use 'material-iconsf' class or 'fa-iconsff' for diferent paddings-->
-                    <div class="topnav-base-block topnav-right-block hide-responsive">
 
-                        <!-- profile button-->
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <i class="fa-solid fa-fw fa-user"></i>
-                                User
-                            </button>
-                            <div class="dropdown-content fixed profile">
+                    <!-- profile button-->
+                    <div class="item-rigth dropdown">
+                        <button class="dropbtn">
+                            <i class="fa-solid fa-fw fa-user"></i>
+                            User
+                        </button>
+                        <div class="dropdown-content fixed profile">
+                            <div>
+                                <h2>1th content</h2>
+                                <a href="#">Profile</a>
+                                <a href="#">Notifications</a>
+
                                 <div>
-                                    <h2>1th content</h2>
-                                    <a href="#">Profile</a>
-                                    <a href="#">Notifications</a>
+                                    <a href="#" class="notification fa-iconsf">
+                                        <i class="fa fa-fw fa-envelope"></i>
+                                        <span class="badge">3</span>
+                                    </a>
 
-                                    <div>
-                                        <a href="#" class="notification fa-iconsf">
-                                            <i class="fa fa-fw fa-envelope"></i>
-                                            <span class="badge">3</span>
-                                        </a>
-
-                                        <a href="#" class="notification fa-iconsf">
-                                            <i class="fa fa-fw fa-envelope"></i>
-                                            <span class="badge">3</span>
-                                        </a>
-                                    </div>
-
-                                    <a href="#about">Setting</a>
-                                    <hr>
-                                    <a href="#about">Wishlist</a>
-                                    <a href="#about">Orders</a>
-                                    <a href="#rand">Setting</a>
-                                    <a href="#rand">Log Out</a>
-                                    <a href="#about">Sigm In</a>
-                                    <a href="#about">******</a>
+                                    <a href="#" class="notification fa-iconsf">
+                                        <i class="fa fa-fw fa-envelope"></i>
+                                        <span class="badge">3</span>
+                                    </a>
                                 </div>
-                                <div>
-                                    <h2>2th content</h2>
-                                    <a href="">1</a>
-                                    <a href="">2</a>
-                                    <a href="">3</a>
-                                    <a href="">4</a>
-                                    <a href="">5</a>
-                                </div>
+
+                                <a href="#about">Setting</a>
+                                <hr>
+                                <a href="#about">Wishlist</a>
+                                <a href="#about">Orders</a>
+                                <a href="#rand">Setting</a>
+                                <a href="#rand">Log Out</a>
+                                <a href="#about">Sigm In</a>
+                                <a href="#about">******</a>
+                            </div>
+                            <div>
+                                <h2>2th content</h2>
+                                <a href="">1</a>
+                                <a href="">2</a>
+                                <a href="">3</a>
+                                <a href="">4</a>
+                                <a href="">5</a>
                             </div>
                         </div>
-                        <!-- wishlist-->
-                        <a href="#" class="material-iconsf notification">
-                            <span class="material-icons">
-                                favorite
-                            </span>
-                            <!-- 3-1x; 15-2x; 100-3x; badge-l for 2x badge for 1x -->
-                            <span class="badge badge-l">15</span>
-                        </a>
-                        <!-- compare -->
-                        <a href="#" class="fa-iconsf notification">
-                            <i class="icon fa-solid fa-scale-balanced"></i>
-                            <span class="badge">3</span>
-                        </a>
-                        <!-- cart -->
-                        <a href="#" class="fa-iconsf notification">
-                            <span><i class="fa-solid fa-cart-shopping"></i></span>
-                            <span class="badge">7</span>
-                        </a>
                     </div>
+                    <!-- wishlist-->
+                    <a href="#" class="item-rigth material-iconsf notification">
+                        <span class="material-icons">
+                            favorite
+                        </span>
+                        <!-- 3-1x; 15-2x; 100-3x; badge-l for 2x badge for 1x -->
+                        <span class="badge badge-l">15</span>
+                    </a>
+                    <!-- compare -->
+                    <a href="#" class="item-rigth fa-iconsf notification">
+                        <i class="icon fa-solid fa-scale-balanced"></i>
+                        <span class="badge">3</span>
+                    </a>
+                    <!-- cart -->
+                    <a href="#" class="item-rigth fa-iconsf notification">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span class="badge">7</span>
+                    </a>
+
 
                     <!-- on mobile only-->
                     <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
@@ -945,6 +948,15 @@
                             </div>
 
                             <div class="reviews-list-container">
+                                <!-- add review -->
+                                <div class="review-item add-review-container">
+                                    <div class="add-review-container">
+                                        <div>star</div>
+                                        <div>text</div>
+                                        <div>photos</div>
+                                    </div>
+                                </div>
+
                                 <!-- review-item -->
 
                                 <div class="review-item">

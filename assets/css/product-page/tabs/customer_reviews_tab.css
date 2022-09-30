@@ -26,10 +26,7 @@
 
 .review-item {
   padding: 20px 20px;
-  /*background-color: #fdfdfd;*/
-  /*background-color: #fafafa;*/
   background-color: #fefefe;
-  /*box-shadow: 10px 5px 5px #fdfdfd;*/
 }
 
 .stars-progress-items-container {
@@ -189,4 +186,8 @@ progress[value]::-webkit-progress-value {
 }
 
 .comment-helpful {
+}
+
+/* add coment */
+.add-review-container {
 }
