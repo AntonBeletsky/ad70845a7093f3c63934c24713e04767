@@ -195,4 +195,22 @@ progress[value]::-webkit-progress-value {
 
 /* add coment */
 .add-review-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 20px;
+}
+
+.add-review-container-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-review-container-item-label {
+  width: 120px;
+  text-align: right;
+  background-color: yellow;
+}
+
+.add-review-container-item-input {
+  background-color: #007185;
 }
