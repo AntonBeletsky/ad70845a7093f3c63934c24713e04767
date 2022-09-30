@@ -216,13 +216,19 @@ progress[value]::-webkit-progress-value {
   background-color: #007185;
 }
 
+.add-review-container-item-submit {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 20px;
+  background-color: #007185;
+}
+
 .add-review-container-item-input textarea {
   resize: none;
   outline: none;
   -moz-appearance: none;
 
   padding: 10px;
-  max-width: 100%;
   line-height: 1.5;
   border-radius: 18px;
 
