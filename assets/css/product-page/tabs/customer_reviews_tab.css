@@ -18,6 +18,11 @@
   margin-top: 10px;
 }
 
+.review-btn {
+  width: 100%;
+  height: 40px;
+}
+
 .reviews-list-container {
   display: flex;
   flex-direction: column;
