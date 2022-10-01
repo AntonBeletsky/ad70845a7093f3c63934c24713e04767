@@ -1,3 +1,11 @@
+/*
+.cart-page-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+*/
+
 .cart-page-header-box {
   background-color: #97a2a8;
   color: #333;
@@ -8,6 +16,13 @@
   padding-bottom: 5px;
   padding-right: 50px;
   padding-top: 5px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  /*align-self: center;*/
+  align-content: center;
 
   min-height: 50px;
   min-width: 600px;

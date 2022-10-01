@@ -64,6 +64,12 @@ main {
   min-height: 450px;
 }
 
+.page-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 p {
   line-height: 20px;
 }
