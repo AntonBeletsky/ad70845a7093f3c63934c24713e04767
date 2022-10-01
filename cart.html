@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Anton Beletsky">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="width">
+
+    <title>Elegast</title>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="./assets/css/normalize.css"> <!-- TODO: normalize.css -->
+
+    <!-- Add icon library  https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+
+    <!-- google icons -->
+    <!-- https://material.io/resources/icons/?style=baseline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+
+
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <!-- https://fonts.google.com/icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <link rel="stylesheet" href="./assets/css/debug_theme.css"> <!-- TODO: theme here-->
+    <link rel="stylesheet" href="./assets/css/values.css">
+
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/leftbar.css">
+    <link rel="stylesheet" href="./assets/css/rigthbar.css">
+    <link rel="stylesheet" href="./assets/css/page-content.css">
+    <link rel="stylesheet" href="./assets/css/product_page.css">
+    <link rel="stylesheet" href="./assets/css/product_list.css">
+    <link rel="stylesheet" href="./assets/css/select-search.css">
+    <link rel="stylesheet" href="./assets/css/select-product-list.css">
+    <link rel="stylesheet" href="./assets/css/breadcrumb.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/search-dropbox.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+
+    <link rel="stylesheet" href="./assets/css/scroll.css">
+    <link rel="stylesheet" href="./assets/css/mega_menu.css">
+
+    <link rel="stylesheet" href="./assets/css/modal.css">
+
+    <!-- for smart devices-->
+    <link rel="stylesheet" href="./assets/css/media_screen/media_general.css">
+
+    <link rel="stylesheet" href="./assets/css/media_screen.css">
+
+    <link rel="stylesheet" href="./assets/css/media_screen/header/media_header.css">
+
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+
+    <!-- important to button-->
+    <!-- HAMBURGER
+    <link rel="stylesheet" href="./assets/css/media_screen/header/hamburger.css">
+    -->
+</head>
+
+<body>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <div class="wrapper">
+        <!-- main header -->
+        <header class="main-header">
+
+            <!-- TODO: top nav container-->
+            <div class="nav-bar-container fixed">
+
+                <!--delete it if you don't need it -->
+
+                <div class="top-line-bar">shopy | 0800 500 10 95 | курс валют | контакты оплата | и доставка Харкьов UA
+                    | RUS
+                </div>
+
+
+                <!--<div class="top-line-bar">2th bar
+                </div>-->
+
+                <!-- NAVBAR -->
+                <!-- TODO: NavBar here-->
+                <!-- itopnav using in navbar.js -->
+                <nav class="topnav" id="itopnav">
+                    <div class="topnav-base-block topnav-left-block hide-responsive">
+
+                        <a href="javascript:void(0);" class="sidebar-icon hide-in-responsive" onclick="openNav()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+
+                        <a href="#home" class="">EComerce</a>
+
+                        <!-- pages -->
+                        <div class="dropdown">
+                            <button class="dropbtn">Pages
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content fixed leftbar">
+                                <button id="open_modal_btn1" class="dropbtn">Open Modal</button>
+                                <a href="free-page.html">free page</a>
+                                <a href="index.html">index</a>
+                                <a href="catalog-list.html">catalog (product list + filter)</a>
+                                <a href="product-page.html">product-page</a>
+                                <a href="cart.html">cart</a>
+                                <a href="checkout.html">checkout</a>
+                                <a href="#">sign-up</a>
+                                <a href="#">sign-in</a>
+                                <a href="#">order/s</a>
+                                <a href="#">wishlist</a>
+                                <a href="#">compare products</a>
+                                <a href="#">messages</a>
+                                <a href="#">profile</a>
+                                <a href="#">setting</a>
+                                <a href="#">shipping</a>
+                                <a href="#">browsing history</a>
+                                <a href="#">sell history</a>
+                                <a href="#">404</a>
+                                <a href="#">Contact</a>
+                                <a href="#">features</a>
+                            </div>
+                        </div>
+
+
+                        <a href="#news" class="active">Products</a>
+
+                        <!-- Mega Menu -->
+                        <div class="mega-menu mega-dropdown hide-responsive">
+                            <button class="mega-dropbtn">
+                                <span class="material-icons-outlined">
+                                    widgets
+                                </span>
+                                <span>Catalog</span>
+                            </button>
+                            <!-- TODO: delete style css in prod-->
+                            <div class="mega-dropdown-content">
+                                <div class="header">
+                                    <span class="material-icons-outlined">
+                                        widgets
+                                    </span>
+                                    <h2>Categoies</h2>
+                                </div>
+
+                                <div class="megamenu-row">
+                                    <div class="megamenu-tab">
+
+                                        <button class="tablinks" megamenutabid="megmntab1">Computers</button>
+                                        <button class="tablinks" megamenutabid="megmntab2">Smartphones</button>
+                                        <button class="tablinks" megamenutabid="megmntab3">Appliances</button>
+                                        <button class="tablinks" megamenutabid="megmntab4">4</button>
+                                        <button class="tablinks" megamenutabid="megmntab5">5</button>
+                                        <button class="tablinks" megamenutabid="megmntab6">6</button>
+                                        <button class="tablinks" megamenutabid="megmntab100">All</button>
+
+                                    </div>
+
+                                    <div id="megmntab1" class="mega-menu-tabcontent">
+                                        <h3>Computers</h3>
+                                        <p>Computers !!!</p>
+                                        <div class="column">
+                                            <h3>Category 1</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 2</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 3</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                    </div>
+
+                                    <div id="megmntab2" class="mega-menu-tabcontent">
+                                        <div class="column">
+                                            <h3>Category 1</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 2</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3>Category 3</h3>
+                                            <a href="#rand">Link 1</a>
+                                            <a href="#rand">Link 2</a>
+                                            <a href="#rand">Link 3</a>
+                                        </div>
+                                    </div>
+
+                                    <div id="megmntab3" class="mega-menu-tabcontent">
+                                        <h3>Samsung</h3>
+                                        <p>Washing machines!</p>
+                                    </div>
+
+                                    <div id="megmntab4" class="mega-menu-tabcontent">
+
+                                    </div>
+
+                                    <div id="megmntab5" class="mega-menu-tabcontent">
+
+                                    </div>
+
+                                    <div id="megmntab6" class="mega-menu-tabcontent">
+
+                                    </div>
+
+                                    <div id="megmntab100" class="mega-menu-tabcontent">
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- mega menu stop-->
+
+
+                        <!-- 
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <-!-- leftbar its modifer  -->
+                        <!--
+                            <div class="dropdown-content leftbar fixed">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                    -->
+
+                    </div>
+
+                    <div class="topnav-base-block topnav-center-block hide-responsive">
+                        <!-- TODO: search -->
+                        <div class="search-container">
+                            <form action="/action_page.php">
+
+                                <div class="search-select ui-item hide-in-responsive">
+                                    <select>
+                                        <option value="0">All</option>
+                                        <option value="1">PC</option>
+                                        <option value="2">phonees</option>
+                                        <option value="3">cars</option>
+                                        <option value="4">option</option>
+                                        <option value="5">Option</option>
+                                        <option value="6">Option</option>
+                                        <option value="7">Option</option>
+                                        <option value="8">Option</option>
+                                        <option value="9">Option</option>
+                                        <option value="10">Option</option>
+                                        <option value="11">Option</option>
+                                        <option value="12">Option</option>
+                                        <option value="13">Option</option>
+                                        <option value="14">Option</option>
+                                    </select>
+                                </div>
+
+                                <input id="search-input" class="ui-item" type="text" placeholder="What you Search..."
+                                    name="search" list="search-datalist-enabled">
+
+                                <!-- TODO: edit options list this with ajax -->
+                                <datalist id="search-datalist-disable" class="search-drop-box">
+                                    <option value="Apple"></option>
+                                    <option value="PC">
+                                    <option value="iphone">
+                                    <option value="Macbook">
+                                    <option value="shoes">
+                                    <option value="ford mustang">
+                                    <option value="Computer"></option>
+                                    <option value="American Map"></option>
+                                    <option value="car"></option>
+                                </datalist>
+
+                                <button class="ui-item" type="submit"><i class="fa fa-search"></i></button>
+
+
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- search end -->
+
+                    <!-- rigth nav block -->
+
+                    <!-- TODO: !!! use 'material-iconsf' class or 'fa-iconsff' for diferent paddings-->
+                    <div class="topnav-base-block topnav-right-block hide-responsive">
+
+                        <!-- profile button-->
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <i class="fa-solid fa-fw fa-user"></i>
+                                User
+                            </button>
+                            <div class="dropdown-content fixed profile">
+                                <div>
+                                    <h2>1th content</h2>
+                                    <a href="#">Profile</a>
+                                    <a href="#">Notifications</a>
+
+                                    <div>
+                                        <a href="#" class="notification fa-iconsf">
+                                            <i class="fa fa-fw fa-envelope"></i>
+                                            <span class="badge">3</span>
+                                        </a>
+
+                                        <a href="#" class="notification fa-iconsf">
+                                            <i class="fa fa-fw fa-envelope"></i>
+                                            <span class="badge">3</span>
+                                        </a>
+                                    </div>
+
+                                    <a href="#about">Setting</a>
+                                    <hr>
+                                    <a href="#about">Wishlist</a>
+                                    <a href="#about">Orders</a>
+                                    <a href="#rand">Setting</a>
+                                    <a href="#rand">Log Out</a>
+                                    <a href="#about">Sigm In</a>
+                                    <a href="#about">******</a>
+                                </div>
+                                <div>
+                                    <h2>2th content</h2>
+                                    <a href="">1</a>
+                                    <a href="">2</a>
+                                    <a href="">3</a>
+                                    <a href="">4</a>
+                                    <a href="">5</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- wishlist-->
+                        <a href="#" class="material-iconsf notification">
+                            <span class="material-icons">
+                                favorite
+                            </span>
+                            <!-- 3-1x; 15-2x; 100-3x; badge-l for 2x badge for 1x -->
+                            <span class="badge badge-l">15</span>
+                        </a>
+                        <!-- compare -->
+                        <a href="#" class="fa-iconsf notification">
+                            <i class="icon fa-solid fa-scale-balanced"></i>
+                            <span class="badge">3</span>
+                        </a>
+                        <!-- cart -->
+                        <a href="#" class="fa-iconsf notification">
+                            <span><i class="fa-solid fa-cart-shopping"></i></span>
+                            <span class="badge">7</span>
+                        </a>
+                    </div>
+
+                    <!-- on mobile only-->
+                    <a href="javascript:void(0);" class="gamburger-smart-icon" onclick="screenModeSwither()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                </nav>
+
+                <div class="top-line-bar-btm">
+                </div>
+
+            </div> <!-- nav-bar-container end -->
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+            <!-- NAVBAR END -->
+
+        </header>
+
+        <main id="main" class="page-content">
+            <!-- main container-->
+            <!-- <div class="page-content"> -->
+            <header class="cart-page-header-box">
+                <h1>Shoping Cart</h1>
+            </header>
+
+            <div class="shoping-cart-cintainmer">
+
+                <div>
+                    <ul>
+                        <li>
+                            <div>1</div>
+                        </li>
+                        <li>
+                            <div>1</div>
+                        </li>
+                        <li>
+                            <div>2</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+        </main>
+
+        <!-- sidebar -->
+        <div id="isidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </div> <!-- wrapper end--->
+
+    <!-- main footer -->
+    <footer class="main-footer">
+
+        <div class="main-footer-row">
+            <div class="main-footer-column">
+                <div class="column-heading">Frontend</div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/HTML5_logo_and_wordmark.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/CSS3_logo_and_wordmark.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/js_logo.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="204" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/jquery-1.svg" height="50" width="204" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer-column">
+                <div class="column-heading">Backend</div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/PHP-logo.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/Python-logo-notext.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- 
+                    <div class="footer-row">
+                        <a href="#">
+                            <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                                <image href="./assets/svg/django.svg" height="50" width="50" />
+                            </svg>
+                        </a>
+                    </div>
+                    -->
+                <!-- 
+                    <div class="footer-row">
+                        <a href="#">
+                            <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                                <image href="./assets/svg/laravel-1.svg" height="50" width="50" />
+                            </svg>
+                        </a>
+                    </div>
+                    -->
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/NET_Core_Logo.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- 
+                    <div class="footer-row">
+                        <a href="#">
+                            <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                                <image href="./assets/svg/yii.svg" height="50" width="50" />
+                            </svg>
+                        </a>
+                    </div>
+                    -->
+            </div>
+            <div class="main-footer-column">
+                <div class="column-heading">Pay</div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/Visa_Inc._logo.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/Mastercard-logo.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/fedex-express-6.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer-column">
+                <div class="column-heading">Social</div>
+
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/instagram-5.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/facebook-3-2.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/youtube-3.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="footer-row">
+                    <a href="#">
+                        <svg class="footer-svg" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <image href="./assets/svg/twitter-6.svg" height="50" width="50" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer-column">
+                <div class="column-heading">Contacts</div>
+                <div class="footer-row"><a href="#">company@company.com</a></div>
+                <div class="footer-row"><a href="#">+1 (021) 1234 8755</a></div>
+                <div class="footer-row"><a href="#">City str-name ave 150</a></div>
+                <div class="footer-row"><a href="#">work 0800 - 2000</a></div>
+            </div>
+            <div class="main-footer-column">
+                <div class="column-heading">Column-heading</div>
+                <div class="footer-row"><a href="#">link</a></div>
+                <div class="footer-row"><a href="#">link</a></div>
+                <div class="footer-row"><a href="#">link</a></div>
+                <div class="footer-row"><a href="#">link</a></div>
+            </div>
+        </div>
+
+        <div class="butrow">
+            <hr>
+            <p>Company ®
+                <script>document.write(new Date().getFullYear())</script>
+                All Rights Reserved
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- The Modal
+    <div id="modal1" class="modal">
+        <! -- Modal content -- >
+    <div class="modal-content">
+        <span class="close_btn1">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+    </div>
+    -->
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/mega_menu.js"></script>
+    <script src="./assets/js/set_grid.js"></script>
+
+    <script src="./assets/js/custom_select.js"></script>
+    <script src="./assets/js/search_select.js"></script>
+    <script src="./assets/js/onload_categories.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/search-dropbox.js"></script>
+    <script src="./assets/js/modal.js"></script>
+
+
+
+</body>
+
+</html>

@@ -13,9 +13,11 @@
   flex-wrap: nowrap;
   flex-direction: column;
 
+  /*
   justify-content: space-between;
-  align-items: stretch; /* base line */
+  align-items: stretch; 
   align-content: center;
+  */
 
   padding-left: 50px;
   padding-bottom: 10px;

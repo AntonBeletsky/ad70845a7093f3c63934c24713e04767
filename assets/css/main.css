@@ -23,12 +23,14 @@ a {
   padding: 0px 0px 0px 0px;
   position: relative;
   display: flex;
+  /*
   flex-direction: row;
   flex-wrap: nowrap; /* no wrap */
-  justify-content: space-between; /* а то нав бар скукожиться */
-  align-items: flex-start;
+  /* justify-content: space-between; /* а то нав бар скукожиться */
+  /* align-items: flex-start;
   /*align-self: auto; for items */
-  align-content: flex-start;
+  /* align-content: flex-start; /*
+  */
   row-gap: 1rem;
   column-gap: 2rem;
 }
@@ -55,11 +57,11 @@ main {
   justify-content: flex-start;
   align-items: stretch; /* base line */
   align-content: flex-start; /* center */
-
   row-gap: 1rem;
   column-gap: 2rem;
-
   margin-bottom: 30px;
+
+  min-height: 450px;
 }
 
 p {
