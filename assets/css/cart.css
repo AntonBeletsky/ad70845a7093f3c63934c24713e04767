@@ -23,7 +23,7 @@
 .cart-page-header-box h1 {
 }
 
-.shoping-cart-cintainmer {
+.shoping-cart-page-container {
   background-color: #fafafa;
   color: #0f1111;
   display: flex;
@@ -37,6 +37,9 @@
   padding-top: 20px;
   padding-bottom: 25px;
   box-shadow: 7px 7px 12px -9px #777;
+}
+
+.shoping-cart-header {
 }
 
 .cart-item {
