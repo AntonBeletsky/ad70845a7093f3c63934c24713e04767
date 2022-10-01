@@ -15,7 +15,8 @@
   justify-content: center;
   align-content: center;
 
-  border-top: 4mm solid #4a6575;
+  /*border-top: 4px solid #4a6575;*/
+  border-top: 3px solid #2681aa;
 }
 
 .main-footer div.main-footer-row {

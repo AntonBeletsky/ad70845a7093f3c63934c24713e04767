@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-color: antiquewhite;
+    }
+
+    ul {
+        background-color: aqua;
+        list-style: none;
+        display: block;
+    }
+
+    li {
+        background-color: blue;
+        display: block;
+    }
+
+    .drop-down-container {
+        display: block;
+    }
+
+    .drop-down-content {
+        display: none;
+        background-color: red;
+    }
+
+    .drop-down-btn {
+        display: block;
+        width: 200px;
+        height: 40px;
+        background-color: #568942;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <div class="drop-down-container">
+        <ul>
+            <li>
+                <div class="drop-down-btn drop-down-btn-1" dropcontent="drop-down-content-1">123</div>
+                <div class="drop-down-content drop-down-content-1">
+                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </li>
+            <li>
+                <div class="drop-down-btn drop-down-btn-2" dropcontent="drop-down-content-2">123</div>
+                <div class="drop-down-content drop-down-content-2">
+                    BBBBBBBBBBBBBBBBBBB
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    bb
+                </div>
+            </li>
+            <li>
+                <div class="drop-down-btn drop-down-btn-3" dropcontent="drop-down-content-3">123</div>
+                <div class="drop-down-content drop-down-content-3">
+                    CCCCCCCCCCCCCCCC
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script>
+        $(".drop-down-btn").click(function () {
+            var target_attr = $(this).attr("dropcontent");
+            $("div." + target_attr).css('display',
+                $("div." + target_attr).css('display') == 'block' ? 'none' : 'block'
+            );
+        });
+    </script>
+
+</body>
+
+</html>
