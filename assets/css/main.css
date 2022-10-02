@@ -32,24 +32,31 @@ a {
 main {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+
   width: 100%;
   /*flex: 1 1 auto;*/
-
   margin-top: 100px;
   margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 50px;
 
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 2rem;
   padding-bottom: 0px;
-
   justify-content: flex-start;
   align-items: stretch; /* base line */
-  align-content: flex-start; /* center */
+  /*align-content: flex-start; /* center */
   row-gap: 1rem;
   column-gap: 2rem;
-  margin-bottom: 30px;
   min-height: 450px;
+}
+
+/* if page have leftbar - main dont have margin-left*/
+#leftbar ~ main {
+  margin-left: 0px;
 }
 
 .page-content {
