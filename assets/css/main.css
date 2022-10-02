@@ -5,16 +5,13 @@
 body {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  /*background-color: var(--background-color); */
-  /* background-color: #e6f1f8; */
-  /*background-color: #f5f5f5;*/
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e6f1f8;
   line-height: 18px;
 }
 
 a {
-  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  text-decoration: none;
 }
 
 .wrapper {
@@ -23,14 +20,6 @@ a {
   padding: 0px 0px 0px 0px;
   position: relative;
   display: flex;
-  /*
-  flex-direction: row;
-  flex-wrap: nowrap; /* no wrap */
-  /* justify-content: space-between; /* а то нав бар скукожиться */
-  /* align-items: flex-start;
-  /*align-self: auto; for items */
-  /* align-content: flex-start; /*
-  */
   row-gap: 1rem;
   column-gap: 2rem;
 }
@@ -45,6 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   /*width: 100%;*/
+  /*flex: 1 1 auto;*/
 
   margin-top: 100px;
   margin-right: 0px;
@@ -73,27 +63,6 @@ main {
 p {
   line-height: 20px;
 }
-
-/*
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding: 0px 0px;
-  margin: 0px 0px;
-}
-*/
-
-/* 
-   UI base box
-   shadow
-   padding
-   margin
-   font
-   lie-h
-*/
 
 .page-header-box {
   background-color: #97a2a8;
