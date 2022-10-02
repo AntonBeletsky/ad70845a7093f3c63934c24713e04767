@@ -4,6 +4,7 @@
   /*position: fixed; add margin-left to #main ~400px */
   margin-top: 100px;
   margin-bottom: 40px;
+  margin-left: 50px;
   /*background-color: #c8d2e6; /*fb*/
   background-color: inherit;
   display: flex;

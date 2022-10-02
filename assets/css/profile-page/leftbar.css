@@ -1,6 +1,7 @@
 .left-bar {
   margin-top: 100px;
   margin-bottom: 40px;
+  margin-left: 50px;
   background-color: inherit;
   display: flex;
   flex-direction: column;

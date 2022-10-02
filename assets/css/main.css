@@ -20,8 +20,7 @@ a {
   padding: 0px 0px 0px 0px;
   position: relative;
   display: flex;
-  row-gap: 1rem;
-  column-gap: 2rem;
+  flex-direction: column;
 }
 
 .main-header {
@@ -33,7 +32,7 @@ a {
 main {
   display: flex;
   flex-direction: column;
-  /*width: 100%;*/
+  width: 100%;
   /*flex: 1 1 auto;*/
 
   margin-top: 100px;
@@ -50,7 +49,6 @@ main {
   row-gap: 1rem;
   column-gap: 2rem;
   margin-bottom: 30px;
-
   min-height: 450px;
 }
 
@@ -58,6 +56,8 @@ main {
   display: flex;
   width: 100%;
   justify-content: center;
+  row-gap: 1rem;
+  column-gap: 2rem;
 }
 
 p {
