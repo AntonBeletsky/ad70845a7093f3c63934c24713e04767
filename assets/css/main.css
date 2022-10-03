@@ -8,6 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e6f1f8;
   line-height: 18px;
+  height: 100%;
 }
 
 a {
@@ -21,6 +22,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
 }
 
 .main-header {
@@ -52,6 +54,7 @@ main {
   row-gap: 1rem;
   column-gap: 2rem;
   min-height: 450px;
+  flex: 1 1 auto;
 }
 
 /* if page have leftbar - main dont have margin-left*/
@@ -65,6 +68,7 @@ main {
   justify-content: center;
   row-gap: 1rem;
   column-gap: 2rem;
+  flex: 1 1 auto;
 }
 
 p {
