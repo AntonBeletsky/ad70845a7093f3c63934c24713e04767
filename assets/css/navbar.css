@@ -11,20 +11,13 @@
   /* position: fixed;  /* TODO:  fixed */
   top: 0;
   width: 100%;
-
   display: flex;
-
   flex-direction: column;
   flex-wrap: nowrap;
-
   flex-basis: auto;
-
   justify-content: space-around;
-
   height: var(--top-container-height-px);
-
   /*gap: 5px;*/
-
   /* !!*/
 }
 
