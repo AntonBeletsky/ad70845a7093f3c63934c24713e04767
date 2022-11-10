@@ -87,7 +87,7 @@ button:hover {
 .topnav-center-block {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  /* justify-content: center; */ 
 }
 
 .topnav-right-block {

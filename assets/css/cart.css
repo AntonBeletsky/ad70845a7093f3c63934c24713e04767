@@ -12,7 +12,7 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */ 
   /*align-self: center;*/
   align-content: center;
 
