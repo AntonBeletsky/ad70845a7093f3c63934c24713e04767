@@ -65,7 +65,7 @@ main {
 .page-content {
   display: flex;
   width: 100%;
-  justify-content: center;
+  /* justify-content: center; */
   row-gap: 1rem;
   column-gap: 2rem;
   flex: 1 1 auto;
@@ -89,7 +89,7 @@ p {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   /*align-self: center;*/
   align-content: center;
 
