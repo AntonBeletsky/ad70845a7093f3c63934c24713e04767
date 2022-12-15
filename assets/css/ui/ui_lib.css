@@ -47,3 +47,25 @@
   padding-bottom: 25px;
   box-shadow: 7px 7px 12px -9px #777;
 }
+
+/* ui item */
+/* https://ru.bem.info/methodology/quick-start/ */
+
+.base-ui-block {
+  display: flex;
+  margin: 0 0 0 0;
+}
+
+.base-ui-element {
+  display: flex;
+  margin: 0 0 0 0;
+}
+
+.base-ui-modifier {
+  display: flex;
+  margin: 0 0 0 0;
+}
+
+/* boxes */
+
+/* controls */
